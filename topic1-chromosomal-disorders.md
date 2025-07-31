@@ -1,5 +1,47 @@
 # Topic 1: Foundation Genetics - Chromosomal Disorders
 
+## 📖 Quick Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[➡️ Next Topic: Cancer Genetics](topic2-cancer-genetics.md)**
+
+### 📋 Table of Contents
+- [🎯 Learning Objectives](#-learning-objectives)
+- [📊 Overview of Chromosomal Abnormalities](#-overview-of-chromosomal-abnormalities)
+- [🧬 Autosomal Trisomies](#-autosomal-trisomies)
+  - [Trisomy 21 (Down Syndrome) ⭐⭐⭐](#trisomy-21-down-syndrome-)
+  - [Trisomy 18 (Edwards Syndrome) ⭐⭐](#trisomy-18-edwards-syndrome-)
+  - [Trisomy 13 (Patau Syndrome) ⭐⭐](#trisomy-13-patau-syndrome-)
+  - [Other Autosomal Trisomies](#other-autosomal-trisomies)
+- [🧬 Sex Chromosome Abnormalities](#-sex-chromosome-abnormalities)
+  - [Turner Syndrome (45,X) ⭐⭐⭐](#turner-syndrome-45x-)
+  - [Klinefelter Syndrome (47,XXY) ⭐⭐](#klinefelter-syndrome-47xxy-)
+  - [47,XYY (Jacob's Syndrome) ⭐](#47xyy-jacobs-syndrome-)
+  - [47,XXX (Triple X Syndrome) ⭐](#47xxx-triple-x-syndrome-)
+- [🧬 Deletion/Duplication Syndromes](#-deletionduplication-syndromes)
+  - [22q11.2 Deletion Syndrome ⭐⭐⭐](#22q112-deletion-syndrome-digeorgevcfs-)
+  - [Prader-Willi Syndrome ⭐⭐](#prader-willi-syndrome-15q112-q13-paternal-)
+  - [Angelman Syndrome ⭐⭐](#angelman-syndrome-15q112-q13-maternal-)
+  - [Williams Syndrome ⭐⭐](#williams-syndrome-7q1123-deletion-)
+- [🧠 Study Tips & Mnemonics](#-study-tips--mnemonics)
+- [📝 High-Yield Facts Summary](#-high-yield-facts-summary)
+- [🎯 Practice Questions](#-practice-questions)
+- [🏁 Topic 1 Completion Checklist](#-topic-1-completion-checklist)
+
+### 🔍 Quick Condition Lookup
+| Condition | Key Features | Prevalence | Testing |
+|-----------|--------------|------------|--------|
+| **Down Syndrome** | Facial features, ID, CHD | 1/800 | Karyotype/CMA |
+| **Edwards Syndrome** | Clenched fists, IUGR, poor prognosis | 1/5,000 | Karyotype/CMA |
+| **Patau Syndrome** | Midline defects, holoprosencephaly | 1/16,000 | Karyotype/CMA |
+| **Turner Syndrome** | Short stature, cystic hygroma, CHD | 1/3,000 ♀ | Karyotype/CMA |
+| **Klinefelter** | Tall, hypogonadism, learning issues | 1/600 ♂ | Karyotype |
+| **22q11.2 Deletion** | CHD, immunodeficiency, hypocalcemia | 1/2,000-6,000 | CMA |
+| **Prader-Willi** | Hypotonia→hyperphagia, obesity | 1/15,000 | Methylation |
+| **Angelman** | Happy demeanor, severe ID, seizures | 1/15,000 | UBE3A/Methylation |
+| **Williams** | Social personality, SVAS, hypercalcemia | 1/10,000 | CMA |
+
+---
+
 ## 🎯 Learning Objectives
 
 By the end of this topic, you should be able to:
@@ -17,7 +59,8 @@ By the end of this topic, you should be able to:
 
 ## 📊 Overview of Chromosomal Abnormalities
 
-### Types of Chromosomal Abnormalities
+<details>
+<summary><strong>📊 Types of Chromosomal Abnormalities</strong> (Click to expand)</summary>
 
 **Numerical Abnormalities:**
 - **Aneuploidy**: Abnormal number of chromosomes
@@ -31,10 +74,18 @@ By the end of this topic, you should be able to:
 - **Translocations**: Exchange between chromosomes
 - **Inversions**: Reversed chromosomal segment
 
-### Key Mechanisms
+</details>
+
+<details>
+<summary><strong>⚙️ Key Mechanisms</strong> (Click to expand)</summary>
+
 - **Nondisjunction**: Failure of chromosomes to separate properly
 - **Maternal age effect**: Increased risk with advanced maternal age
 - **Mosaicism**: Two or more cell lines with different karyotypes
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)**
 
 ---
 
@@ -48,27 +99,41 @@ By the end of this topic, you should be able to:
 2. **Intellectual disability** - mild to moderate
 3. **Congenital heart disease** - endocardial cushion defects (AV canal)
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Facial**: Flat facial profile, small ears, protruding tongue, Brushfield spots
 - **Cardiac**: CHD in 50% - endocardial cushion defects most common
 - **Musculoskeletal**: Hypotonia, joint laxity, short stature
 - **Medical**: Increased risk for leukemia, Alzheimer's disease, hypothyroidism
 
-#### 📺 Ultrasound Findings
+</details>
+
+<details>
+<summary><strong>📺 Ultrasound Findings</strong> (Click to expand)</summary>
+
 - **Echogenic bowel**
 - **Short long bones** (femur, humerus)
 - **Congenital heart disease**
 - **Increased nuchal translucency**
 - **Absent nasal bone** (70%)
 
-#### 🧪 Serum Screening Pattern
+</details>
+
+<details>
+<summary><strong>🧪 Serum Screening Pattern</strong> (Click to expand)</summary>
+
 - **↑ hCG** (High)
 - **↑ Inhibin A** (High) 
 - **↓ PAPP-A** (Low)
 - **↓ AFP** (Low)
 - **↓ uE3** (Low)
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: 85-90% maternal meiosis I (75%), meiosis II (25%)
 - **Prevalence**: 1/800 newborns
 - **Maternal Age Risk**:
@@ -76,11 +141,15 @@ By the end of this topic, you should be able to:
   - Age 40: 1/85
 - **Recurrence Risk**: Nondisjunction 1-1.5% above age-related risk
 
+</details>
+
 #### 💎 Board Pearls
 - Most common live-born autosomal aneuploidy
 - 80% of DS pregnancies result in miscarriage
 - APP gene on chromosome 21 → early Alzheimer's risk
 - Robertsonian translocation (4-5%): 14/21 most common
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Trisomy 18](#trisomy-18-edwards-syndrome-)**
 
 ---
 
@@ -91,30 +160,48 @@ By the end of this topic, you should be able to:
 2. **Clenched fists** with overlapping fingers
 3. **IUGR** (intrauterine growth restriction)
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Growth**: Low birth weight, failure to thrive
 - **Craniofacial**: Microcephaly, prominent occiput
 - **Limbs**: Clenched fists, rocker bottom feet, short sternum
 - **Cardiac**: VSD most common
 - **Neurologic**: Profound intellectual disability
 
-#### 📺 Ultrasound Findings
+</details>
+
+<details>
+<summary><strong>📺 Ultrasound Findings</strong> (Click to expand)</summary>
+
 - **Choroid plexus cysts**
 - **Clenched fists**
 - **Rocker bottom feet**
 - **Large nuchal translucency**
 - **Absent nasal bone** (50%)
 
-#### 🧪 Serum Screening Pattern
+</details>
+
+<details>
+<summary><strong>🧪 Serum Screening Pattern</strong> (Click to expand)</summary>
+
 - **↓ hCG** (Low)
 - **↓ PAPP-A** (Low)
 - **↓ AFP** (Low) 
 - **↓ uE3** (Low)
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: Maternal meiotic nondisjunction
 - **Prevalence**: 1/5,000 live births
 - **Prognosis**: Average lifespan 5 days; 5-10% survive first year
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Trisomy 13](#trisomy-13-patau-syndrome-)**
 
 ---
 
@@ -125,32 +212,49 @@ By the end of this topic, you should be able to:
 2. **Holoprosencephaly**
 3. **Occipital scalp defects**
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **CNS**: Holoprosencephaly, profound ID, seizures
 - **Facial**: Midline cleft lip/palate, microphthalmia
 - **Limbs**: Polydactyly, clenched fists
 - **Other**: CHD, omphalocele, genital anomalies
 
-#### 📺 Ultrasound Findings
+</details>
+
+<details>
+<summary><strong>📺 Ultrasound Findings</strong> (Click to expand)</summary>
+
 - **Holoprosencephaly**
 - **Midline facial defects**
 - **Polydactyly**
 - **Absent nasal bone** (30%)
 
-#### 🧪 Serum Screening Pattern
+</details>
+
+<details>
+<summary><strong>🧪 Serum Screening Pattern</strong> (Click to expand)</summary>
+
 - **↓ PAPP-A** (Low)
 - **↓ hCG** (Low)
 - **↓ AFP** (Low)
 - **↓ uE3** (Low)
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: Maternal nondisjunction
 - **Prevalence**: 1/16,000
 - **Prognosis**: Only 5% survive first 6 months
 
+</details>
+
 ---
 
-### Other Autosomal Trisomies
+<details>
+<summary><strong>Other Autosomal Trisomies</strong> (Click to expand)</summary>
 
 #### Trisomy 8 (Warkany Syndrome)
 - **Key Feature**: Deep palmar/plantar furrows
@@ -168,6 +272,10 @@ By the end of this topic, you should be able to:
   - **Digynic** (maternal): Small placenta, IUGR, adrenal hypoplasia
 - **Usually lethal** - short lifespan if born
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Sex Chromosome Abnormalities](#-sex-chromosome-abnormalities)**
+
 ---
 
 ## 🧬 SEX CHROMOSOME ABNORMALITIES
@@ -179,20 +287,30 @@ By the end of this topic, you should be able to:
 2. **Coarctation of aorta** (CHD)
 3. **Ovarian dysgenesis** → infertility
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Growth**: Short stature (SHOX gene deletion)
 - **Reproductive**: Delayed/absent puberty, ovarian failure
 - **Cardiac**: CHD (30-50%) - coarctation of aorta, bicuspid aortic valve
 - **Renal**: Horseshoe kidney, renal malformations
 - **Physical**: Webbed neck, lymphedema, wide-spaced nipples
 
-#### 📺 Ultrasound Findings
+</details>
+
+<details>
+<summary><strong>📺 Ultrasound Findings</strong> (Click to expand)</summary>
+
 - **Cystic hygroma**
 - **Fetal hydrops**
 - **Coarctation of aorta**
 - **Renal malformations**
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: Sporadic, **NO maternal age effect**
 - **Karyotypes**: 
   - 45,X (45-50%)
@@ -201,10 +319,14 @@ By the end of this topic, you should be able to:
 - **Prevalence**: 1/3,000 live female births
 - **Conception**: 1-2% of all conceptions, 99% lost to miscarriage
 
+</details>
+
 #### 💎 Board Pearls
 - Most common sex chromosome abnormality in conception
 - Least common sex chromosome abnormality in live births
 - 45,X/46,XY requires gonadectomy (cancer risk)
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Klinefelter Syndrome](#klinefelter-syndrome-47xxy-)**
 
 ---
 
@@ -215,15 +337,25 @@ By the end of this topic, you should be able to:
 2. **Hypogonadism** → infertility
 3. **Learning difficulties** (not ID)
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Physical**: Tall, gynecomastia, sparse body hair
 - **Reproductive**: Small testes, infertility, normal testosterone initially
 - **Cognitive**: Mild learning difficulties, speech delays
 - **Behavioral**: Increased risk ADHD, anxiety
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: Sporadic, **associated with advanced maternal age**
 - **Prevalence**: 1/600 male births
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: 47,XYY](#47xyy-jacobs-syndrome-)**
 
 ---
 
@@ -234,16 +366,26 @@ By the end of this topic, you should be able to:
 2. **Normal fertility/hormones**
 3. **Learning/behavioral issues**
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Physical**: Tall, cystic acne
 - **Reproductive**: Normal puberty, fertility, hormones
 - **Cognitive**: Learning disabilities (NOT ID), speech delays
 - **Behavioral**: ADHD, behavioral problems
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: Paternal meiotic error
 - **Prevalence**: 1/1,000 males
 - **Note**: Historical "criminal gene" association debunked
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: 47,XXX](#47xxx-triple-x-syndrome-)**
 
 ---
 
@@ -254,15 +396,25 @@ By the end of this topic, you should be able to:
 2. **Learning disabilities/language delays**
 3. **Joint laxity**
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Physical**: Tall, hypotonia, clinodactyly
 - **Reproductive**: Normal puberty and fertility
 - **Cognitive**: Language processing issues, relationship difficulties
 - **Rule**: More X chromosomes → increased risk for ID
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: Sporadic, **NOT strongly associated with maternal age**
 - **Prevalence**: 1/1,000 females
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Deletion/Duplication Syndromes](#-deletionduplication-syndromes)**
 
 ---
 
@@ -275,22 +427,36 @@ By the end of this topic, you should be able to:
 2. **Immunodeficiency** - T-cell defects
 3. **Hypocalcemia** - hypoparathyroidism
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **CATCH-22**: **C**ardiac, **A**bnormal facies, **T**hymic hypoplasia, **C**left palate, **H**ypocalcemia
 - **Cardiac**: TOF, VSD, interrupted aortic arch
 - **Facial**: Hooded eyelids, bulbous nose, micrognathia
 - **Psychiatric**: Schizophrenia risk (25-30%)
 - **Learning**: Nonverbal learning difficulties
 
-#### 📺 Ultrasound Findings
+</details>
+
+<details>
+<summary><strong>📺 Ultrasound Findings</strong> (Click to expand)</summary>
+
 - **Absent/small thymus**
 - **Polyhydramnios**
 - **Conotruncal heart defects**
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: 90% de novo, 10% inherited (AD)
 - **Prevalence**: 1/2,000-6,000
 - **Testing**: CMA preferred over FISH (detects nested deletions)
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Prader-Willi Syndrome](#prader-willi-syndrome-15q112-q13-paternal-)**
 
 ---
 
@@ -301,21 +467,33 @@ By the end of this topic, you should be able to:
 2. **Hyperphagia** and obesity (childhood)
 3. **Short stature** with small hands/feet
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Infancy**: Hypotonia, feeding difficulties, FTT
 - **Childhood**: Hyperphagia → morbid obesity
 - **Physical**: Short stature, small hands/feet, hypogonadism
 - **Behavioral**: Compulsive behaviors, temper tantrums
 - **Cognitive**: Mild-moderate ID
 
-#### 📈 Inheritance & Molecular Mechanisms
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Molecular Mechanisms</strong> (Click to expand)</summary>
+
 1. **Paternal deletion 15q11.2-q13** (70%)
 2. **Maternal UPD15** (20-30%)
 3. **Imprinting defect** (<1%)
 
-#### 📈 Statistics
+</details>
+
+<details>
+<summary><strong>📈 Statistics</strong> (Click to expand)</summary>
+
 - **Prevalence**: 1/10,000-30,000
 - **Testing**: Methylation analysis (gold standard)
+
+</details>
 
 ---
 
@@ -326,21 +504,31 @@ By the end of this topic, you should be able to:
 2. **Severe ID** with absent speech
 3. **Seizures** and ataxic gait
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Neurologic**: Severe ID, absent speech, seizures, ataxia
 - **Behavioral**: Happy demeanor, easily excitable
 - **Physical**: Microcephaly, wide mouth, widely spaced teeth
 
-#### 📈 Inheritance & Molecular Mechanisms
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Molecular Mechanisms</strong> (Click to expand)</summary>
+
 1. **Maternal deletion 15q11.2-q13** (70%)
 2. **Paternal UPD15** (7%)
 3. **UBE3A mutations** (10%)
 4. **Imprinting center defect** (3%)
 5. **Unknown mechanism** (10%)
 
+</details>
+
 #### 💎 Board Pearls
 - **Opposite of Prader-Willi**: Different parent-of-origin effects
 - Both PWS and AS often have light pigmentation (OCA2 gene in region)
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Williams Syndrome](#williams-syndrome-7q1123-deletion-)**
 
 ---
 
@@ -351,21 +539,30 @@ By the end of this topic, you should be able to:
 2. **Supravalvular aortic stenosis**
 3. **Hypercalcemia**
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Behavioral**: Overly social, musical aptitude, anxiety/phobias
 - **Cardiac**: Supravalvular aortic stenosis, peripheral artery stenosis
 - **Facial**: "Elfin" facies, lacy iris pattern, wide mouth
 - **Growth**: Short stature, FTT
 - **Cognitive**: Mild-moderate ID with relative strengths in language
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Mechanism**: De novo deletion involving ELN gene
 - **Inheritance**: AD (rare familial cases)
 - **Prevalence**: 1/7,500-10,000
 
+</details>
+
 ---
 
-### Additional Deletion Syndromes
+<details>
+<summary><strong>Additional Deletion Syndromes</strong> (Click to expand)</summary>
 
 #### Wolf-Hirschhorn Syndrome (4p16 deletion)
 - **Key Feature**: "Greek warrior helmet" nose appearance
@@ -384,6 +581,10 @@ By the end of this topic, you should be able to:
 #### 1p36 Deletion Syndrome
 - **Key Features**: Straight eyebrows, seizures, profound ID
 - **Note**: Most common terminal deletion syndrome
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Study Tips](#-study-tips--mnemonics)**
 
 ---
 
