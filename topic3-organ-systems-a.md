@@ -1,5 +1,41 @@
 # Topic 3: Organ System Disorders Part A - Pulmonary, Cardiovascular & Renal/Genital
 
+## 📖 Quick Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Cancer Genetics](topic2-cancer-genetics.md)** | **[➡️ Next: Neurological Disorders](topic4-neurological-developmental.md)**
+
+### 📋 Table of Contents
+- [🎯 Learning Objectives](#-learning-objectives)
+- [🫁 Pulmonary Disorders](#-pulmonary-disorders)
+  - [Cystic Fibrosis (CF) ⭐⭐⭐](#cystic-fibrosis-cf-)
+  - [α1-Antitrypsin Deficiency ⭐⭐](#α1-antitrypsin-deficiency-)
+- [❤️ Cardiovascular Disorders](#️-cardiovascular-disorders)
+  - [Hypertrophic Cardiomyopathy (HCM) ⭐⭐⭐](#hypertrophic-cardiomyopathy-hcm-)
+  - [Long QT Syndrome (LQTS) ⭐⭐⭐](#long-qt-syndrome-lqts-)
+  - [Dilated Cardiomyopathy (DCM) ⭐⭐](#dilated-cardiomyopathy-dcm-)
+  - [Additional Cardiovascular Conditions](#additional-cardiovascular-conditions)
+- [🫘 Renal/Genital Disorders](#-renalgenital-disorders)
+  - [Polycystic Kidney Disease ⭐⭐⭐](#polycystic-kidney-disease-)
+  - [Alport Syndrome ⭐⭐](#alport-syndrome-)
+  - [Disorders of Sex Development](#disorders-of-sex-development)
+- [🧠 Study Tips & Mnemonics](#-study-tips--mnemonics)
+- [📝 High-Yield Facts Summary](#-high-yield-facts-summary)
+- [🎯 Practice Questions](#-practice-questions)
+- [🏁 Topic 3 Completion Checklist](#-topic-3-completion-checklist)
+
+### 🔍 Quick Condition Lookup
+| Condition | Gene(s) | Key Features | Inheritance | Prevalence |
+|-----------|---------|--------------|-------------|------------|
+| **Cystic Fibrosis** | CFTR | Pulmonary insufficiency, CBAVD, ↑ sweat Cl⁻ | AR | 1/3,200 |
+| **α1-Antitrypsin Deficiency** | SERPINA1 | Early emphysema, liver disease | Co-dominant | 1/2,500 |
+| **Hypertrophic Cardiomyopathy** | MYH7, MYBPC3 | Thick cardiac muscle, sudden death risk | AD | 1/500 |
+| **Long QT Syndrome** | KCNQ1, KCNH2, SCN5A | Prolonged QT, syncope, triggers | AD | 1/2,500 |
+| **ADPKD** | PKD1, PKD2 | Bilateral renal cysts, hypertension | AD | 1/1,000 |
+| **Alport Syndrome** | COL4A5, COL4A3/4 | Progressive nephritis, hearing loss | X-linked/AR | 1/50,000 |
+| **AIS** | AR | 46,XY with female external genitalia | X-linked | 1/20,000 |
+
+---
+
 ## 🎯 Learning Objectives
 
 By the end of this topic, you should be able to:
@@ -25,7 +61,8 @@ By the end of this topic, you should be able to:
 2. **CBAVD** - congenital bilateral absence of vas deferens (male infertility)
 3. **Elevated sweat chloride** - diagnostic hallmark (>60 mEq/L)
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
 
 **Pulmonary:**
 - Thick, sticky mucus → chronic bacterial infections
@@ -48,7 +85,10 @@ By the end of this topic, you should be able to:
 - Nasal polyps, sinusitis
 - Clubbing of fingers/toes
 
-#### 🧬 CFTR Mutation Classes
+</details>
+
+<details>
+<summary><strong>🧬 CFTR Mutation Classes</strong> (Click to expand)</summary>
 
 **Class 1 - Protein Production Defects:**
 - Nonsense, frameshift, splice mutations
@@ -78,7 +118,10 @@ By the end of this topic, you should be able to:
 - Protein reaches membrane but unstable
 - **Variable phenotype**
 
-#### 🧪 CFTR Modifiers - R117H and Poly T Tract
+</details>
+
+<details>
+<summary><strong>🧪 CFTR Modifiers - R117H and Poly T Tract</strong> (Click to expand)</summary>
 
 **Critical Board Concept:**
 - **R117H variant** + poly T tract = variable penetrance
@@ -91,7 +134,10 @@ By the end of this topic, you should be able to:
 - **R117H + 9T**: Mild or asymptomatic
 - **5T alone** (without R117H): Can cause CBAVD
 
-#### 📊 Carrier Screening Guidelines
+</details>
+
+<details>
+<summary><strong>📊 Carrier Screening Guidelines</strong> (Click to expand)</summary>
 
 **ACOG Recommendations:**
 - **Offer to all women** considering pregnancy or currently pregnant
@@ -110,7 +156,10 @@ By the end of this topic, you should be able to:
 - **R117H requires poly T testing** when detected
 - **Population-specific residual risks** vary significantly
 
-#### 🧪 Diagnostic Testing
+</details>
+
+<details>
+<summary><strong>🧪 Diagnostic Testing</strong> (Click to expand)</summary>
 
 **Gold Standard:**
 - **Sweat chloride test**: >60 mEq/L diagnostic
@@ -125,17 +174,25 @@ By the end of this topic, you should be able to:
 - Immunoreactive trypsinogen (IRT)
 - DNA analysis if elevated IRT
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Inheritance**: Autosomal recessive
 - **Prevalence**: 1/3,200 (varies by ethnicity)
 - **Carrier frequency**: ~1/25 in Northern European populations
 - **Mechanism**: Defective CFTR → abnormal chloride transport → thick mucus
+
+</details>
 
 #### 💎 Board Pearls
 - CF is most common lethal AR disorder in Caucasians
 - CFTR classes 1-3 = severe, classes 4-6 = milder
 - ΔF508 accounts for ~70% of CF alleles worldwide
 - CBAVD can be isolated (mild CFTR variants) or part of CF spectrum
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: α1-Antitrypsin Deficiency](#α1-antitrypsin-deficiency-)**
 
 ---
 
@@ -146,7 +203,8 @@ By the end of this topic, you should be able to:
 2. **Liver dysfunction** - jaundice, cirrhosis, hepatocellular carcinoma risk
 3. **Co-dominant inheritance** - both alleles contribute to phenotype
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
 
 **Pulmonary:**
 - Early-onset emphysema (especially if smoker)
@@ -162,7 +220,10 @@ By the end of this topic, you should be able to:
 - Panniculitis (inflammation of subcutaneous fat)
 - Increased infection susceptibility
 
-#### 🧬 Molecular Genetics
+</details>
+
+<details>
+<summary><strong>🧬 Molecular Genetics</strong> (Click to expand)</summary>
 
 **SERPINA1 Gene Variants:**
 - **M allele**: Normal (wild-type)
@@ -176,17 +237,25 @@ By the end of this topic, you should be able to:
 4. **MZ**: Slightly increased risk
 5. **MS**: Normal protection
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Inheritance**: Autosomal co-dominant
 - **Prevalence**: 1/1,500-2,500 (European populations)
 - **Carrier frequency**: 1/25 (European populations)
 - **Z allele frequency**: Highest in Northern/Western Europe
+
+</details>
 
 #### 💎 Board Pearls
 - One of most common metabolic disorders in Europeans
 - Smoking dramatically increases lung disease risk in deficient individuals
 - Liver disease can occur without lung involvement
 - "Co-dominant" = both alleles affect phenotype
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Cardiovascular Disorders](#️-cardiovascular-disorders)**
 
 ---
 
@@ -199,7 +268,8 @@ By the end of this topic, you should be able to:
 2. **Sudden cardiac death risk** - especially young athletes
 3. **Sarcomere gene mutations** - contractile protein defects
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
 
 **Symptoms:**
 - Chest pain, shortness of breath
@@ -218,7 +288,10 @@ By the end of this topic, you should be able to:
 - Stroke/thromboembolism
 - Infective endocarditis
 
-#### 🧬 Molecular Genetics
+</details>
+
+<details>
+<summary><strong>🧬 Molecular Genetics</strong> (Click to expand)</summary>
 
 **Major Genes:**
 - **MYH7** (β-myosin heavy chain): 40% of cases
@@ -232,17 +305,25 @@ By the end of this topic, you should be able to:
 - **Autosomal recessive**: 5% (severe, early onset)
 - **Variable expressivity and penetrance**
 
-#### 📈 Statistics & Management
+</details>
+
+<details>
+<summary><strong>📈 Statistics & Management</strong> (Click to expand)</summary>
+
 - **Prevalence**: 1/500 (most common inherited cardiomyopathy)
 - **Age of onset**: Any age, including infants
 - **Family history**: Present in 60% with positive family history, 30% without
 - **Genetic testing yield**: 30-60% depending on family history
+
+</details>
 
 #### 💎 Board Pearls
 - Leading cause of sudden death in young athletes
 - Obstruction increases with decreased preload (Valsalva, standing)
 - Genetic testing recommended for all HCM patients
 - Screen first-degree relatives with echo and ECG
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Long QT Syndrome](#long-qt-syndrome-lqts-)**
 
 ---
 
@@ -253,7 +334,8 @@ By the end of this topic, you should be able to:
 2. **Syncope with triggers** - exercise, emotion, loud sounds
 3. **Sudden cardiac death** - torsades de pointes → ventricular fibrillation
 
-#### 🏥 Clinical Features & Triggers
+<details>
+<summary><strong>🏥 Clinical Features & Triggers</strong> (Click to expand)</summary>
 
 **Symptoms:**
 - Syncope (especially during physical/emotional stress)
@@ -266,7 +348,10 @@ By the end of this topic, you should be able to:
 - **LQT2**: Emotional stress, loud sounds (alarm clocks)
 - **LQT3**: Rest/sleep, bradycardia
 
-#### 🧬 Major LQTS Types
+</details>
+
+<details>
+<summary><strong>🧬 Major LQTS Types</strong> (Click to expand)</summary>
 
 **LQT1 (35% of cases):**
 - **Gene**: KCNQ1 (potassium channel)
@@ -283,7 +368,10 @@ By the end of this topic, you should be able to:
 - **Trigger**: Sleep, rest, bradycardia
 - **Response**: β-blockers less effective, consider pacemaker
 
-#### 🎭 LQTS Syndromes
+</details>
+
+<details>
+<summary><strong>🎭 LQTS Syndromes</strong> (Click to expand)</summary>
 
 **Romano-Ward Syndrome:**
 - **Autosomal dominant LQTS**
@@ -295,17 +383,25 @@ By the end of this topic, you should be able to:
 - **Sensorineural hearing loss**
 - **More severe cardiac phenotype**
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Inheritance**: Autosomal dominant (Romano-Ward), AR (Jervell-Lange-Nielsen)
 - **Prevalence**: 1/2,500
 - **Penetrance**: Variable, incomplete
 - **De novo**: ~1%
+
+</details>
 
 #### 💎 Board Pearls
 - Cardiac events most common ages 10-20 years
 - 20% of families have no detectable mutation
 - β-blockers first-line therapy for LQT1 and LQT2
 - Genetic testing guides therapy and family screening
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Dilated Cardiomyopathy](#dilated-cardiomyopathy-dcm-)**
 
 ---
 
@@ -512,7 +608,8 @@ By the end of this topic, you should be able to:
 
 ## 🧠 Study Tips & Mnemonics
 
-### CF Memory Aids
+<details>
+<summary><strong>🫁 CF Memory Aids</strong> (Click to expand)</summary>
 
 **CFTR Mutation Classes**:
 - **"Production, Processing, Gating, Conduction"** (Classes 1-4)
@@ -521,51 +618,80 @@ By the end of this topic, you should be able to:
 **CF Clinical Features**:
 - **"Salty, Sweet, Sticky, Sterile"** - Salty sweat, Sweet taste when kissed, Sticky mucus, Sterile (infertile) males
 
-### Cardiomyopathy Memory Aid
+</details>
+
+<details>
+<summary><strong>❤️ Cardiomyopathy Memory Aid</strong> (Click to expand)</summary>
 
 **"HCM = Huge, DCM = Dilated, ARVC = Right"**
 - **HCM**: Hypertrophic = thick walls
 - **DCM**: Dilated = big chambers, weak
 - **ARVC**: Right ventricle primarily affected
 
-### Long QT Triggers
+</details>
+
+<details>
+<summary><strong>⚡ Long QT Triggers</strong> (Click to expand)</summary>
 
 **"1-2-3, Exercise-Emotion-Sleep"**
 - **LQT1**: Exercise (especially swimming)
 - **LQT2**: Emotion, loud sounds
 - **LQT3**: Sleep, rest
 
-### PKD Memory Aid
+</details>
+
+<details>
+<summary><strong>🫘 PKD Memory Aid</strong> (Click to expand)</summary>
 
 **"AD = Adult, AR = infantile"**
 - **ADPKD**: Adult onset, better prognosis
 - **ARPKD**: infAntile onset, poor prognosis
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: High-Yield Facts](#-high-yield-facts-summary)**
+
 ---
 
 ## 📝 High-Yield Facts Summary
 
-### Must-Know Genetics
+<details>
+<summary><strong>🎯 Must-Know Genetics</strong> (Click to expand)</summary>
+
 - **CF**: Most common lethal AR disorder in Caucasians, ΔF508 most common
 - **HCM**: Most common inherited cardiomyopathy (1/500)
 - **LQTS**: 1/2,500, genotype predicts triggers and therapy
 - **ADPKD**: Most common inherited kidney disease
 
-### Testing Essentials
+</details>
+
+<details>
+<summary><strong>🧪 Testing Essentials</strong> (Click to expand)</summary>
+
 - **CF carrier screening**: Offer to all women, 23-mutation panel minimum
 - **Cardiac genetic testing**: Family history crucial, guides screening
 - **Sweat chloride**: Gold standard for CF diagnosis
 - **Echocardiogram + ECG**: Screening for inherited cardiomyopathies
 
-### Clinical Correlations
+</details>
+
+<details>
+<summary><strong>🔗 Clinical Correlations</strong> (Click to expand)</summary>
+
 - **CFTR modifiers**: R117H + poly T determines phenotype
 - **α1-AT**: Co-dominant inheritance, smoking greatly increases risk
 - **LQTS**: Trigger-specific therapy based on genotype
 - **AIS**: Gonadectomy needed due to cancer risk
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Practice Questions](#-practice-questions)**
+
 ---
 
 ## 🎯 Practice Questions
+
+> **📝 Study Tip**: Try answering these questions before clicking for the answer. These mirror actual board exam question styles.
 
 ### Question 1
 A couple undergoes CF carrier screening. The woman tests positive for ΔF508, and the man tests positive for R117H. Additional testing shows the man has R117H with 5T. What is the most likely phenotype if they have an affected child?
@@ -615,10 +741,13 @@ A 35-year-old man with emphysema has a ZZ genotype for α1-antitrypsin deficienc
 Since her brother has ZZ genotype, both parents are at least MZ carriers. Her possible genotypes are MM, MZ, SZ, or ZZ. Given the significant health implications and available interventions (smoking cessation, monitoring), genetic testing is appropriate to determine her exact risk.
 </details>
 
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Completion Checklist](#-topic-3-completion-checklist)**
+
 ---
 
 ## 🏁 Topic 3 Completion Checklist
 
+### ✅ Knowledge Mastery
 - [ ] Understand CFTR mutation classes and their clinical implications
 - [ ] Know CF carrier screening guidelines and when to offer testing
 - [ ] Can distinguish between different cardiomyopathies and their genetics
@@ -626,11 +755,27 @@ Since her brother has ZZ genotype, both parents are at least MZ carriers. Her po
 - [ ] Know the difference between ADPKD and ARPKD
 - [ ] Recognize features of disorders of sex development
 - [ ] Understand α1-antitrypsin co-dominant inheritance
-- [ ] Completed all practice questions successfully
 
-**Next Topic**: [Topic 4: Neurological & Developmental →](topic4-neurological-developmental.md)
+### 🎯 Practice & Review
+- [ ] Completed all practice questions successfully
+- [ ] Reviewed mnemonics and memory aids
+- [ ] Can recall prevalences and inheritance patterns
+- [ ] Understand genotype-phenotype correlations
+
+### 🔄 Self-Assessment
+- [ ] Confident explaining CFTR modifier effects
+- [ ] Can distinguish between cardiomyopathy types
+- [ ] Ready to move to next topic
 
 ---
 
-*Study Time Recommendation: 8-10 hours*  
-*Review Schedule: Review this topic after completing Topic 5*
+## 🔗 Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Cancer Genetics](topic2-cancer-genetics.md)** | **[➡️ Next Topic: Neurological Disorders](topic4-neurological-developmental.md)**
+
+---
+
+**🕒 Study Time Recommendation:** 8-10 hours  
+**🗓️ Review Schedule:** Review this topic after completing Topic 5
+
+**🏆 Completion Status:** Topic 3 of 6 complete

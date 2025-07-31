@@ -1,5 +1,62 @@
 # Topic 6: Specialized Organ Systems - Comprehensive Board Study Guide
 
+## 📖 Quick Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Metabolic Disorders](topic5-metabolic-disorders.md)**
+
+### 📋 Table of Contents
+- [🎯 Learning Objectives](#-learning-objectives)
+- [📊 Overview of Specialized Systems](#-overview-of-specialized-systems)
+- [🎨 Dermatologic Disorders](#-dermatologic-disorders)
+  - [Incontinentia Pigmenti (IP) ⭐⭐⭐](#incontinentia-pigmenti-ip-)
+  - [Ectodermal Dysplasias ⭐⭐](#ectodermal-dysplasias-)
+  - [Albinism ⭐⭐](#albinism-)
+  - [Epidermolysis Bullosa (EB) ⭐⭐](#epidermolysis-bullosa-eb-)
+- [🦴 Skeletal/Connective Tissue Disorders](#-skeletalconnective-tissue-disorders)
+  - [Osteogenesis Imperfecta (OI) ⭐⭐⭐](#osteogenesis-imperfecta-oi-)
+  - [Marfan Syndrome ⭐⭐⭐](#marfan-syndrome-)
+  - [Ehlers-Danlos Syndromes (EDS) ⭐⭐⭐](#ehlers-danlos-syndromes-eds-)
+  - [Achondroplasia ⭐⭐⭐](#achondroplasia-)
+- [👂 Sensory Disorders](#-sensory-disorders)
+  - [Hereditary Hearing Loss ⭐⭐⭐](#hereditary-hearing-loss-)
+  - [Hereditary Vision Loss ⭐⭐](#hereditary-vision-loss-)
+- [🔬 Endocrine Disorders](#-endocrine-disorders)
+  - [Congenital Adrenal Hyperplasia (CAH) ⭐⭐⭐](#congenital-adrenal-hyperplasia-cah-)
+- [🩸 Hematological Disorders](#-hematological-disorders)
+  - [Hemoglobinopathies ⭐⭐⭐](#hemoglobinopathies-)
+  - [Bleeding Disorders ⭐⭐⭐](#bleeding-disorders-)
+- [🧬 DNA Repair/Premature Aging Disorders](#-dna-repairpremature-aging-disorders)
+  - [Bloom Syndrome ⭐⭐](#bloom-syndrome-)
+  - [Xeroderma Pigmentosum (XP) ⭐⭐](#xeroderma-pigmentosum-xp-)
+  - [Fanconi Anemia (FA) ⭐⭐⭐](#fanconi-anemia-fa-)
+- [📋 High-Yield Board Facts](#-high-yield-board-facts)
+- [🧮 Practice Questions](#-practice-questions)
+- [📝 Mnemonics & Memory Aids](#-mnemonics--memory-aids)
+- [✅ Topic 6 Completion Checklist](#-topic-6-completion-checklist)
+
+### 🔍 Quick Disorder Lookup
+| Disorder | Key Features | Inheritance | Population Risk | Management |
+|----------|--------------|-------------|-----------------|------------|
+| **Incontinentia Pigmenti** | Staged skin lesions, seizures | XLD, male lethal | Sporadic/familial | Neurologic monitoring |
+| **Hypohidrotic ED** | No sweating, teeth/hair abnormal | XLR | 1:100,000 | Heat protection |
+| **Osteogenesis Imperfecta** | Multiple fractures, blue sclerae | AD (mostly) | 1:20,000 | Fracture prevention |
+| **Marfan Syndrome** | Aortic dilatation, lens dislocation | AD | 1:5,000 | Cardiac monitoring |
+| **Achondroplasia** | Rhizomelic dwarfism | AD, de novo | 1:25,000 | Growth monitoring |
+| **GJB2 Hearing Loss** | Congenital deafness | AR | 1:1,000 | Early intervention |
+| **CAH** | Ambiguous genitalia, salt wasting | AR | 1:15,000 | Hormone replacement |
+| **Sickle Cell Disease** | Vaso-occlusive crises | AR | 1:365 (AA) | Hydroxyurea, prophylaxis |
+| **Hemophilia A** | Bleeding, joint hemorrhages | XLR | 1:5,000 males | Factor replacement |
+| **Bloom Syndrome** | Growth deficiency, cancer risk | AR | 1:48,000 (AJ) | Cancer surveillance |
+
+### 🏆 Board Exam Domain Coverage
+- **Primary Domain:** Clinical Genetics (40-50%)
+- **Secondary Domains:** General Genetics/Genomics (15-25%), Psychosocial/Counseling (10-20%)
+- **Difficulty Level:** Intermediate to Advanced
+- **Estimated Study Time:** 12-15 hours
+- **Last Updated:** July 2025
+
+---
+
 ## 🎯 Learning Objectives
 
 By the end of this topic, you should be able to:
@@ -21,6 +78,9 @@ By the end of this topic, you should be able to:
 
 ## 📊 Overview of Specialized Systems
 
+<details>
+<summary><strong>📋 Major Categories Covered</strong> (Click to expand)</summary>
+
 ### Major Categories Covered
 1. **Dermatologic Disorders** - Skin, hair, nail abnormalities
 2. **Skeletal/Connective Tissue** - Bone, joint, vessel disorders
@@ -38,6 +98,10 @@ By the end of this topic, you should be able to:
 - Cancer surveillance guidelines
 - Quality of life assessments
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)**
+
 ---
 
 ## 🎨 DERMATOLOGIC DISORDERS
@@ -50,7 +114,9 @@ By the end of this topic, you should be able to:
 2. **Ectodermal dysplasia signs**
 3. **Risk for seizures**
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Stage 1 (birth-4mo)**: Linear blistering along Blaschko lines
 - **Stage 2 (2-6mo)**: Warty/verrucous lesions
 - **Stage 3 (6mo-adult)**: Swirling hyperpigmentation
@@ -59,7 +125,11 @@ By the end of this topic, you should be able to:
 - **Neurologic**: Seizures (30%), ID if seizures occur
 - **Ocular**: Retinal detachment, vision loss
 
-#### 🧪 Genetics & Testing
+</details>
+
+<details>
+<summary><strong>🧪 Genetics & Testing</strong> (Click to expand)</summary>
+
 - **Gene**: IKBKG (NEMO) at Xq28
 - **Inheritance**: X-linked dominant
 - **Testing**: 
@@ -68,7 +138,11 @@ By the end of this topic, you should be able to:
   - Skin biopsy shows eosinophils
 - **Mosaicism**: Common in affected females
 
-#### 👶 Reproductive Counseling
+</details>
+
+<details>
+<summary><strong>👶 Reproductive Counseling</strong> (Click to expand)</summary>
+
 - **Affected females**: 
   - 50% affected daughters (may be milder due to skewing)
   - 50% affected sons (usually lethal in utero)
@@ -77,12 +151,16 @@ By the end of this topic, you should be able to:
 - **Prenatal findings**: Possible male hydrops
 - **X-inactivation**: May ameliorate severity
 
+</details>
+
 #### 💎 Board Pearls
 - Blaschko lines = developmental migration patterns
 - Male lethality leads to skewed sex ratio
 - Stages don't always occur in order
 - X-inactivation studies helpful for carriers
 - Consider if multiple miscarriages + skin findings
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Ectodermal Dysplasias](#ectodermal-dysplasias-)**
 
 ---
 
@@ -1034,10 +1112,14 @@ B) Order hemoglobin electrophoresis on the woman
 C) Order molecular testing for β-thalassemia
 D) Recommend prenatal diagnosis
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: B**
 - Low MCV suggests possible thalassemia trait
 - Hemoglobin electrophoresis can identify β-thalassemia trait (elevated Hb A2)
 - Partner testing depends on woman's results
+</details>
 
 ### Question 2
 A pregnant woman is a carrier for hemophilia A. Her partner is unaffected. CVS shows a 46,XY karyotype. What is the risk the fetus is affected?
@@ -1047,10 +1129,14 @@ B) 25%
 C) 50%
 D) 100%
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: C**
 - X-linked recessive inheritance
 - Male fetus has 50% chance of inheriting mutation
 - Would be affected if inherits mutation
+</details>
 
 ### Question 3
 Parents of a child with osteogenesis imperfecta type II (perinatal lethal) request recurrence risk counseling. Neither parent is affected. What is the most likely recurrence risk?
@@ -1060,10 +1146,14 @@ B) 25%
 C) 50%
 D) 67%
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: A**
 - OI type II usually due to de novo dominant mutations
 - Small risk due to gonadal mosaicism
 - Prenatal diagnosis recommended for reassurance
+</details>
 
 ### Question 4
 A 6-month-old boy presents with blistering along linear patterns on his trunk. His mother had similar lesions as an infant that resolved. What is the most likely diagnosis?
@@ -1073,10 +1163,14 @@ B) Incontinentia pigmenti
 C) Bloom syndrome
 D) Xeroderma pigmentosum
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: B**
 - Linear blistering following Blaschko lines
 - X-linked dominant with male lethality
 - Mother likely has mild manifestations due to X-inactivation
+</details>
 
 ### Question 5
 A couple requests genetic counseling after their daughter was diagnosed with congenital profound hearing loss. Testing reveals she is homozygous for GJB2 mutations. What is the chance their next child will have hearing loss?
@@ -1086,10 +1180,14 @@ B) 25%
 C) 50%
 D) 100%
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: B**
 - Autosomal recessive inheritance
 - Both parents are carriers
 - 25% recurrence risk
+</details>
 
 ---
 
@@ -1132,48 +1230,93 @@ D) 100%
 
 ---
 
-## ✅ COMPLETION CHECKLIST
+## ✅ Topic 6 Completion Checklist
 
-### Mastery Indicators
-- [ ] Can list population-specific hemoglobinopathy screening
-- [ ] Understand CAH newborn screening and follow-up
-- [ ] Know prenatal diagnosis limitations for skeletal dysplasias
-- [ ] Appreciate deaf culture in genetic counseling
-- [ ] Can counsel on pregnancy risks in connective tissue disorders
-- [ ] Calculate risks for X-linked bleeding disorders
-- [ ] Know cancer surveillance for DNA repair disorders
-- [ ] Understand quality of life issues in chronic genetic conditions
+### ✅ Core Knowledge Areas
+- [ ] Population-specific hemoglobinopathy screening programs
+- [ ] CAH newborn screening interpretation and follow-up
+- [ ] Prenatal diagnosis limitations for skeletal dysplasias
+- [ ] Cultural considerations in deaf community counseling
+- [ ] Pregnancy management in connective tissue disorders
+- [ ] X-linked bleeding disorder carrier counseling
+- [ ] DNA repair disorder cancer surveillance protocols
+- [ ] Quality of life considerations in chronic conditions
+- [ ] Incontinentia pigmenti stages and X-linked dominant inheritance
+- [ ] Ectodermal dysplasia hypohidrosis vs hidrotic types
 
-### Quick Review Points
-1. IP: X-linked dominant, male lethal, staged skin lesions
-2. HED: X-linked, no sweating, dental anomalies
-3. OCA: AR, vision problems, sun protection crucial
-4. OI: Type II lethal, blue sclera variable
-5. Marfan: Aortic dissection main risk, lens up
-6. EDS vascular: Most severe type, pregnancy risky
-7. Achondroplasia: FGFR3, homozygous lethal
-8. GJB2: Most common genetic deafness
-9. Usher: HL + RP, three types
-10. CAH: Ambiguous genitalia, salt wasting
-11. Sickle cell: Stroke risk, hydroxyurea helps
-12. Hemophilia: X-linked, factor replacement
-13. Bloom: AJ founder, extreme cancer risk
-14. XP: Sun avoidance critical
-15. FA: Bone marrow failure, DEB test diagnostic
+### 🎯 Clinical Skills
+- [ ] Can interpret CBC indices for thalassemia screening
+- [ ] Understand X-linked inheritance risks and carrier manifestations
+- [ ] Recognize syndromic vs non-syndromic hearing loss patterns
+- [ ] Apply cultural competency in sensory impairment counseling
+- [ ] Calculate bleeding disorder risks and counsel families
+- [ ] Assess fracture patterns and distinguish from abuse
+- [ ] Evaluate growth patterns in skeletal dysplasias
+- [ ] Apply Ghent criteria for Marfan syndrome diagnosis
 
-### Final Board Tips
-- Population screening varies by ethnicity
-- Cultural sensitivity crucial for counseling
-- Prenatal diagnosis has limitations
-- Quality of life major consideration
-- X-linked carriers may have symptoms
-- Cancer surveillance protocols evolving
-- Support groups valuable resources
-- Multidisciplinary care often needed
+### 📚 Test Preparation
+- [ ] Completed all practice questions successfully
+- [ ] Reviewed mnemonics and memory aids
+- [ ] Know population-specific carrier frequencies
+- [ ] Understand genotype-phenotype correlations
+- [ ] Memorized surveillance protocols and management
+- [ ] Created flashcards for key clinical features
+
+### 🔄 Final Review
+- [ ] Cross-referenced with population screening guidelines
+- [ ] Verified cultural considerations for various conditions
+- [ ] Confirmed prenatal diagnosis approaches and limitations
+- [ ] Reviewed multidisciplinary care requirements
 
 ---
 
-**Congratulations on completing Topic 6 and the entire comprehensive board study guide!**
+## 🎓 Key Takeaway Messages
 
-This completes your preparation for specialized organ systems on the genetic counseling board exam. You now have a complete resource covering all major areas tested. Review regularly, practice calculations, and remember to consider the psychosocial aspects of genetic counseling in every scenario. Good luck on your board exam\! 🎉
-EOF < /dev/null
+1. **Population screening** programs target specific ethnicities based on disease prevalence
+2. **Cultural competency** is essential, especially for deaf community counseling
+3. **X-linked inheritance** patterns affect carrier manifestations and reproductive counseling
+4. **Prenatal diagnosis** has limitations for many skeletal and skin conditions
+5. **Quality of life** considerations are paramount in chronic genetic conditions
+6. **Multidisciplinary care** is required for most complex genetic disorders
+7. **Cancer surveillance** protocols are evolving for DNA repair disorders
+8. **Early identification** and intervention improve outcomes in sensory disorders
+9. **Psychosocial support** is crucial for visible differences and chronic conditions
+10. **Family counseling** must address both medical and social implications
+
+---
+
+## 🔗 Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Metabolic Disorders](topic5-metabolic-disorders.md)**
+
+---
+
+**🕒 Study Time Recommendation:** 12-15 hours  
+**🗓️ Review Schedule:** Review all topics systematically before exam
+
+**🏆 Completion Status:** Topic 6 of 6 complete - STUDY GUIDE COMPLETE! 🎉
+
+---
+
+## 🎊 Congratulations on Completing the Comprehensive Board Study Guide!
+
+You have now completed all 6 major topic areas for the genetic counseling board exam:
+
+1. ✅ **Topic 1:** Foundation Genetics - Chromosomal Disorders
+2. ✅ **Topic 2:** Cancer Genetics - Hereditary Cancer Syndromes  
+3. ✅ **Topic 3:** Organ System Disorders Part A
+4. ✅ **Topic 4:** Neurological, Neuromuscular & Developmental Disorders
+5. ✅ **Topic 5:** Inborn Errors of Metabolism
+6. ✅ **Topic 6:** Specialized Organ Systems
+
+### 🏆 Final Exam Preparation Tips:
+- **Review systematically** - Use the completion checklists for each topic
+- **Practice calculations** - Risk assessments, carrier frequencies, recurrence risks
+- **Focus on high-yield facts** - Population screening, inheritance patterns, management
+- **Consider psychosocial aspects** - Cultural competency, quality of life, family dynamics
+- **Use active recall** - Test yourself without looking at answers first
+- **Join study groups** - Discuss complex cases and scenarios
+
+**Remember:** This guide covers testable material for the genetic counseling board exam. Focus on recognition patterns, inheritance risks, and counseling strategies rather than detailed molecular mechanisms.
+
+**Good luck with your studies and board exam!** 🧬✨

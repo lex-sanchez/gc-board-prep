@@ -1,5 +1,59 @@
 # Topic 5: Inborn Errors of Metabolism - Comprehensive Board Study Guide
 
+## 📖 Quick Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Neurological Disorders](topic4-neurological-developmental.md)** | **[➡️ Next: Final Topic](topic6-final-topic.md)**
+
+### 📋 Table of Contents
+- [🎯 Learning Objectives](#-learning-objectives)
+- [📊 Overview of Metabolic Disorders](#-overview-of-metabolic-disorders)
+- [🧬 Amino Acid Disorders](#-amino-acid-disorders)
+  - [Phenylketonuria (PKU) ⭐⭐⭐](#phenylketonuria-pku-)
+  - [Homocystinuria ⭐⭐](#homocystinuria-)
+  - [Tyrosinemia Type I ⭐⭐](#tyrosinemia-type-i-)
+- [🧪 Organic Acidemias](#-organic-acidemias)
+  - [Methylmalonic Acidemia (MMA) ⭐⭐⭐](#methylmalonic-acidemia-mma-)
+  - [Propionic Acidemia ⭐⭐](#propionic-acidemia-)
+  - [Maple Syrup Urine Disease (MSUD) ⭐⭐](#maple-syrup-urine-disease-msud-)
+- [🍬 Carbohydrate Disorders](#-carbohydrate-disorders)
+  - [Galactosemia (Classic) ⭐⭐⭐](#galactosemia-classic-)
+  - [Glycogen Storage Disease Type I ⭐⭐](#glycogen-storage-disease-type-i-von-gierke-)
+  - [Glycogen Storage Disease Type II ⭐⭐](#glycogen-storage-disease-type-ii-pompe-)
+- [🧬 Lysosomal Storage Disorders](#-lysosomal-storage-disorders)
+  - [Gaucher Disease ⭐⭐⭐](#gaucher-disease-)
+  - [Tay-Sachs Disease ⭐⭐⭐](#tay-sachs-disease-)
+  - [Fabry Disease ⭐⭐⭐](#fabry-disease-)
+- [🧬 Mucopolysaccharidoses (MPS)](#-mucopolysaccharidoses-mps)
+- [🧬 Peroxisomal & Fatty Acid Oxidation Disorders](#-peroxisomal--fatty-acid-oxidation-disorders)
+- [🧬 Metal Transport Disorders](#-metal-transport-disorders)
+- [🧬 Other Key Metabolic Disorders](#-other-key-metabolic-disorders)
+- [📋 Study Aids & Mnemonics](#-study-aids--mnemonics)
+- [🎯 High-Yield Board Facts](#-high-yield-board-facts)
+- [📝 Practice Questions](#-practice-questions)
+- [✅ Topic 5 Completion Checklist](#-topic-5-completion-checklist)
+
+### 🔍 Quick Disorder Lookup
+| Disorder | Gene/Defect | Key Features | Inheritance | NBS |
+|----------|-------------|--------------|-------------|-----|
+| **PKU** | PAH | ID without treatment, musty odor | AR | Yes |
+| **Galactosemia** | GALT | Liver disease, E. coli sepsis | AR | Yes |
+| **MCAD** | ACADM | Hypoketotic hypoglycemia | AR | Yes |
+| **Gaucher** | GBA | Hepatosplenomegaly, bone disease | AR | No |
+| **Tay-Sachs** | HEXA | Cherry-red spot, neurodegeneration | AR | No |
+| **Fabry** | GLA | Acroparesthesias, angiokeratomas | X-linked | Some |
+| **Hunter (MPS II)** | IDS | NO corneal clouding | X-linked | No |
+| **Wilson** | ATP7B | K-F rings, liver disease | AR | No |
+| **FH** | LDLR | Very high LDL, xanthomas | AD | No |
+
+### 🏆 Board Exam Domain Coverage
+- **Primary Domain:** Clinical Genetics (40-50%)
+- **Secondary Domains:** General Genetics/Genomics (15-25%)
+- **Difficulty Level:** Intermediate to Advanced
+- **Estimated Study Time:** 15-18 hours
+- **Last Updated:** July 2025
+
+---
+
 ## 🎯 Learning Objectives
 
 By the end of this topic, you should be able to:
@@ -20,6 +74,9 @@ By the end of this topic, you should be able to:
 ---
 
 ## 📊 Overview of Metabolic Disorders
+
+<details>
+<summary><strong>📊 Classification by Pathway</strong> (Click to expand)</summary>
 
 ### Classification by Pathway
 1. **Small molecule diseases** - accumulation of toxic metabolites
@@ -42,6 +99,10 @@ By the end of this topic, you should be able to:
 - **Prenatal diagnosis**: Options and timing
 - **Emergency protocols**: Metabolic crisis management
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)**
+
 ---
 
 ## 🧬 AMINO ACID DISORDERS
@@ -54,13 +115,19 @@ By the end of this topic, you should be able to:
 2. **Musty body odor**
 3. **Fair skin/hair** (decreased pigmentation)
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Neurological**: Progressive ID without treatment, seizures, behavioral problems
 - **Dermatologic**: Eczema, decreased melanin → fair complexion
 - **Metabolic**: Elevated phenylalanine, low tyrosine
 - **Other**: Musty/mousy odor (phenylacetic acid in urine/sweat)
 
-#### 🧪 Biochemistry & Testing
+</details>
+
+<details>
+<summary><strong>🧪 Biochemistry & Testing</strong> (Click to expand)</summary>
+
 - **Defect**: Phenylalanine hydroxylase (PAH) deficiency
 - **Pathway**: Phenylalanine → Tyrosine (blocked)
 - **NBS**: Tandem MS - elevated phenylalanine
@@ -71,7 +138,11 @@ By the end of this topic, you should be able to:
   - Mild PKU: Phe 360-600 μmol/L
   - Mild hyperphe: Phe 120-360 μmol/L
 
-#### 🥗 Treatment & Management
+</details>
+
+<details>
+<summary><strong>🥗 Treatment & Management</strong> (Click to expand)</summary>
+
 - **Diet**: Low phenylalanine diet (avoid high protein foods)
 - **Formula**: Phe-free medical foods
 - **Monitoring**: Regular Phe levels
@@ -83,7 +154,11 @@ By the end of this topic, you should be able to:
   - >12 years: 120-600 μmol/L
   - Pregnancy: 120-360 μmol/L
 
-#### 👶 Maternal PKU Syndrome
+</details>
+
+<details>
+<summary><strong>👶 Maternal PKU Syndrome</strong> (Click to expand)</summary>
+
 - **Risks if Phe >360 μmol/L during pregnancy**:
   - Microcephaly (73%)
   - ID/DD (92%)
@@ -92,7 +167,11 @@ By the end of this topic, you should be able to:
 - **Prevention**: Strict diet control BEFORE conception
 - **Monitoring**: Weekly Phe levels during pregnancy
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Pattern**: Autosomal recessive
 - **Gene**: PAH (12q23.2)
 - **Prevalence**: 1:10,000-15,000 (US)
@@ -101,12 +180,16 @@ By the end of this topic, you should be able to:
   - Turkish: 1:25
   - Irish: 1:30
 
+</details>
+
 #### 💎 Board Pearls
 - Cannot test Phe/Tyr ratio if on birth control or pregnant
 - Most common inborn error of amino acid metabolism
 - All 50 states include PKU in NBS
 - Offspring of PKU mothers: 100% carriers, at risk for maternal PKU effects
 - Compliance challenges increase in adolescence
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Homocystinuria](#homocystinuria-)**
 
 ---
 
@@ -117,14 +200,20 @@ By the end of this topic, you should be able to:
 2. **Marfanoid habitus**
 3. **Thromboembolism risk**
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Ocular**: Ectopia lentis (85%), myopia, glaucoma
 - **Skeletal**: Tall stature, arachnodactyly, scoliosis, osteoporosis
 - **Vascular**: Thromboembolism (50% by age 30)
 - **Neurologic**: ID variable, seizures, psychiatric symptoms
 - **Other**: Fair complexion, malar flush
 
-#### 🧪 Biochemistry & Testing
+</details>
+
+<details>
+<summary><strong>🧪 Biochemistry & Testing</strong> (Click to expand)</summary>
+
 - **Defect**: Cystathionine β-synthase (CBS) deficiency (most common)
 - **Pathway**: Homocysteine → Cystathionine (blocked)
 - **NBS**: Not universally screened
@@ -134,7 +223,11 @@ By the end of this topic, you should be able to:
   - Urine homocystine
 - **Other causes**: MTHFR deficiency, B12 metabolism defects
 
-#### 🥗 Treatment & Management
+</details>
+
+<details>
+<summary><strong>🥗 Treatment & Management</strong> (Click to expand)</summary>
+
 - **B6 responsive (50%)**: High-dose pyridoxine
 - **B6 non-responsive**: 
   - Low methionine diet
@@ -143,17 +236,25 @@ By the end of this topic, you should be able to:
 - **Thrombosis prevention**: Aspirin, avoid surgery/dehydration
 - **Folate/B12**: For other forms
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Pattern**: Autosomal recessive
 - **Gene**: CBS (21q22.3)
 - **Prevalence**: 1:200,000-335,000
 - **Note**: Heterozygotes may have mild ↑ homocysteine → cardiovascular risk
+
+</details>
 
 #### 💎 Board Pearls
 - Lens dislocation: DOWN and OUT (vs Marfan: UP)
 - Major cause of preventable ID if B6 responsive
 - Screen before surgery due to thrombosis risk
 - Can be missed on NBS if mild or late-onset
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Tyrosinemia Type I](#tyrosinemia-type-i-)**
 
 ---
 
@@ -164,13 +265,19 @@ By the end of this topic, you should be able to:
 2. **Renal tubular dysfunction**
 3. **"Cabbage-like" odor**
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Hepatic**: Acute liver failure, cirrhosis, hepatocellular carcinoma
 - **Renal**: Fanconi syndrome, rickets
 - **Neurologic**: Painful crises (peripheral neuropathy)
 - **Other**: Failure to thrive, coagulopathy
 
-#### 🧪 Biochemistry & Testing
+</details>
+
+<details>
+<summary><strong>🧪 Biochemistry & Testing</strong> (Click to expand)</summary>
+
 - **Defect**: Fumarylacetoacetate hydrolase (FAH) deficiency
 - **Pathway**: Tyrosine degradation pathway (final step blocked)
 - **NBS**: Succinylacetone (pathognomonic)
@@ -179,23 +286,35 @@ By the end of this topic, you should be able to:
   - Plasma amino acids: ↑ tyrosine
   - AFP: markedly elevated
 
-#### 🥗 Treatment & Management
+</details>
+
+<details>
+<summary><strong>🥗 Treatment & Management</strong> (Click to expand)</summary>
+
 - **NTBC (nitisinone)**: Blocks upstream enzyme
 - **Diet**: Low tyrosine, low phenylalanine
 - **Monitoring**: AFP for HCC surveillance
 - **Liver transplant**: If medical management fails
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Pattern**: Autosomal recessive
 - **Gene**: FAH (15q25.1)
 - **Prevalence**: 1:100,000
 - **High risk**: French Canadian (Saguenay) 1:1,850
+
+</details>
 
 #### 💎 Board Pearls
 - Dramatically improved prognosis with NTBC
 - Succinylacetone is pathognomonic
 - High HCC risk even with treatment
 - Type II: eye/skin findings; Type III: mild ID
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Organic Acidemias](#-organic-acidemias)**
 
 ---
 
@@ -422,7 +541,9 @@ By the end of this topic, you should be able to:
 2. **E. coli sepsis** risk
 3. **Cataracts** (oil drop)
 
-#### 🏥 Clinical Features
+<details>
+<summary><strong>🏥 Clinical Features</strong> (Click to expand)</summary>
+
 - **Neonatal**: Poor feeding, vomiting, diarrhea after milk
 - **Hepatic**: Jaundice, hepatomegaly, cirrhosis
 - **Ocular**: Cataracts (reversible if early treatment)
@@ -431,7 +552,11 @@ By the end of this topic, you should be able to:
 - **Ovarian**: POI in females (80%)
 - **Infection**: E. coli sepsis predisposition
 
-#### 🧪 Biochemistry & Testing
+</details>
+
+<details>
+<summary><strong>🧪 Biochemistry & Testing</strong> (Click to expand)</summary>
+
 - **Defect**: Galactose-1-phosphate uridyltransferase (GALT)
 - **NBS**: Total galactose or GALT activity
 - **Confirmation**: 
@@ -440,7 +565,11 @@ By the end of this topic, you should be able to:
   - GALT gene sequencing
 - **False negatives**: If transfused before NBS
 
-#### 🥗 Treatment & Management
+</details>
+
+<details>
+<summary><strong>🥗 Treatment & Management</strong> (Click to expand)</summary>
+
 - **Diet**: STRICT galactose restriction
   - No breast milk or regular formula
   - Soy or elemental formula
@@ -452,12 +581,18 @@ By the end of this topic, you should be able to:
   - FSH/LH in females
 - **Calcium/Vit D**: Supplementation needed
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Pattern**: Autosomal recessive
 - **Gene**: GALT (9p13)
 - **Prevalence**: 1:30,000-60,000
 - **Common mutations**: Q188R (European), S135L (African)
 - **Duarte variant**: D2 - benign, no treatment needed
+
+</details>
 
 #### 💎 Board Pearls
 - Three types: Classic (GALT), Type II (GALK), Type III (GALE)
@@ -465,6 +600,8 @@ By the end of this topic, you should be able to:
 - POI → egg donation often needed
 - Duarte/Classical compound het = intermediate phenotype
 - E. coli sepsis is classic presentation
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Glycogen Storage Disease Type I](#glycogen-storage-disease-type-i-von-gierke-)**
 
 ---
 
@@ -1690,11 +1827,15 @@ B) Propionic acidemia
 C) Glycogen storage disease I
 D) Ornithine transcarbamylase deficiency
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: A - MCAD deficiency**
 - Hypoketotic hypoglycemia is classic
 - C8 elevation specific for MCAD
 - Triggered by illness/fasting
 - Hyperammonemia can occur
+</details>
 
 ### Question 2
 A couple of Ashkenazi Jewish descent requests carrier screening. The woman is found to be a carrier for Gaucher disease. What is the chance their child will be affected if the man is also of 100% Ashkenazi Jewish descent?
@@ -1704,10 +1845,14 @@ B) 1:120
 C) 1:240
 D) 1:900
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: A - 1:60**
 - Woman is carrier (confirmed)
 - Man's carrier risk: 1:15 (AJ population)
 - Risk calculation: 1 × 1/15 × 1/4 = 1/60
+</details>
 
 ### Question 3
 A 2-year-old boy presents with coarse facial features, developmental delay, and chronic ear infections. Physical exam reveals hepatosplenomegaly and limited joint mobility. Urine GAGs show increased heparan and dermatan sulfate. His maternal uncle died at age 8 with similar features. What is the most likely diagnosis?
@@ -1717,11 +1862,15 @@ B) MPS II (Hunter syndrome)
 C) MPS III (Sanfilippo syndrome)  
 D) Gaucher disease
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: B - MPS II (Hunter syndrome)**
 - X-linked inheritance (affected uncle, mother carrier)
 - Heparan + dermatan sulfate
 - Coarse features + organomegaly
 - MPS I is AR, not X-linked
+</details>
 
 ### Question 4
 A newborn screens positive for elevated phenylalanine. Confirmatory testing shows Phe 1450 μmol/L (normal <120). The parents ask about recurrence risk. What counseling is most appropriate?
@@ -1731,11 +1880,15 @@ B) 50% for males only
 C) <1% above general population risk
 D) Depends on maternal diet during pregnancy
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: A - 25% for all pregnancies**
 - PKU is autosomal recessive
 - Both parents must be carriers
 - Standard AR recurrence risk
 - Maternal diet affects teratogenicity, not recurrence
+</details>
 
 ### Question 5
 A 35-year-old woman with PKU (diagnosed by NBS, poorly controlled) presents at 8 weeks gestation. Her Phe level is 850 μmol/L. What is her fetus at highest risk for?
@@ -1745,50 +1898,84 @@ B) Microcephaly
 C) Galactosemia
 D) Neural tube defects
 
+<details>
+<summary>Click for answer</summary>
+
 **Answer: B - Microcephaly**
 - Maternal PKU syndrome
 - High Phe is teratogenic
 - Microcephaly most common (73%)
 - Fetus is obligate carrier, not affected
+</details>
 
 ---
 
-## ✅ Completion Checklist
+## ✅ Topic 5 Completion Checklist
 
-### Understanding Check:
-- [ ] Can list enzymes deficient in each disorder
-- [ ] Know which conditions are on NBS
-- [ ] Understand inheritance pattern for each
-- [ ] Can calculate carrier/recurrence risks
-- [ ] Know treatment options available
+### ✅ Core Knowledge Areas
+- [ ] Know which disorders are included in newborn screening
+- [ ] Understand PKU classification and maternal PKU syndrome
+- [ ] Master Ashkenazi Jewish carrier screening panel
+- [ ] Recognize emergency presentations (MCAD, MSUD, MMA)
+- [ ] Distinguish lysosomal storage disorders by features
+- [ ] Know inheritance patterns (AR vs X-linked disorders)
+- [ ] Understand enzyme replacement therapy options
+- [ ] Recognize Gaucher disease genotype-phenotype correlations
+- [ ] Know Wilson vs Menkes disease differences
+- [ ] Master familial hypercholesterolemia management
 
-### Clinical Application:
-- [ ] Recognize key presenting features
-- [ ] Know appropriate diagnostic tests
-- [ ] Understand dietary restrictions
-- [ ] Can counsel on reproductive options
-- [ ] Know when to refer for specialty care
+### 🎯 Clinical Skills
+- [ ] Can calculate carrier screening risks
+- [ ] Understand dietary management principles
+- [ ] Know emergency protocols for metabolic crises
+- [ ] Recognize when to suspect metabolic disorders
+- [ ] Can counsel about treatment compliance challenges
+- [ ] Apply population-specific screening recommendations
 
-### Board Readiness:
-- [ ] Memorized high-yield facts
-- [ ] Practiced risk calculations
-- [ ] Reviewed population screening
-- [ ] Understand treatment principles
-- [ ] Can differentiate similar conditions
+### 📚 Test Preparation
+- [ ] Completed all practice questions successfully
+- [ ] Reviewed mnemonics and memory aids
+- [ ] Know high-yield statistics and carrier frequencies
+- [ ] Understand biochemical pathways and testing
+- [ ] Memorized treatment approaches and outcomes
+- [ ] Created flashcards for enzyme deficiencies
 
-### Weak Areas to Review:
-- [ ] ________________________
-- [ ] ________________________
-- [ ] ________________________
+### 🔄 Final Review
+- [ ] Cross-referenced with newborn screening protocols
+- [ ] Verified population carrier frequencies
+- [ ] Confirmed treatment guidelines and monitoring
+- [ ] Reviewed emergency management protocols
 
 ---
 
-**Remember**: Metabolic disorders are HIGH YIELD for boards\! Focus on:
-1. NBS conditions and follow-up
-2. Population carrier screening (especially AJ)
-3. Dietary management and compliance
-4. Inheritance patterns (note X-linked\!)
-5. Emergency protocols
+## 🎓 Key Takeaway Messages
 
-**You've got this\! These conditions follow patterns - master the patterns, ace the exam\!** 🎯
-EOF < /dev/null
+1. **Newborn screening** prevents most severe outcomes for treatable conditions
+2. **Population screening** is most effective for high-risk groups (AJ, Cajun, etc.)
+3. **Dietary compliance** is lifelong and challenging, especially in adolescence
+4. **Emergency protocols** are critical for organic acidemias and FAO disorders
+5. **Enzyme replacement** available for several LSDs but costly and complex
+6. **X-linked disorders** have different inheritance patterns (Fabry, Hunter, etc.)
+7. **Carrier testing** essential for affected families and high-risk populations
+8. **Metabolic crises** require immediate intervention to prevent permanent damage
+9. **Genotype-phenotype** correlations guide prognosis and treatment
+10. **Multidisciplinary care** essential for optimal outcomes
+
+---
+
+## 🔗 Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Neurological Disorders](topic4-neurological-developmental.md)** | **[➡️ Next Topic: Final Topic](topic6-final-topic.md)**
+
+---
+
+**🕒 Study Time Recommendation:** 15-18 hours  
+**🗓️ Review Schedule:** Review this topic after completing Topic 6
+
+**🏆 Completion Status:** Topic 5 of 6 complete
+
+---
+
+**Remember:** This guide covers testable material for the genetic counseling board exam. Focus on recognition patterns, inheritance risks, and treatment strategies rather than detailed molecular mechanisms.
+
+Good luck with your studies\! 🧬

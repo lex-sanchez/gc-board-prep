@@ -1,5 +1,44 @@
 # Topic 2: Cancer Genetics - Hereditary Cancer Syndromes
 
+## 📖 Quick Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Chromosomal Disorders](topic1-chromosomal-disorders.md)** | **[➡️ Next: Organ Systems](topic3-organ-systems-a.md)**
+
+### 📋 Table of Contents
+- [🎯 Learning Objectives](#-learning-objectives)
+- [🧬 Cancer Genetics Fundamentals](#-cancer-genetics-fundamentals)
+- [🎀 Hereditary Breast & Ovarian Cancer](#-hereditary-breast--ovarian-cancer)
+  - [BRCA1/BRCA2 Syndromes ⭐⭐⭐](#brca1brca2-syndromes-)
+  - [Cowden Syndrome (PTEN) ⭐⭐](#cowden-syndrome-pten-)
+  - [Li-Fraumeni Syndrome ⭐⭐](#li-fraumeni-syndrome-tp53-)
+- [🎗️ Hereditary Colorectal Cancer](#️-hereditary-colorectal-cancer)
+  - [Lynch Syndrome ⭐⭐⭐](#lynch-syndrome-)
+  - [Familial Adenomatous Polyposis ⭐⭐⭐](#familial-adenomatous-polyposis-fap-)
+  - [MUTYH-Associated Polyposis ⭐⭐](#mutyh-associated-polyposis-map-)
+- [🧠 Phakomatoses (Neurocutaneous Syndromes)](#-phakomatoses-neurocutaneous-syndromes)
+  - [Neurofibromatosis Type 1 ⭐⭐⭐](#neurofibromatosis-type-1-nf1-)
+  - [Neurofibromatosis Type 2 ⭐⭐](#neurofibromatosis-type-2-nf2-)
+  - [Tuberous Sclerosis Complex ⭐⭐](#tuberous-sclerosis-complex-tsc-)
+- [🫀 Additional Cancer Syndromes](#-additional-cancer-syndromes)
+- [🧠 Study Tips & Mnemonics](#-study-tips--mnemonics)
+- [📝 High-Yield Facts Summary](#-high-yield-facts-summary)
+- [🎯 Practice Questions](#-practice-questions)
+- [🏁 Topic 2 Completion Checklist](#-topic-2-completion-checklist)
+
+### 🔍 Quick Syndrome Lookup
+| Syndrome | Gene(s) | Primary Cancers | Key Features | Inheritance |
+|----------|---------|-----------------|--------------|-------------|
+| **BRCA1/2** | BRCA1, BRCA2 | Breast, ovarian | Early onset, family history | AD |
+| **Lynch** | MLH1, MSH2, MSH6, PMS2 | Colorectal, endometrial | Microsatellite instability | AD |
+| **FAP** | APC | Colorectal | >100 adenomatous polyps | AD |
+| **Li-Fraumeni** | TP53 | Sarcoma, breast, brain, adrenal | Childhood cancers | AD |
+| **Cowden** | PTEN | Breast, thyroid, endometrial | Macrocephaly, hamartomas | AD |
+| **NF1** | NF1 | Neurofibromas, MPNST | Café-au-lait spots, neurofibromas | AD |
+| **NF2** | NF2 | Schwannomas, meningiomas | Bilateral acoustic neuromas | AD |
+| **TSC** | TSC1, TSC2 | Renal angiomyolipomas | Seizures, mental retardation | AD |
+
+---
+
 ## 🎯 Learning Objectives
 
 By the end of this topic, you should be able to:
@@ -17,7 +56,8 @@ By the end of this topic, you should be able to:
 
 ## 🧬 Cancer Genetics Fundamentals
 
-### Key Concepts
+<details>
+<summary><strong>🔬 Key Concepts</strong> (Click to expand)</summary>
 
 **Two-Hit Hypothesis (Knudson):**
 - **First hit**: Germline mutation (inherited)
@@ -35,6 +75,10 @@ By the end of this topic, you should be able to:
 - Variable penetrance and expressivity
 - Anticipation in some syndromes
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)**
+
 ---
 
 ## 🎀 HEREDITARY BREAST & OVARIAN CANCER
@@ -47,7 +91,8 @@ By the end of this topic, you should be able to:
 2. **Ovarian cancer** - epithelial type
 3. **Early age of onset** - often <50 years
 
-#### 🏥 Cancer Risks
+<details>
+<summary><strong>🏥 Cancer Risks</strong> (Click to expand)</summary>
 
 **BRCA1:**
 - **Breast cancer**: 55-72% lifetime risk
@@ -63,7 +108,11 @@ By the end of this topic, you should be able to:
 - **Melanoma**: 2.5x increased risk
 - **Prostate cancer**: 20% lifetime risk (high-grade)
 
-#### 🧬 Molecular Features
+</details>
+
+<details>
+<summary><strong>🧬 Molecular Features</strong> (Click to expand)</summary>
+
 - **BRCA1**: Chromosome 17q21, DNA repair (homologous recombination)
 - **BRCA2**: Chromosome 13q12-13, DNA repair (homologous recombination)
 - **Founder mutations** (Ashkenazi Jewish):
@@ -71,16 +120,24 @@ By the end of this topic, you should be able to:
   - 5382insC (BRCA1)  
   - 6174delT (BRCA2)
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Inheritance**: Autosomal dominant
 - **Prevalence**: 1/400-500 general population; 1/40 Ashkenazi Jewish
 - **Penetrance**: Variable, influenced by modifying factors
+
+</details>
 
 #### 💎 Board Pearls
 - BRCA1 tumors: Triple-negative, basal-like
 - BRCA2 tumors: ER+, HER2-, luminal
 - Male BRCA2 carriers have higher breast cancer risk than BRCA1
 - Consider testing if ≥10% chance of mutation (family history models)
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Cowden Syndrome](#cowden-syndrome-pten-)**
 
 ---
 
@@ -91,27 +148,41 @@ By the end of this topic, you should be able to:
 2. **Trichilemmomas** - skin lesions on face
 3. **Multiple cancer risks** - breast, thyroid, endometrial
 
-#### 🏥 Cancer Risks
+<details>
+<summary><strong>🏥 Cancer Risks</strong> (Click to expand)</summary>
+
 - **Breast cancer**: 85% lifetime risk
 - **Thyroid cancer**: 35% (follicular type)
 - **Endometrial cancer**: 28%
 - **Renal cancer**: 34%
 - **Colorectal cancer**: 9%
 
-#### 🎭 Clinical Features
+</details>
+
+<details>
+<summary><strong>🎭 Clinical Features</strong> (Click to expand)</summary>
+
 - **Dermatologic**: Trichilemmomas, papillomatous papules, acral keratoses
 - **GI**: Hamartomatous polyps, lipomas
 - **Neurologic**: Macrocephaly, cerebellar tumors (Lhermitte-Duclos)
 - **Other**: Goiter, autism spectrum (some cases)
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Gene**: PTEN (chromosome 10q23)
 - **Inheritance**: AD, 10-50% de novo
 - **Prevalence**: 1/200,000
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Colorectal Cancer Syndromes](#️-hereditary-colorectal-cancer)**
+
 ---
 
-## 🎯 COLORECTAL CANCER SYNDROMES
+## 🎗️ HEREDITARY COLORECTAL CANCER
 
 ### Lynch Syndrome (HNPCC) ⭐⭐⭐
 
@@ -120,7 +191,8 @@ By the end of this topic, you should be able to:
 2. **Endometrial cancer** - most common extracolonic cancer
 3. **MSI-High tumors** - microsatellite instability
 
-#### 🏥 Cancer Risks
+<details>
+<summary><strong>🏥 Cancer Risks</strong> (Click to expand)</summary>
 
 **MLH1/MSH2 (higher penetrance):**
 - **Colorectal**: 52-82% (males), 35-51% (females)
@@ -131,23 +203,39 @@ By the end of this topic, you should be able to:
 - **Colorectal**: 10-22% (MSH6), 15-20% (PMS2)
 - **Endometrial**: 16-26% (MSH6), 15% (PMS2)
 
-#### 🧬 Molecular Mechanism
+</details>
+
+<details>
+<summary><strong>🧬 Molecular Mechanism</strong> (Click to expand)</summary>
+
 - **Genes**: MLH1, MSH2, MSH6, PMS2 (mismatch repair)
 - **Protein pairs**: MLH1/PMS2, MSH2/MSH6
 - **Tumor characteristics**: MSI-High, loss of IHC staining
 
-#### 🎭 Associated Syndromes
+</details>
+
+<details>
+<summary><strong>🎭 Associated Syndromes</strong> (Click to expand)</summary>
+
 - **Turcot syndrome**: Lynch + brain tumors (glioblastoma)
 - **Muir-Torre syndrome**: Lynch + sebaceous tumors
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Inheritance**: Autosomal dominant
 - **Prevalence**: 1/440 (most common hereditary CRC syndrome)
+
+</details>
 
 #### 💎 Board Pearls
 - Amsterdam criteria: 3-2-1 rule (3 affected, 2 generations, 1 <50 years)
 - Bethesda criteria: More sensitive for testing
 - Universal tumor screening recommended
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Familial Adenomatous Polyposis](#familial-adenomatous-polyposis-fap-)**
 
 ---
 
@@ -158,35 +246,53 @@ By the end of this topic, you should be able to:
 2. **100% cancer risk** - if untreated
 3. **Extracolonic features** - CHRPE, desmoids, dental
 
-#### 🏥 Cancer Risks
+<details>
+<summary><strong>🏥 Cancer Risks</strong> (Click to expand)</summary>
+
 - **Colorectal**: 100% by age 40-50 if untreated
 - **Duodenal**: 4-12% lifetime risk
 - **Thyroid**: 2% (papillary type)
 - **Hepatoblastoma**: Childhood risk
 - **Medulloblastoma**: Turcot variant
 
-#### 🎭 Extracolonic Features
+</details>
+
+<details>
+<summary><strong>🎭 Extracolonic Features</strong> (Click to expand)</summary>
+
 - **CHRPE**: Congenital hypertrophy of retinal pigment epithelium
 - **Desmoid tumors**: Aggressive fibromatosis
 - **Dental**: Supernumerary teeth, odontomas
 - **Bone**: Osteomas, jaw cysts
 - **Skin**: Epidermoid cysts
 
-#### 📈 Variants
+</details>
+
+<details>
+<summary><strong>📈 Variants</strong> (Click to expand)</summary>
+
 - **Classic FAP**: >100 polyps, APC mutations 5' end
 - **Attenuated FAP**: 10-100 polyps, APC mutations 3' end
 - **Gardner syndrome**: FAP + extracolonic features
 - **Turcot syndrome**: FAP + medulloblastoma
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Gene**: APC (chromosome 5q21)
 - **Inheritance**: AD, 25% de novo
 - **Prevalence**: 1/7,000
 - **AJ founder mutation**: I1307K (moderate risk increase)
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Li-Fraumeni Syndrome](#li-fraumeni-syndrome-tp53-)**
+
 ---
 
-## 🧠 RARE CANCER SYNDROMES
+## 🫀 Additional Cancer Syndromes
 
 ### Li-Fraumeni Syndrome (TP53) ⭐⭐⭐
 
@@ -195,26 +301,40 @@ By the end of this topic, you should be able to:
 2. **Early onset** - often childhood/young adult
 3. **Multiple primary cancers** - up to 90% lifetime risk
 
-#### 🏥 Cancer Spectrum
+<details>
+<summary><strong>🏥 Cancer Spectrum</strong> (Click to expand)</summary>
+
 - **Adrenal cortical carcinoma**: Childhood hallmark
 - **Breast cancer**: Triple-positive, early onset
 - **Brain tumors**: Glioblastoma, choroid plexus carcinoma
 - **Sarcomas**: Osteosarcoma, soft tissue sarcomas
 - **Other**: Leukemia, lung, colorectal, pancreatic
 
-#### ⚠️ Clinical Management
+</details>
+
+<details>
+<summary><strong>⚠️ Clinical Management</strong> (Click to expand)</summary>
+
 - **Avoid radiation** - extreme radiation sensitivity
 - **Whole body MRI**: Annual screening protocol
 - **Early detection focus**: Cannot prevent, focus on early detection
 
-#### 📈 Inheritance & Statistics
+</details>
+
+<details>
+<summary><strong>📈 Inheritance & Statistics</strong> (Click to expand)</summary>
+
 - **Gene**: TP53 (chromosome 17p13) - "guardian of the genome"
 - **Inheritance**: AD, 7-20% de novo
 - **Prevalence**: 1/4,000; founder mutation in Brazil (1/375)
 
+</details>
+
 #### 💎 Board Pearls
 - Classic criteria: Proband <45y + 1st/2nd degree relative <45y + 1st/2nd degree relative with LFS tumor
 - R337H mutation: Brazilian founder, lower penetrance
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Phakomatoses](#-phakomatoses-neurocutaneous-syndromes)**
 
 ---
 
@@ -246,7 +366,7 @@ By the end of this topic, you should be able to:
 
 ---
 
-## 🧬 PHAKOMATOSES (Neurocutaneous Syndromes)
+## 🧠 PHAKOMATOSES (Neurocutaneous Syndromes)
 
 ### Neurofibromatosis Type 1 (NF1) ⭐⭐⭐
 
@@ -426,7 +546,8 @@ By the end of this topic, you should be able to:
 
 ## 🧠 Study Tips & Mnemonics
 
-### Cancer Gene Memory Aids
+<details>
+<summary><strong>🔢 Cancer Gene Memory Aids</strong> (Click to expand)</summary>
 
 **BRCA Differences**:
 - **"BRCA1 = 1st to get cancer"** - Higher breast/ovarian risks
@@ -448,37 +569,61 @@ By the end of this topic, you should be able to:
 - **MEN1 = "PPP"** - Pituitary, Parathyroid, Pancreatic
 - **MEN2 = "MTC + Pheos"** - Medullary Thyroid Cancer + Pheochromocytoma
 
-### Penetrance Memory Aid
+</details>
+
+<details>
+<summary><strong>📊 Penetrance Memory Aid</strong> (Click to expand)</summary>
+
 **"High vs Lower Penetrance"**:
 - **High**: BRCA1/2, TP53, APC, MLH1/MSH2
 - **Lower**: MSH6/PMS2, CHEK2, ATM
+
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: High-Yield Facts](#-high-yield-facts-summary)**
 
 ---
 
 ## 📝 High-Yield Facts Summary
 
-### Must-Know Cancer Risks
+<details>
+<summary><strong>🎯 Must-Know Cancer Risks</strong> (Click to expand)</summary>
+
 - **BRCA1**: 55-72% breast, 39-44% ovarian
 - **BRCA2**: 45-69% breast, 11-17% ovarian, 6-8% male breast
 - **Lynch (MLH1/MSH2)**: 52-82% colorectal, 25-60% endometrial
 - **FAP**: 100% colorectal if untreated
 - **Li-Fraumeni**: Up to 90% any cancer
 
-### Testing Criteria
+</details>
+
+<details>
+<summary><strong>🧪 Testing Criteria</strong> (Click to expand)</summary>
+
 - **BRCA**: ≥10% mutation probability (family history models)
 - **Lynch**: Amsterdam/Bethesda criteria, universal tumor screening
 - **NF1**: Clinical criteria (need 2 of 7)
 - **Surveillance**: Gene-specific protocols, start early
 
-### Key Management Points
+</details>
+
+<details>
+<summary><strong>🛡️ Key Management Points</strong> (Click to expand)</summary>
+
 - **Li-Fraumeni**: Avoid radiation, whole body MRI
 - **VHL**: Ophthalmologic screening for retinal hemangioblastomas
 - **MEN2**: Prophylactic thyroidectomy based on mutation
 - **FAP**: Prophylactic colectomy, upper endoscopy
 
+</details>
+
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Practice Questions](#-practice-questions)**
+
 ---
 
 ## 🎯 Practice Questions
+
+> **📝 Study Tip**: Try answering these questions before clicking for the answer. These mirror actual board exam question styles.
 
 ### Question 1
 A 35-year-old woman with breast cancer has a family history of ovarian cancer in her mother and pancreatic cancer in her maternal grandfather. Genetic testing is most likely to reveal a mutation in which gene?
@@ -528,10 +673,13 @@ A family meets Amsterdam criteria for Lynch syndrome. Tumor testing on the proba
 When a tumor shows loss of MLH1 by IHC, the next step is to determine if this is due to somatic hypermethylation (sporadic) or germline mutation (Lynch syndrome). MLH1 promoter hypermethylation testing should be performed first. If negative, then germline testing is indicated.
 </details>
 
+**[⬆️ Back to Top](#-quick-navigation)** | **[➡️ Next: Completion Checklist](#-topic-2-completion-checklist)**
+
 ---
 
 ## 🏁 Topic 2 Completion Checklist
 
+### ✅ Knowledge Mastery
 - [ ] Understand two-hit hypothesis and tumor suppressor vs oncogene concepts
 - [ ] Know cancer risks and features for BRCA1 vs BRCA2
 - [ ] Can distinguish Lynch syndrome from FAP
@@ -539,11 +687,27 @@ When a tumor shows loss of MLH1 by IHC, the next step is to determine if this is
 - [ ] Recognize NF1 diagnostic criteria and NF2 key features
 - [ ] Know MEN1 vs MEN2 differences and RET genotype-phenotype
 - [ ] Understand retinoblastoma bilateral vs unilateral implications
-- [ ] Completed all practice questions successfully
 
-**Next Topic**: [Topic 3: Organ System Disorders →](topic3-organ-systems-a.md)
+### 🎯 Practice & Review
+- [ ] Completed all practice questions successfully
+- [ ] Reviewed mnemonics and memory aids
+- [ ] Can recall cancer risk percentages for major syndromes
+- [ ] Understand testing criteria and management protocols
+
+### 🔄 Self-Assessment
+- [ ] Confident distinguishing between hereditary cancer syndromes
+- [ ] Can apply testing criteria in clinical scenarios
+- [ ] Ready to move to next topic
 
 ---
 
-*Study Time Recommendation: 8-10 hours*  
-*Review Schedule: Review this topic after completing Topic 4*
+## 🔗 Navigation
+
+**[⬆️ Back to Master Index](study-guide-master-index.md)** | **[⬅️ Previous: Chromosomal Disorders](topic1-chromosomal-disorders.md)** | **[➡️ Next Topic: Organ Systems](topic3-organ-systems-a.md)**
+
+---
+
+**🕒 Study Time Recommendation:** 8-10 hours  
+**🗓️ Review Schedule:** Review this topic after completing Topic 4
+
+**🏆 Completion Status:** Topic 2 of 6 complete
