@@ -11,6 +11,14 @@ Welcome to your comprehensive genetic counseling board exam preparation resource
 - **Practice Questions**: 60+ board-style questions across all topics
 - **Memory Aids**: 50+ mnemonics and study tips
 
+## Quick Links to All Topics:
+- 📖 [Topic 1: Chromosomal Disorders](topic1-chromosomal-disorders.md)
+- 🎀 [Topic 2: Cancer Genetics](topic2-cancer-genetics.md)  
+- 🫁 [Topic 3: Organ Systems A](topic3-organ-systems-a.md)
+- 🧠 [Topic 4: Neurological & Developmental](topic4-neurological-developmental.md)
+- 🧪 [Topic 5: Metabolic Disorders](topic5-metabolic-disorders.md)
+- 🔬 [Topic 6: Specialized Systems](topic6-specialized-systems.md)
+
 ---
 
 ## 🗂️ Topic Navigation
@@ -385,13 +393,3 @@ You now have access to the most comprehensive genetic counseling board exam stud
 *Total Study Time: 40-50 hours*  
 *Last Updated: January 2025*  
 *Created with genetic counseling board exam success in mind* 🧬✨
-
----
-
-## Quick Links to All Topics:
-- 📖 [Topic 1: Chromosomal Disorders](topic1-chromosomal-disorders.md)
-- 🎀 [Topic 2: Cancer Genetics](topic2-cancer-genetics.md)  
-- 🫁 [Topic 3: Organ Systems A](topic3-organ-systems-a.md)
-- 🧠 [Topic 4: Neurological & Developmental](topic4-neurological-developmental.md)
-- 🧪 [Topic 5: Metabolic Disorders](topic5-metabolic-disorders.md)
-- 🔬 [Topic 6: Specialized Systems](topic6-specialized-systems.md)
