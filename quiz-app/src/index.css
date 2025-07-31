@@ -1,0 +1,131 @@
+
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Orange theme color palette */
+    --background: 37 100% 96%; /* #fff7e9 - Light cream background */
+    --foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --card: 37 100% 96%; /* #fff7e9 - Light cream for cards */
+    --card-foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --popover: 37 100% 96%; /* #fff7e9 - Light cream */
+    --popover-foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --primary: 39 100% 80%; /* #ffdc99 - Medium orange/gold (primary) */
+    --primary-foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --secondary: 40 100% 85%; /* #ffe6b5 - Light orange accent */
+    --secondary-foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --muted: 40 100% 85%; /* #ffe6b5 - Light orange accent */
+    --muted-foreground: 44 26% 35%; /* Lighter brown for muted text */
+    --accent: 9 100% 81%; /* #ffad9e - Coral/peach accent */
+    --accent-foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --destructive: 0 84.2% 60.2%; /* Keep red for errors */
+    --destructive-foreground: 37 100% 96%; /* Light cream */
+    --border: 40 100% 90%; /* Lighter orange for borders */
+    --input: 37 100% 96%; /* Light cream for inputs */
+    --ring: 39 100% 80%; /* #ffdc99 - Orange for focus rings */
+    --radius: 0.5rem;
+    
+    /* Additional semantic colors for quiz interface */
+    --success: 120 60% 50%; /* Green for correct answers */
+    --success-foreground: 37 100% 96%;
+    --warning: 38 100% 50%; /* Orange for warnings/flagged */
+    --warning-foreground: 44 26% 11%;
+    --info: 39 100% 80%; /* Use orange theme for info */
+    --info-foreground: 44 26% 11%;
+  }
+
+  .dark {
+    /* Dark theme with orange color palette */
+    --background: 44 26% 11%; /* #242015 - Dark brown background */
+    --foreground: 37 100% 96%; /* #fff7e9 - Light cream text */
+    --card: 44 26% 15%; /* Slightly lighter than background */
+    --card-foreground: 37 100% 96%; /* #fff7e9 - Light cream text */
+    --popover: 44 26% 15%; /* Slightly lighter than background */
+    --popover-foreground: 37 100% 96%; /* #fff7e9 - Light cream text */
+    --primary: 39 100% 80%; /* #ffdc99 - Medium orange/gold */
+    --primary-foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --secondary: 44 26% 20%; /* Darker warm tone */
+    --secondary-foreground: 37 100% 96%; /* #fff7e9 - Light cream text */
+    --muted: 44 26% 20%; /* Darker warm tone */
+    --muted-foreground: 37 100% 70%; /* Muted light cream */
+    --accent: 9 100% 81%; /* #ffad9e - Coral/peach accent */
+    --accent-foreground: 44 26% 11%; /* #242015 - Dark brown text */
+    --destructive: 0 62.8% 30.6%; /* Keep red for errors */
+    --destructive-foreground: 37 100% 96%; /* Light cream */
+    --border: 44 26% 25%; /* Darker warm border */
+    --input: 44 26% 25%; /* Darker warm input */
+    --ring: 39 100% 80%; /* #ffdc99 - Orange for focus rings */
+    
+    /* Additional semantic colors for quiz interface - dark theme */
+    --success: 120 60% 40%; /* Darker green for correct answers */
+    --success-foreground: 37 100% 96%;
+    --warning: 38 100% 40%; /* Darker orange for warnings/flagged */
+    --warning-foreground: 37 100% 96%;
+    --info: 39 100% 70%; /* Darker orange for info */
+    --info-foreground: 44 26% 11%;
+  }
+}
+
+/* Custom styles for quiz components */
+@layer components {
+  .answer-option {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid hsl(var(--border));
+    background-color: hsl(var(--card));
+    color: hsl(var(--card-foreground));
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .answer-option:hover:not(:disabled) {
+    background-color: hsl(var(--accent) / 0.1);
+    border-color: hsl(var(--accent));
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    transform: translateY(-1px);
+  }
+  
+  .answer-option:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .answer-option.correct {
+    background-color: hsl(var(--success) / 0.1);
+    border-color: hsl(var(--success));
+    color: hsl(var(--success-foreground));
+  }
+  
+  .answer-option.incorrect {
+    background-color: hsl(var(--destructive) / 0.1);
+    border-color: hsl(var(--destructive));
+    color: hsl(var(--destructive-foreground));
+  }
+  
+  .answer-option.selected {
+    background-color: hsl(var(--primary) / 0.1);
+    border-color: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+  
+  .question-card {
+    border-color: hsl(var(--border));
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    background-color: hsl(var(--card));
+  }
+  
+  .question-card:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+    border-color: hsl(var(--primary));
+  }
+  
+  /* Orange gradient backgrounds */
+  .gradient-orange {
+    background: linear-gradient(135deg, hsl(var(--secondary)) 0%, hsl(var(--primary)) 50%, hsl(var(--accent)) 100%);
+  }
+  
+  .gradient-orange-subtle {
+    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--secondary) / 0.3) 100%);
+  }
+}
