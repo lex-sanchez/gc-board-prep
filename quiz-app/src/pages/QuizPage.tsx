@@ -21,8 +21,8 @@ function QuizSelection() {
   
   return (
     <div className="space-y-8">
-      <div className="text-center space-y-4">
-        <h1 className="text-3xl font-bold">Choose Your Practice Mode</h1>
+      <div className="quiz-hero-section">
+        <h1 className="hero-title">Choose Your Practice Mode</h1>
         <p className="text-lg text-muted-foreground">
           Select the type of questions and practice mode that best fits your study needs
         </p>
@@ -40,20 +40,20 @@ function QuizSelection() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <button
               onClick={() => setSelectedMode('practice')}
-              className={`p-4 rounded-lg border-2 transition-all text-left ${
-                selectedMode === 'practice' 
-                  ? 'border-primary bg-primary/10' 
-                  : 'border-border hover:border-primary/50'
+              className={`mode-selection-card text-left ${
+                selectedMode === 'practice' ? 'selected' : ''
               }`}
             >
-              <div className="flex items-center gap-3">
-                <BookOpen className="h-6 w-6 text-primary" />
+              <div className="flex items-center gap-4">
+                <div className="mode-icon">
+                  <BookOpen className="h-6 w-6 text-primary" />
+                </div>
                 <div>
-                  <h3 className="font-semibold">Practice Mode</h3>
-                  <p className="text-sm text-muted-foreground">
+                  <h3 className="font-semibold text-lg">Practice Mode</h3>
+                  <p className="text-sm text-muted-foreground mt-1">
                     Untimed practice with immediate explanations
                   </p>
                 </div>
@@ -62,17 +62,17 @@ function QuizSelection() {
             
             <button
               onClick={() => setSelectedMode('timed')}
-              className={`p-4 rounded-lg border-2 transition-all text-left ${
-                selectedMode === 'timed' 
-                  ? 'border-primary bg-primary/10' 
-                  : 'border-border hover:border-primary/50'
+              className={`mode-selection-card text-left ${
+                selectedMode === 'timed' ? 'selected' : ''
               }`}
             >
-              <div className="flex items-center gap-3">
-                <Timer className="h-6 w-6 text-warning" />
+              <div className="flex items-center gap-4">
+                <div className="mode-icon">
+                  <Timer className="h-6 w-6 text-warning" />
+                </div>
                 <div>
-                  <h3 className="font-semibold">Timed Mode</h3>
-                  <p className="text-sm text-muted-foreground">
+                  <h3 className="font-semibold text-lg">Timed Mode</h3>
+                  <p className="text-sm text-muted-foreground mt-1">
                     Board exam simulation with time pressure
                   </p>
                 </div>
@@ -83,26 +83,26 @@ function QuizSelection() {
       </Card>
       
       {/* Question Categories */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Core Topics */}
-        <Card>
+        <div className="quiz-category-card">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Brain className="h-5 w-5 text-primary" />
+            <CardTitle className="flex items-center gap-3">
+              <Brain className="h-6 w-6 text-primary" />
               Core Practice Questions ({metadata.coreQuestions} questions)
             </CardTitle>
-            <CardDescription>
+            <CardDescription className="text-base">
               Master fundamental genetic counseling concepts
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="grid grid-cols-1 gap-2">
+          <CardContent className="space-y-6">
+            <div className="space-y-3">
               {Object.entries(CORE_TOPICS).map(([key, name]) => {
                 const topicData = metadata.topics[name]
                 return (
-                  <div key={key} className="flex justify-between items-center p-3 rounded-lg bg-muted/50">
+                  <div key={key} className="quiz-topic-item">
                     <span className="text-sm font-medium">{name}</span>
-                    <span className="text-sm text-muted-foreground">
+                    <span className="quiz-topic-count">
                       {topicData?.count || 0} questions
                     </span>
                   </div>
@@ -111,34 +111,34 @@ function QuizSelection() {
             </div>
             
             <Button 
-              className="w-full" 
+              className="w-full button-enhanced" 
               onClick={() => handleStartQuiz('core')}
             >
               <Play className="h-4 w-4 mr-2" />
               Practice All Core Topics
             </Button>
           </CardContent>
-        </Card>
+        </div>
         
         {/* Advanced Domains */}
-        <Card>
+        <div className="quiz-category-card">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Award className="h-5 w-5 text-accent" />
+            <CardTitle className="flex items-center gap-3">
+              <Award className="h-6 w-6 text-accent" />
               Advanced Practice Questions ({metadata.advancedQuestions} questions)
             </CardTitle>
-            <CardDescription>
+            <CardDescription className="text-base">
               Challenge yourself with specialized domains
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="grid grid-cols-1 gap-2 max-h-76 overflow-y-auto">
+          <CardContent className="space-y-6">
+            <div className="space-y-3 max-h-80 overflow-y-auto">
               {Object.entries(ADVANCED_DOMAINS).map(([key, name]) => {
                 const domainData = metadata.domains[name]
                 return (
-                  <div key={key} className="flex justify-between items-center p-3 rounded-lg bg-muted/50">
+                  <div key={key} className="quiz-topic-item">
                     <span className="text-sm font-medium">{name}</span>
-                    <span className="text-sm text-muted-foreground">
+                    <span className="quiz-topic-count">
                       {domainData?.count || 0} questions
                     </span>
                   </div>
@@ -155,63 +155,60 @@ function QuizSelection() {
               Practice Advanced Domains
             </Button>
           </CardContent>
-        </Card>
+        </div>
       </div>
       
       {/* Mixed Practice - All Questions */}
-      <Card className="border-2 border-primary/20 bg-gradient-to-r from-primary/5 to-accent/5">
-        <CardContent className="p-6">
-          <div className="text-center space-y-4">
-            <div className="space-y-2">
-              <h3 className="text-xl font-semibold">Mixed Practice Session</h3>
-              <p className="text-muted-foreground">
-                Practice with questions from all topics and domains combined ({metadata.totalQuestions} total questions)
-              </p>
-            </div>
-            <Button 
-              size="lg"
-              className="w-full max-w-md mx-auto text-base py-6"
-              onClick={() => handleStartQuiz('mixed')}
-            >
-              <Play className="h-5 w-5 mr-2" />
-              Mixed Practice (All Questions)
-            </Button>
+      <div className="mixed-practice-card">
+        <div className="space-y-6">
+          <div className="space-y-3">
+            <h3 className="text-2xl font-bold">Mixed Practice Session</h3>
+            <p className="text-muted-foreground text-lg">
+              Practice with questions from all topics and domains combined ({metadata.totalQuestions} total questions)
+            </p>
           </div>
-        </CardContent>
-      </Card>
+          <button 
+            className="mixed-practice-button"
+            onClick={() => handleStartQuiz('mixed')}
+          >
+            <Play className="h-5 w-5 mr-3" />
+            Mixed Practice (All Questions)
+          </button>
+        </div>
+      </div>
       
       {/* Quick Stats */}
-      <Card>
+      <div className="quiz-progress-card">
         <CardHeader>
-          <CardTitle>Your Progress</CardTitle>
+          <CardTitle className="text-xl">Your Progress</CardTitle>
           <CardDescription>
             Track your improvement over time
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="text-center p-4 bg-primary/10 rounded-lg">
-              <p className="text-2xl font-bold text-primary">0</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="progress-stat-item primary-stat">
+              <p className="progress-stat-number">0</p>
               <p className="text-sm text-muted-foreground">Quizzes Completed</p>
             </div>
-            <div className="text-center p-4 bg-success/10 rounded-lg">
-              <p className="text-2xl font-bold text-success">--%</p>
+            <div className="progress-stat-item success-stat">
+              <p className="progress-stat-number">--%</p>
               <p className="text-sm text-muted-foreground">Average Score</p>
             </div>
-            <div className="text-center p-4 bg-accent/10 rounded-lg">
-              <p className="text-2xl font-bold text-accent">0</p>
+            <div className="progress-stat-item accent-stat">
+              <p className="progress-stat-number">0</p>
               <p className="text-sm text-muted-foreground">Questions Answered</p>
             </div>
           </div>
-          <div className="mt-4 text-center">
+          <div className="mt-6 text-center">
             <Link to="/progress">
-              <Button variant="ghost">
+              <Button variant="ghost" className="hover:bg-primary/10">
                 View Detailed Progress →
               </Button>
             </Link>
           </div>
         </CardContent>
-      </Card>
+      </div>
     </div>
   )
 }

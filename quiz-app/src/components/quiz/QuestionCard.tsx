@@ -114,7 +114,7 @@ export function QuestionCard({
     <div className="space-y-6">
       {/* Progress Header */}
       <div className="space-y-2">
-        <div className="flex justify-between items-center text-sm text-muted-foreground">
+        <div className="flex justify-between items-center text-caption">
           <span>Question {questionIndex + 1} of {totalQuestions}</span>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-1">
@@ -145,7 +145,7 @@ export function QuestionCard({
                   {question.topic}
                 </span>
               </div>
-              <CardTitle className="text-xl leading-relaxed">
+              <CardTitle className="text-title leading-relaxed">
                 {question.question}
               </CardTitle>
             </div>

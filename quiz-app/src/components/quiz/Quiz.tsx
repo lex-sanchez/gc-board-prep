@@ -43,7 +43,7 @@ export function Quiz({ showExplanations = true, onComplete }: QuizProps) {
   if (!currentQuestion && !state.progress.isComplete) {
     return (
       <div className="text-center space-y-4">
-        <h2 className="text-2xl font-bold">No Quiz Active</h2>
+        <h2 className="text-heading">No Quiz Active</h2>
         <p className="text-muted-foreground">Please start a quiz first.</p>
         <Button onClick={() => navigate('/quiz')}>
           Start Quiz
@@ -61,7 +61,7 @@ export function Quiz({ showExplanations = true, onComplete }: QuizProps) {
             <div className="mx-auto w-16 h-16 bg-success/20 rounded-full flex items-center justify-center mb-4">
               <CheckCircle className="h-8 w-8 text-success" />
             </div>
-            <CardTitle className="text-2xl">Quiz Completed!</CardTitle>
+            <CardTitle className="text-heading">Quiz Completed!</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             {state.currentSession && (
@@ -94,7 +94,7 @@ export function Quiz({ showExplanations = true, onComplete }: QuizProps) {
                 
                 {/* Topic Breakdown */}
                 <div className="space-y-2">
-                  <h4 className="font-semibold">Performance by Topic</h4>
+                  <h4 className="text-subtitle">Performance by Topic</h4>
                   <div className="space-y-2">
                     {Object.entries(state.currentSession.score.byTopic).map(([topic, scores]) => (
                       <div key={topic} className="flex justify-between items-center p-2 bg-muted/50 rounded">
