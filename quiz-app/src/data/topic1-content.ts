@@ -64,16 +64,43 @@ export const topic1Sections: StudySection[] = [
     title: 'Autosomal Trisomies',
     content: `
       <div class="space-y-8">
-        <div class="bg-warning/10 border border-warning/20 p-6 rounded-lg">
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <!-- Trisomy 21 Card with enhanced styling -->
+        <div class="syndrome-card syndrome-card-high" style="
+          position: relative;
+          background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(38 100% 50% / 0.08) 100%);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid hsl(38 100% 50% / 0.3);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          box-shadow: 
+            0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+            0 4px 6px -2px rgba(0, 0, 0, 0.05),
+            0 0 0 1px hsl(38 100% 50% / 0.1);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow: hidden;
+        ">
+          <div style="
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, hsl(38 100% 50% / 0.03) 0%, transparent 50%, hsl(var(--accent) / 0.03) 100%);
+            pointer-events: none;
+            opacity: 0.6;
+          "></div>
+          
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-2 relative z-10">
             <span class="flex items-center gap-1">
               Trisomy 21 (Down Syndrome)
               <span class="flex">⭐⭐⭐</span>
             </span>
           </h3>
-          <p class="text-warning-foreground font-semibold mb-4">Most Important Autosomal Trisomy - Study This First!</p>
+          <p class="font-semibold mb-4 relative z-10" style="color: hsl(38 100% 30%);">Most Important Autosomal Trisomy - Study This First!</p>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 relative z-10">
             <div class="space-y-4">
               <div>
                 <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
@@ -109,7 +136,13 @@ export const topic1Sections: StudySection[] = [
             <div class="space-y-4">
               <div>
                 <h4 class="font-semibold text-primary mb-2">🧪 Serum Screening Pattern</h4>
-                <div class="bg-muted/50 p-3 rounded">
+                <div style="
+                  background: linear-gradient(135deg, hsl(var(--muted) / 0.3) 0%, hsl(var(--secondary) / 0.2) 100%);
+                  border: 1px solid hsl(var(--border) / 0.2);
+                  border-radius: 0.5rem;
+                  padding: 0.75rem;
+                  backdrop-filter: blur(4px);
+                ">
                   <ul class="space-y-1 text-sm">
                     <li class="flex justify-between"><span><strong>hCG:</strong></span><span class="text-green-600 font-semibold">↑ High</span></li>
                     <li class="flex justify-between"><span><strong>Inhibin A:</strong></span><span class="text-green-600 font-semibold">↑ High</span></li>
@@ -132,9 +165,15 @@ export const topic1Sections: StudySection[] = [
                 </ul>
               </div>
 
-              <div class="bg-blue-50 p-3 rounded">
-                <h4 class="font-semibold text-blue-700 mb-2">💎 Board Pearls</h4>
-                <ul class="space-y-1 text-sm text-blue-700">
+              <div style="
+                background: linear-gradient(135deg, hsl(220 100% 95% / 0.8) 0%, hsl(220 100% 90% / 0.6) 100%);
+                border: 1px solid hsl(220 100% 50% / 0.2);
+                border-radius: 0.5rem;
+                padding: 0.75rem;
+                backdrop-filter: blur(4px);
+              ">
+                <h4 class="font-semibold mb-2" style="color: hsl(220 100% 40%);">💎 Board Pearls</h4>
+                <ul class="space-y-1 text-sm" style="color: hsl(220 100% 35%);">
                   <li>• Most common live-born autosomal aneuploidy</li>
                   <li>• 80% of DS pregnancies result in miscarriage</li>
                   <li>• APP gene on chromosome 21 → early Alzheimer's risk</li>
@@ -145,7 +184,22 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-orange/10 border border-orange/20 p-6 rounded-lg">
+        <!-- Trisomy 18 Card with enhanced styling -->
+        <div class="syndrome-card syndrome-card-medium" style="
+          position: relative;
+          background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(25 100% 50% / 0.06) 100%);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid hsl(25 100% 50% / 0.25);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          box-shadow: 
+            0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+            0 4px 6px -2px rgba(0, 0, 0, 0.05),
+            0 0 0 1px hsl(25 100% 50% / 0.08);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow: hidden;
+        ">
           <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
             <span class="flex items-center gap-1">
               Trisomy 18 (Edwards Syndrome)
@@ -179,7 +233,13 @@ export const topic1Sections: StudySection[] = [
             <div class="space-y-4">
               <div>
                 <h4 class="font-semibold text-primary mb-2">🧪 Serum Screening Pattern</h4>
-                <div class="bg-muted/50 p-3 rounded">
+                <div style="
+                  background: linear-gradient(135deg, hsl(var(--muted) / 0.3) 0%, hsl(var(--secondary) / 0.2) 100%);
+                  border: 1px solid hsl(var(--border) / 0.2);
+                  border-radius: 0.5rem;
+                  padding: 0.75rem;
+                  backdrop-filter: blur(4px);
+                ">
                   <ul class="space-y-1 text-sm">
                     <li class="flex justify-between"><span><strong>hCG:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
                     <li class="flex justify-between"><span><strong>PAPP-A:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
@@ -200,7 +260,22 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-purple/10 border border-purple/20 p-6 rounded-lg">
+        <!-- Trisomy 13 Card with enhanced styling -->
+        <div class="syndrome-card syndrome-card-medium" style="
+          position: relative;
+          background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(280 100% 50% / 0.06) 100%);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid hsl(280 100% 50% / 0.25);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          box-shadow: 
+            0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+            0 4px 6px -2px rgba(0, 0, 0, 0.05),
+            0 0 0 1px hsl(280 100% 50% / 0.08);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow: hidden;
+        ">
           <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
             <span class="flex items-center gap-1">
               Trisomy 13 (Patau Syndrome)
@@ -257,7 +332,22 @@ export const topic1Sections: StudySection[] = [
     title: 'Sex Chromosome Abnormalities',
     content: `
       <div class="space-y-8">
-        <div class="bg-primary/10 border border-primary/20 p-6 rounded-lg">
+        <!-- Turner Syndrome Card with enhanced styling -->
+        <div class="syndrome-card syndrome-card-high" style="
+          position: relative;
+          background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(var(--primary) / 0.08) 100%);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid hsl(var(--primary) / 0.3);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          box-shadow: 
+            0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+            0 4px 6px -2px rgba(0, 0, 0, 0.05),
+            0 0 0 1px hsl(var(--primary) / 0.1);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow: hidden;
+        ">
           <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
             <span class="flex items-center gap-1">
               Turner Syndrome (45,X)
@@ -302,9 +392,15 @@ export const topic1Sections: StudySection[] = [
                 </ul>
               </div>
 
-              <div class="bg-blue-50 p-3 rounded">
-                <h4 class="font-semibold text-blue-700 mb-2">💎 Board Pearls</h4>
-                <ul class="space-y-1 text-sm text-blue-700">
+              <div style="
+                background: linear-gradient(135deg, hsl(220 100% 95% / 0.8) 0%, hsl(220 100% 90% / 0.6) 100%);
+                border: 1px solid hsl(220 100% 50% / 0.2);
+                border-radius: 0.5rem;
+                padding: 0.75rem;
+                backdrop-filter: blur(4px);
+              ">
+                <h4 class="font-semibold mb-2" style="color: hsl(220 100% 40%);">💎 Board Pearls</h4>
+                <ul class="space-y-1 text-sm" style="color: hsl(220 100% 35%);">
                   <li>• Most common sex chromosome abnormality in conception</li>
                   <li>• Least common sex chromosome abnormality in live births</li>
                   <li>• 45,X/46,XY requires gonadectomy (cancer risk)</li>
@@ -314,7 +410,22 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-accent/10 border border-accent/20 p-6 rounded-lg">
+        <!-- Klinefelter Syndrome Card with enhanced styling -->
+        <div class="syndrome-card syndrome-card-medium" style="
+          position: relative;
+          background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(var(--accent) / 0.06) 100%);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid hsl(var(--accent) / 0.25);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          box-shadow: 
+            0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+            0 4px 6px -2px rgba(0, 0, 0, 0.05),
+            0 0 0 1px hsl(var(--accent) / 0.08);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow: hidden;
+        ">
           <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
             <span class="flex items-center gap-1">
               Klinefelter Syndrome (47,XXY)
@@ -356,8 +467,22 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
+        <!-- Smaller syndrome cards in grid layout -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div class="bg-muted/50 p-4 rounded-lg">
+          <div style="
+            position: relative;
+            background: linear-gradient(135deg, hsl(var(--card) / 0.93) 0%, hsl(var(--muted) / 0.4) 100%);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid hsl(var(--border) / 0.3);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            box-shadow: 
+              0 8px 20px -2px rgba(0, 0, 0, 0.08), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.04),
+              0 0 0 1px hsl(var(--border) / 0.15);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          ">
             <h4 class="font-semibold mb-3 flex items-center gap-1">
               47,XYY (Jacob's Syndrome) ⭐
             </h4>
@@ -368,7 +493,20 @@ export const topic1Sections: StudySection[] = [
             </div>
           </div>
 
-          <div class="bg-muted/50 p-4 rounded-lg">
+          <div style="
+            position: relative;
+            background: linear-gradient(135deg, hsl(var(--card) / 0.93) 0%, hsl(var(--muted) / 0.4) 100%);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid hsl(var(--border) / 0.3);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            box-shadow: 
+              0 8px 20px -2px rgba(0, 0, 0, 0.08), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.04),
+              0 0 0 1px hsl(var(--border) / 0.15);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          ">
             <h4 class="font-semibold mb-3 flex items-center gap-1">
               47,XXX (Triple X Syndrome) ⭐
             </h4>
@@ -395,7 +533,22 @@ export const topic1Sections: StudySection[] = [
     title: 'Deletion/Duplication Syndromes',
     content: `
       <div class="space-y-8">
-        <div class="bg-warning/10 border border-warning/20 p-6 rounded-lg">
+        <!-- 22q11.2 Deletion Syndrome Card with enhanced styling -->
+        <div class="syndrome-card syndrome-card-high" style="
+          position: relative;
+          background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(38 100% 50% / 0.08) 100%);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid hsl(38 100% 50% / 0.3);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          box-shadow: 
+            0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+            0 4px 6px -2px rgba(0, 0, 0, 0.05),
+            0 0 0 1px hsl(38 100% 50% / 0.1);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow: hidden;
+        ">
           <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
             <span class="flex items-center gap-1">
               22q11.2 Deletion Syndrome (DiGeorge/VCFS)
@@ -414,9 +567,15 @@ export const topic1Sections: StudySection[] = [
                 </ol>
               </div>
 
-              <div class="bg-yellow-50 p-3 rounded">
-                <h4 class="font-semibold text-yellow-700 mb-2">🎯 CATCH-22 Mnemonic</h4>
-                <ul class="space-y-1 text-sm text-yellow-700">
+              <div style="
+                background: linear-gradient(135deg, hsl(45 100% 95% / 0.8) 0%, hsl(45 100% 90% / 0.6) 100%);
+                border: 1px solid hsl(45 100% 50% / 0.2);
+                border-radius: 0.5rem;
+                padding: 0.75rem;
+                backdrop-filter: blur(4px);
+              ">
+                <h4 class="font-semibold mb-2" style="color: hsl(45 100% 35%);">🎯 CATCH-22 Mnemonic</h4>
+                <ul class="space-y-1 text-sm" style="color: hsl(45 100% 30%);">
                   <li><strong>C</strong>ardiac defects</li>
                   <li><strong>A</strong>bnormal facies</li>
                   <li><strong>T</strong>hymic hypoplasia</li>
@@ -450,8 +609,23 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
+        <!-- PWS and Angelman Cards in grid layout -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div class="bg-primary/10 border border-primary/20 p-6 rounded-lg">
+          <div style="
+            position: relative;
+            background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(var(--primary) / 0.06) 100%);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid hsl(var(--primary) / 0.25);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 
+              0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+              0 4px 6px -2px rgba(0, 0, 0, 0.05),
+              0 0 0 1px hsl(var(--primary) / 0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+          ">
             <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
               <span class="flex items-center gap-1">
                 Prader-Willi Syndrome
@@ -486,7 +660,21 @@ export const topic1Sections: StudySection[] = [
             </div>
           </div>
 
-          <div class="bg-accent/10 border border-accent/20 p-6 rounded-lg">
+          <div style="
+            position: relative;
+            background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(var(--accent) / 0.06) 100%);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid hsl(var(--accent) / 0.25);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 
+              0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+              0 4px 6px -2px rgba(0, 0, 0, 0.05),
+              0 0 0 1px hsl(var(--accent) / 0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+          ">
             <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
               <span class="flex items-center gap-1">
                 Angelman Syndrome
@@ -519,7 +707,22 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-green/10 border border-green/20 p-6 rounded-lg">
+        <!-- Williams Syndrome Card with enhanced styling -->
+        <div class="syndrome-card syndrome-card-medium" style="
+          position: relative;
+          background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(120 50% 50% / 0.06) 100%);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          border: 1px solid hsl(120 50% 50% / 0.25);
+          border-radius: 1rem;
+          padding: 1.5rem;
+          box-shadow: 
+            0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+            0 4px 6px -2px rgba(0, 0, 0, 0.05),
+            0 0 0 1px hsl(120 50% 50% / 0.08);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          overflow: hidden;
+        ">
           <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
             <span class="flex items-center gap-1">
               Williams Syndrome (7q11.23 deletion)
@@ -562,9 +765,16 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-blue-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-blue-700 mb-2">💎 Board Pearl</h4>
-          <p class="text-sm text-blue-700">
+        <!-- Board Pearl with enhanced styling -->
+        <div style="
+          background: linear-gradient(135deg, hsl(220 100% 95% / 0.8) 0%, hsl(220 100% 90% / 0.6) 100%);
+          border: 1px solid hsl(220 100% 50% / 0.2);
+          border-radius: 0.75rem;
+          padding: 1rem;
+          backdrop-filter: blur(4px);
+        ">
+          <h4 class="font-semibold mb-2" style="color: hsl(220 100% 40%);">💎 Board Pearl</h4>
+          <p class="text-sm" style="color: hsl(220 100% 35%);">
             <strong>Opposite of Prader-Willi:</strong> PWS and Angelman syndrome demonstrate parent-of-origin effects - same chromosomal region (15q11.2-q13) but different phenotypes depending on which parent contributes the deletion.
           </p>
         </div>

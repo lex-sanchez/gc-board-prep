@@ -3,7 +3,7 @@
     {
       "id": "topic1",
       "title": "Topic 1: Foundation Genetics - Chromosomal Disorders",
-      "description": "[⬆️ Back to Master Index](study-guide-master-index.",
+      "description": "",
       "difficulty": "Beginner",
       "tags": [
         "chromosomes",
@@ -18,7 +18,7 @@
     {
       "id": "topic2",
       "title": "Topic 2: Cancer Genetics - Hereditary Cancer Syndromes",
-      "description": "[⬆️ Back to Master Index](study-guide-master-index.",
+      "description": "Comprehensive guide to hereditary cancer syndromes including BRCA, Lynch, Li-Fraumeni, and phakomatoses",
       "difficulty": "Intermediate",
       "tags": [
         "cancer",
@@ -27,14 +27,14 @@
         "lynch",
         "tumor-suppressor"
       ],
-      "estimatedTime": 16,
+      "estimatedTime": 35,
       "importance": 1,
-      "sectionCount": 14
+      "sectionCount": 6
     },
     {
       "id": "topic3",
       "title": "Topic 3: Organ System Disorders Part A - Pulmonary, Cardiovascular & Renal/Genital",
-      "description": "[⬆️ Back to Master Index](study-guide-master-index.",
+      "description": "",
       "difficulty": "Intermediate",
       "tags": [
         "cardiovascular",
@@ -49,7 +49,7 @@
     {
       "id": "topic4",
       "title": "Topic 4: Neurological, Neuromuscular, Autism Spectrum & Developmental Disorders Study Guide",
-      "description": "[⬆️ Back to Master Index](study-guide-master-index.",
+      "description": "",
       "difficulty": "Advanced",
       "tags": [
         "neurological",
@@ -64,7 +64,7 @@
     {
       "id": "topic5",
       "title": "Topic 5: Inborn Errors of Metabolism - Comprehensive Board Study Guide",
-      "description": "[⬆️ Back to Master Index](study-guide-master-index.",
+      "description": "",
       "difficulty": "Advanced",
       "tags": [
         "metabolic",
@@ -79,7 +79,7 @@
     {
       "id": "topic6",
       "title": "Topic 6: Specialized Organ Systems - Comprehensive Board Study Guide",
-      "description": "[⬆️ Back to Master Index](study-guide-master-index.",
+      "description": "",
       "difficulty": "Advanced",
       "tags": [
         "specialized",

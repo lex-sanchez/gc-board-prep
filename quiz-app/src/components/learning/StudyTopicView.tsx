@@ -1,13 +1,14 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, BookOpen, Clock, Star } from 'lucide-react'
+import { ArrowLeft, Star } from 'lucide-react'
 import { useLearning } from '@/contexts/LearningContext'
 import { useEffect, useState } from 'react'
 import { SectionRenderer } from './SectionRenderer'
 import { TableOfContents } from './TableOfContents'
 
-// Import Topic 1 content
+// Import Topic content
 import { topic1Sections, topic1QuickLookup } from '@/data/topic1-content'
+import { topic2Sections, topic2QuickLookup } from '@/data/topic2-content'
 
 export function StudyTopicView() {
   const { topicId, sectionId } = useParams<{ topicId: string; sectionId?: string }>()
@@ -17,9 +18,11 @@ export function StudyTopicView() {
   const topic = topicId ? getTopic(topicId) : null
   const progress = topicId ? getProgress(topicId) : null
 
-  // Get sections based on topicId (for now, only topic1 has detailed content)
-  const sections = topicId === 'topic1' ? topic1Sections : []
-  const quickLookup = topicId === 'topic1' ? topic1QuickLookup : undefined
+  // Get sections based on topicId
+  const sections = topicId === 'topic1' ? topic1Sections : 
+                   topicId === 'topic2' ? topic2Sections : []
+  const quickLookup = topicId === 'topic1' ? topic1QuickLookup : 
+                      topicId === 'topic2' ? topic2QuickLookup : undefined
   
   // Current section state
   const [currentSectionId, setCurrentSectionId] = useState<string>(
@@ -112,7 +115,7 @@ export function StudyTopicView() {
             <span>{topic.title}</span>
           </div>
           <div className="flex items-center gap-3">
-            <h1 className="section-title">{topic.title}</h1>
+            <h1 className="text-2xl font-bold">{topic.title}</h1>
             <div className="flex">
               {Array.from({ length: topic.importance }, (_, i) => (
                 <Star key={i} className="h-5 w-5 fill-warning text-warning" />
@@ -133,7 +136,7 @@ export function StudyTopicView() {
       </div>
 
       {/* Topic info bar */}
-      <div className="topic-info-bar">
+      {/* <div className="topic-info-bar">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2 text-sm">
@@ -169,7 +172,7 @@ export function StudyTopicView() {
             </div>
           )}
         </div>
-      </div>
+      </div> */}
 
       {/* Main content area */}
       {sections.length > 0 ? (

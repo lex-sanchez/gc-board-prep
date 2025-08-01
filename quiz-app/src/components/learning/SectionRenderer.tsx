@@ -42,7 +42,7 @@ export function SectionRenderer({
       <div className="flex items-start justify-between">
         <div className="space-y-2">
           <div className="flex items-center gap-3">
-            <h1 className="section-title">{section.title}</h1>
+            <h1 className="text-2xl font-bold">{section.title}</h1>
             <div className="flex">
               {Array.from({ length: section.importance }, (_, i) => (
                 <Star key={i} className="h-5 w-5 fill-warning text-warning" />
@@ -148,25 +148,24 @@ export function SectionRenderer({
         />
       </div>
 
-      {/* Mnemonics Section */}
-      {section.mnemonics && section.mnemonics.length > 0 && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-lg flex items-center gap-2">
-              🧠 Memory Aids & Mnemonics
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-3">
-              {section.mnemonics.map((mnemonic, index) => (
-                <div key={index} className="mnemonic-card">
-                  <p className="mnemonic-text">{mnemonic}</p>
-                </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-      )}
+      {/* Memory Aids & Mnemonics with enhanced styling */}
+      <div className="syndrome-card syndrome-card-medium mnemonics-card">
+        <div className="syndrome-card-overlay"></div>
+        
+        <div className="relative z-10">
+          <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+            🧠 Memory Aids & Mnemonics
+          </h3>
+          
+          <div className="space-y-3">
+            {section.mnemonics.map((mnemonic, index) => (
+              <div key={index} className="mnemonic-card-enhanced">
+                <p className="text-sm font-medium leading-relaxed">{mnemonic}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
 
       {/* Practice Questions */}
       {section.practiceQuestions && section.practiceQuestions.length > 0 && (

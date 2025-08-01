@@ -1,4 +1,3 @@
-
 @import "tailwindcss";
 
 @layer base {
@@ -64,6 +63,11 @@
     --info: 39 100% 70%; /* Darker orange for info */
     --info-foreground: 44 26% 11%;
   }
+}
+
+/* Base font with emoji support */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla";
 }
 
 /* Custom styles for quiz components */
@@ -1892,18 +1896,10 @@
   .section-title {
     font-size: 2.25rem;
     line-height: 2.5rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.025em;
-    background: linear-gradient(
-      135deg,
-      hsl(var(--foreground)) 0%,
-      hsl(var(--primary)) 50%,
-      hsl(var(--accent)) 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 200%;
+    color: hsl(25 70% 45%);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla";
     margin-bottom: 1rem;
   }
 
@@ -2021,7 +2017,7 @@
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 1.5rem;
-    padding: 3rem;
+    padding: 2rem;
     box-shadow: var(--shadow-level-2);
     transition: all var(--animation-duration) cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
@@ -2591,7 +2587,7 @@
 
   /* Enhanced Prose */
   .prose-enhanced {
-    font-family: ui-serif, Georgia, 'Times New Roman', serif;
+    font-family: ui-serif, Georgia, 'Times New Roman', serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla";
     line-height: 1.75;
     color: hsl(var(--foreground));
     max-width: none;
@@ -2603,7 +2599,7 @@
   .prose-enhanced h4,
   .prose-enhanced h5,
   .prose-enhanced h6 {
-    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla";
     font-weight: 700;
     line-height: 1.3;
     margin-top: 2rem;
@@ -2879,11 +2875,30 @@
   }
 
   .syndrome-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-3px) scale(1.01);
     box-shadow: 
-      0 20px 40px hsl(var(--primary) / 0.15),
-      0 8px 16px rgba(0, 0, 0, 0.1);
-    border-color: hsl(var(--primary) / 0.6);
+      0 20px 35px -5px rgba(0, 0, 0, 0.15), 
+      0 10px 20px -5px rgba(0, 0, 0, 0.08),
+      0 0 0 1px hsl(var(--primary) / 0.2),
+      0 0 60px hsl(var(--primary) / 0.1);
+  }
+
+  .syndrome-card-high:hover {
+    border-color: hsl(38 100% 50% / 0.5);
+    box-shadow: 
+      0 20px 35px -5px rgba(0, 0, 0, 0.15), 
+      0 10px 20px -5px rgba(0, 0, 0, 0.08),
+      0 0 0 1px hsl(38 100% 50% / 0.2),
+      0 0 60px hsl(38 100% 50% / 0.15);
+  }
+
+  .syndrome-card-medium:hover {
+    border-color: hsl(var(--accent) / 0.4);
+    box-shadow: 
+      0 20px 35px -5px rgba(0, 0, 0, 0.15), 
+      0 10px 20px -5px rgba(0, 0, 0, 0.08),
+      0 0 0 1px hsl(var(--accent) / 0.2),
+      0 0 60px hsl(var(--accent) / 0.15);
   }
 
   .syndrome-card::before {
@@ -3504,5 +3519,51 @@
     .syndrome-card::before {
       display: none;
     }
+  }
+
+  /* Mnemonics Card Styling */
+  .mnemonics-card {
+    position: relative;
+    background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(var(--primary) / 0.06) 100%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--primary) / 0.25);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 
+      0 10px 25px -3px rgba(0, 0, 0, 0.1), 
+      0 4px 6px -2px rgba(0, 0, 0, 0.05),
+      0 0 0 1px hsl(var(--primary) / 0.08);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+  }
+
+  .syndrome-card-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.03) 0%, transparent 50%, hsl(var(--accent) / 0.03) 100%);
+    pointer-events: none;
+    opacity: 0.6;
+  }
+
+  .mnemonic-card-enhanced {
+    position: relative;
+    background: linear-gradient(135deg, hsl(var(--muted) / 0.3) 0%, hsl(var(--secondary) / 0.2) 100%);
+    border: 1px solid hsl(var(--border) / 0.25);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    backdrop-filter: blur(4px);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mnemonic-card-enhanced:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, hsl(var(--muted) / 0.4) 0%, hsl(var(--accent) / 0.08) 100%);
+    border-color: hsl(var(--accent) / 0.3);
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.1);
   }
 }
