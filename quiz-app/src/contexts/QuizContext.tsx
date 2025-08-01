@@ -404,7 +404,15 @@ export function QuizProvider({ children }: { children: ReactNode }) {
 
   const isQuestionAnswered = (questionId: string): boolean => {
     const answer = getUserAnswer(questionId)
-    return answer !== null && answer.timeSpent > 0 && answer.selectedAnswer !== undefined
+    // A question is considered answered if:
+    // 1. An answer exists
+    // 2. The selected answer is not empty/undefined
+    // 3. Time was spent (user actually engaged with the question)
+    return answer !== null && 
+           answer.selectedAnswer !== undefined && 
+           answer.selectedAnswer !== null &&
+           answer.selectedAnswer.length > 0 && 
+           answer.timeSpent > 0
   }
   
   const value = {

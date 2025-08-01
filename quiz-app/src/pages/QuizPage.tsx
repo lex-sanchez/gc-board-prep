@@ -132,7 +132,7 @@ function QuizSelection() {
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div className="grid grid-cols-1 gap-2 max-h-64 overflow-y-auto">
+            <div className="grid grid-cols-1 gap-2 max-h-76 overflow-y-auto">
               {Object.entries(ADVANCED_DOMAINS).map(([key, name]) => {
                 const domainData = metadata.domains[name]
                 return (

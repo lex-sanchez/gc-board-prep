@@ -210,6 +210,7 @@ export function Quiz({ showExplanations = true, onComplete }: QuizProps) {
           variant="outline"
           onClick={handlePrevious}
           disabled={isFirstQuestion}
+          aria-label={`Previous question${isFirstQuestion ? ' (unavailable - first question)' : ''}`}
         >
           <ChevronLeft className="h-4 w-4 mr-2" />
           Previous
@@ -242,18 +243,25 @@ export function Quiz({ showExplanations = true, onComplete }: QuizProps) {
                     onClick={() => handleQuestionNavigation(index)}
                     disabled={!canNavigate}
                     className={cn(
-                      "w-8 h-8 rounded-full text-xs font-medium transition-colors relative",
+                      "w-8 h-8 rounded-full text-xs font-medium transition-all duration-200 relative",
+                      "focus:outline-none focus:ring-2 focus:ring-primary/50",
                       "disabled:cursor-not-allowed",
-                      isCurrent ? "bg-primary text-primary-foreground ring-2 ring-primary/30" :
-                      answered ? "bg-success/20 text-success hover:bg-success/30" :
-                      canNavigate ? "bg-muted text-muted-foreground hover:bg-muted/80" :
-                      "bg-muted/50 text-muted-foreground/50"
+                      isCurrent ? 
+                        "bg-primary text-primary-foreground ring-2 ring-primary/30 shadow-sm" :
+                      answered ? 
+                        "bg-green-100 text-green-700 border border-green-200 hover:bg-green-200 shadow-sm" :
+                      canNavigate ? 
+                        "bg-muted text-muted-foreground hover:bg-muted/80 border border-border" :
+                      "bg-gray-100 text-gray-400 border border-gray-200 opacity-60"
                     )}
                     aria-label={`Question ${index + 1}${
                       isCurrent ? ' (current)' : 
                       answered ? ' (answered)' : 
                       isFuture ? ' (locked)' : ''
                     }`}
+                    aria-current={isCurrent ? 'step' : undefined}
+                    aria-disabled={!canNavigate}
+                    tabIndex={canNavigate ? 0 : -1}
                   >
                     {answered ? (
                       <Check className="h-3 w-3" />

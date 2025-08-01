@@ -18,6 +18,12 @@ export function Header() {
             Dashboard
           </Link>
           <Link
+            to="/learn"
+            className="transition-colors hover:text-foreground/80 text-foreground/60"
+          >
+            Study Guides
+          </Link>
+          <Link
             to="/quiz"
             className="transition-colors hover:text-foreground/80 text-foreground/60"
           >

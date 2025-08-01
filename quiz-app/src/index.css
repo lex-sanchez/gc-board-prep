@@ -92,21 +92,21 @@
   }
   
   .answer-option.correct {
-    background-color: hsl(var(--success) / 0.1);
-    border-color: hsl(var(--success));
-    color: hsl(var(--success-foreground));
+    background-color: #d1fae5;
+    border-color: #10b981;
+    color: #065f46;
   }
   
   .answer-option.incorrect {
-    background-color: hsl(var(--destructive) / 0.1);
-    border-color: hsl(var(--destructive));
-    color: hsl(var(--destructive-foreground));
+    background-color: #fee2e2;
+    border-color: #ef4444;
+    color: #991b1b;
   }
   
   .answer-option.selected {
-    background-color: hsl(var(--primary) / 0.1);
-    border-color: hsl(var(--primary));
-    color: hsl(var(--primary-foreground));
+    background-color: #fed7aa;
+    border-color: #ea580c;
+    color: #9a3412;
   }
   
   .question-card {

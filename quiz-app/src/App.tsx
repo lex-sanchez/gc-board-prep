@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Layout } from '@/components/layout/Layout'
 import { QuizProvider } from '@/contexts/QuizContext'
+import { LearningProvider } from '@/contexts/LearningContext'
 import { Home } from '@/pages/Home'
 import { QuizPage } from '@/pages/QuizPage'
+import { LearningPage } from '@/pages/LearningPage'
 
 // Placeholder components for routes
 function ProgressPage() {
@@ -18,13 +20,16 @@ function App() {
   return (
     <Router>
       <QuizProvider>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/quiz/*" element={<QuizPage />} />
-            <Route path="/progress" element={<ProgressPage />} />
-          </Routes>
-        </Layout>
+        <LearningProvider>
+          <Layout>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/learn/*" element={<LearningPage />} />
+              <Route path="/quiz/*" element={<QuizPage />} />
+              <Route path="/progress" element={<ProgressPage />} />
+            </Routes>
+          </Layout>
+        </LearningProvider>
       </QuizProvider>
     </Router>
   )

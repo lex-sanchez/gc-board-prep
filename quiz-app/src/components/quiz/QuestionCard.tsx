@@ -73,6 +73,11 @@ export function QuestionCard({
   const getAnswerOptionClass = (optionKey: string) => {
     const baseClass = "answer-option text-left"
     
+    // Show selected state while choosing (before answering)
+    if (!hasAnswered && selectedAnswer === optionKey) {
+      return cn(baseClass, "selected")
+    }
+    
     if (!hasAnswered) {
       return baseClass
     }
