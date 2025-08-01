@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer, useEffect, type ReactNode } from 'react'
+import { createContext, useContext, useReducer, useEffect, useCallback, type ReactNode } from 'react'
 import type { LearningState, LearningProgress, LearningPreferences, StudyTopic } from '@/types/learning'
 
 // Import study guide data
@@ -231,40 +231,40 @@ export function LearningProvider({ children }: { children: ReactNode }) {
   }, [state.preferences])
 
   // Helper functions
-  const getTopics = (): StudyTopic[] => {
+  const getTopics = useCallback((): StudyTopic[] => {
     return studyGuideIndex.topics as StudyTopic[]
-  }
+  }, [])
 
-  const getTopic = (topicId: string): StudyTopic | null => {
+  const getTopic = useCallback((topicId: string): StudyTopic | null => {
     const topic = studyGuideIndex.topics.find(t => t.id === topicId)
     return (topic as StudyTopic) || null
-  }
+  }, [])
 
-  const getProgress = (topicId: string): LearningProgress => {
+  const getProgress = useCallback((topicId: string): LearningProgress => {
     return state.progress[topicId] || createInitialProgress(topicId)
-  }
+  }, [state.progress])
 
-  const updateProgress = (topicId: string, updates: Partial<LearningProgress>) => {
+  const updateProgress = useCallback((topicId: string, updates: Partial<LearningProgress>) => {
     dispatch({ type: 'UPDATE_PROGRESS', payload: { topicId, updates } })
-  }
+  }, [dispatch])
 
-  const markSectionComplete = (topicId: string, sectionId: string) => {
+  const markSectionComplete = useCallback((topicId: string, sectionId: string) => {
     dispatch({ type: 'MARK_SECTION_COMPLETE', payload: { topicId, sectionId } })
-  }
+  }, [dispatch])
 
-  const toggleBookmark = (topicId: string, sectionId: string) => {
+  const toggleBookmark = useCallback((topicId: string, sectionId: string) => {
     dispatch({ type: 'TOGGLE_BOOKMARK', payload: { topicId, sectionId } })
-  }
+  }, [dispatch])
 
-  const updateNote = (sectionId: string, note: string) => {
+  const updateNote = useCallback((sectionId: string, note: string) => {
     dispatch({ type: 'UPDATE_NOTE', payload: { sectionId, note } })
-  }
+  }, [dispatch])
 
-  const updatePreferences = (preferences: Partial<LearningPreferences>) => {
+  const updatePreferences = useCallback((preferences: Partial<LearningPreferences>) => {
     dispatch({ type: 'UPDATE_PREFERENCES', payload: preferences })
-  }
+  }, [dispatch])
 
-  const getOverallProgress = () => {
+  const getOverallProgress = useCallback(() => {
     const topics = getTopics()
     const totalSections = topics.reduce((sum, topic) => sum + (topic.sectionCount || 0), 0)
     const completedSections = Object.values(state.progress).reduce(
@@ -276,7 +276,7 @@ export function LearningProvider({ children }: { children: ReactNode }) {
       total: totalSections,
       percentage: totalSections > 0 ? Math.round((completedSections / totalSections) * 100) : 0
     }
-  }
+  }, [state.progress, getTopics])
 
   const value: LearningContextType = {
     state,

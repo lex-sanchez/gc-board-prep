@@ -23,7 +23,7 @@ export function TableOfContents({
   const isCurrent = (sectionId: string) => currentSectionId === sectionId
 
   return (
-    <Card className="sticky top-6">
+    <div className="toc-card">
       <CardHeader>
         <CardTitle className="text-lg">Table of Contents</CardTitle>
       </CardHeader>
@@ -34,11 +34,8 @@ export function TableOfContents({
               key={section.id}
               onClick={() => onSectionClick(section.id)}
               className={cn(
-                "w-full text-left p-3 rounded-lg transition-all duration-200",
-                "hover:bg-muted/80 focus:outline-none focus:ring-2 focus:ring-primary/50",
-                isCurrent(section.id) 
-                  ? "bg-primary/10 border border-primary/20 text-primary" 
-                  : "hover:bg-muted/50"
+                "toc-section-button",
+                isCurrent(section.id) && "active"
               )}
             >
               <div className="space-y-2">
@@ -105,9 +102,9 @@ export function TableOfContents({
                 {completedSections.length} of {sections.length}
               </span>
             </div>
-            <div className="w-full bg-muted rounded-full h-2">
+            <div className="progress-container">
               <div 
-                className="bg-primary h-2 rounded-full transition-all duration-300"
+                className="progress-bar"
                 style={{ 
                   width: `${sections.length > 0 ? (completedSections.length / sections.length) * 100 : 0}%` 
                 }}
@@ -121,13 +118,13 @@ export function TableOfContents({
 
         {/* Study stats */}
         <div className="mt-4 grid grid-cols-2 gap-3 text-center">
-          <div className="bg-muted/50 p-2 rounded">
+          <div className="toc-stat-card">
             <div className="font-semibold text-sm text-primary">
               {bookmarkedSections.length}
             </div>
             <div className="text-xs text-muted-foreground">Bookmarked</div>
           </div>
-          <div className="bg-muted/50 p-2 rounded">
+          <div className="toc-stat-card">
             <div className="font-semibold text-sm text-green-600">
               {sections.reduce((sum, s) => sum + s.estimatedReadTime, 0)}m
             </div>
@@ -135,6 +132,6 @@ export function TableOfContents({
           </div>
         </div>
       </CardContent>
-    </Card>
+    </div>
   )
 }

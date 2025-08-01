@@ -42,26 +42,29 @@ export function SectionRenderer({
       <div className="flex items-start justify-between">
         <div className="space-y-2">
           <div className="flex items-center gap-3">
-            <h1 className="text-3xl font-bold">{section.title}</h1>
+            <h1 className="section-title">{section.title}</h1>
             <div className="flex">
               {Array.from({ length: section.importance }, (_, i) => (
                 <Star key={i} className="h-5 w-5 fill-warning text-warning" />
               ))}
             </div>
             {isCompleted && (
-              <CheckCircle className="h-6 w-6 text-green-600" />
+              <div className="completion-badge">
+                <CheckCircle className="h-4 w-4" />
+                Completed
+              </div>
             )}
           </div>
-          <div className="flex items-center gap-4 text-sm text-muted-foreground">
+          <div className="section-metadata">
             <div className="flex items-center gap-1">
               <Clock className="h-4 w-4" />
               <span>{section.estimatedReadTime} min read</span>
             </div>
             <div className={cn(
-              "px-2 py-1 rounded-full text-xs font-medium",
-              section.importance === 3 ? "bg-red-100 text-red-700" :
-              section.importance === 2 ? "bg-yellow-100 text-yellow-700" :
-              "bg-green-100 text-green-700"
+              "priority-badge",
+              section.importance === 3 ? "high" :
+              section.importance === 2 ? "medium" :
+              "low"
             )}>
               {section.importance === 3 ? "High Priority" :
                section.importance === 2 ? "Medium Priority" : "Low Priority"}
@@ -84,7 +87,11 @@ export function SectionRenderer({
           </Button>
           
           {!isCompleted && (
-            <Button onClick={onComplete} size="sm">
+            <Button 
+              className="section-action-button"
+              onClick={onComplete} 
+              size="sm"
+            >
               <CheckCircle className="h-4 w-4 mr-2" />
               Mark Complete
             </Button>
@@ -94,7 +101,7 @@ export function SectionRenderer({
 
       {/* Quick Lookup Table */}
       {quickLookup && (
-        <Card>
+        <div className="lookup-table-container">
           <CardHeader>
             <CardTitle className="text-lg flex items-center gap-2">
               🔍 {quickLookup.title}
@@ -102,24 +109,21 @@ export function SectionRenderer({
           </CardHeader>
           <CardContent>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
+              <table>
                 <thead>
-                  <tr className="border-b">
+                  <tr>
                     {quickLookup.headers.map((header, index) => (
-                      <th key={index} className="text-left p-3 font-semibold text-sm bg-muted/50">
+                      <th key={index}>
                         {header}
                       </th>
                     ))}
                   </tr>
                 </thead>
                 <tbody>
-                  {quickLookup.rows.map((row, index) => (
-                    <tr key={row.id} className={cn(
-                      "border-b hover:bg-muted/50 transition-colors",
-                      index % 2 === 0 ? "bg-background" : "bg-muted/20"
-                    )}>
+                  {quickLookup.rows.map((row) => (
+                    <tr key={row.id}>
                       {row.cells.map((cell, cellIndex) => (
-                        <td key={cellIndex} className="p-3 text-sm">
+                        <td key={cellIndex}>
                           {cellIndex === 0 ? (
                             <span className="font-semibold">{cell}</span>
                           ) : (
@@ -133,18 +137,16 @@ export function SectionRenderer({
               </table>
             </div>
           </CardContent>
-        </Card>
+        </div>
       )}
 
       {/* Main Content */}
-      <Card>
-        <CardContent className="p-8">
-          <div 
-            className="prose prose-lg max-w-none [&>div]:space-y-4"
-            dangerouslySetInnerHTML={{ __html: section.content }}
-          />
-        </CardContent>
-      </Card>
+      <div className="content-container">
+        <div 
+          className="prose-enhanced"
+          dangerouslySetInnerHTML={{ __html: section.content }}
+        />
+      </div>
 
       {/* Mnemonics Section */}
       {section.mnemonics && section.mnemonics.length > 0 && (
@@ -157,8 +159,8 @@ export function SectionRenderer({
           <CardContent>
             <div className="space-y-3">
               {section.mnemonics.map((mnemonic, index) => (
-                <div key={index} className="bg-purple-50 p-4 rounded-lg border border-purple-200">
-                  <p className="text-sm text-purple-700 font-medium">{mnemonic}</p>
+                <div key={index} className="mnemonic-card">
+                  <p className="mnemonic-text">{mnemonic}</p>
                 </div>
               ))}
             </div>
@@ -187,12 +189,12 @@ export function SectionRenderer({
             <CardContent>
               <div className="space-y-4">
                 {section.practiceQuestions.map((question, index) => (
-                  <div key={question.id} className="border border-border rounded-lg p-4">
+                  <div key={question.id} className="practice-question-card">
                     <h4 className="font-semibold mb-3">Question {index + 1}:</h4>
                     <p className="mb-4">{question.question}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">
                       {Object.entries(question.options).map(([key, value]) => (
-                        <div key={key} className="flex items-start gap-2 p-2 rounded bg-muted/50">
+                        <div key={key} className="practice-option">
                           <span className="font-semibold text-sm w-6">{key})</span>
                           <span className="text-sm">{value}</span>
                         </div>
@@ -202,7 +204,7 @@ export function SectionRenderer({
                       <summary className="cursor-pointer font-semibold text-primary hover:text-primary/80">
                         Show Answer & Explanation
                       </summary>
-                      <div className="mt-3 p-3 bg-green-50 rounded border border-green-200">
+                      <div className="answer-reveal">
                         <p className="font-semibold text-green-700 mb-2">
                           Correct Answer: {question.correctAnswer}) {question.options[question.correctAnswer]}
                         </p>
@@ -221,16 +223,16 @@ export function SectionRenderer({
       <div className="flex justify-between items-center pt-6 border-t">
         <div className="flex items-center gap-2">
           <Button
+            className="nav-button"
             variant="outline"
             onClick={onPrevious}
             disabled={!hasPrevious}
-            className="flex items-center gap-2"
           >
             <ChevronLeft className="h-4 w-4" />
             Previous
           </Button>
           {totalSections > 0 && (
-            <div className="text-sm text-muted-foreground px-4">
+            <div className="section-progress-indicator">
               {currentIndex + 1} of {totalSections}
             </div>
           )}
@@ -238,15 +240,19 @@ export function SectionRenderer({
         
         <div className="flex items-center gap-2">
           {!isCompleted && (
-            <Button onClick={onComplete} variant="outline">
+            <Button 
+              className="section-action-button"
+              onClick={onComplete} 
+              variant="outline"
+            >
               <CheckCircle className="h-4 w-4 mr-2" />
               Mark Complete
             </Button>
           )}
           <Button
+            className="nav-button"
             onClick={onNext}
             disabled={!hasNext}
-            className="flex items-center gap-2"
           >
             Next
             <ChevronRight className="h-4 w-4" />

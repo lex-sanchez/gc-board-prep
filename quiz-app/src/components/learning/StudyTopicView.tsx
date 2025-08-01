@@ -1,5 +1,4 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, BookOpen, Clock, Star } from 'lucide-react'
 import { useLearning } from '@/contexts/LearningContext'
@@ -100,7 +99,7 @@ export function StudyTopicView() {
       {/* Header with breadcrumbs */}
       <div className="flex items-center justify-between">
         <div className="space-y-1">
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <div className="study-breadcrumb">
             <Button 
               variant="ghost" 
               size="sm"
@@ -113,7 +112,7 @@ export function StudyTopicView() {
             <span>{topic.title}</span>
           </div>
           <div className="flex items-center gap-3">
-            <h1 className="text-3xl font-bold">{topic.title}</h1>
+            <h1 className="section-title">{topic.title}</h1>
             <div className="flex">
               {Array.from({ length: topic.importance }, (_, i) => (
                 <Star key={i} className="h-5 w-5 fill-warning text-warning" />
@@ -124,6 +123,7 @@ export function StudyTopicView() {
         </div>
         
         <Button 
+          className="nav-button"
           variant="outline" 
           onClick={() => navigate('/learn')}
         >
@@ -133,45 +133,43 @@ export function StudyTopicView() {
       </div>
 
       {/* Topic info bar */}
-      <Card>
-        <CardContent className="p-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-6">
-              <div className="flex items-center gap-2 text-sm">
-                <BookOpen className="h-4 w-4 text-muted-foreground" />
-                <span>{topic.sectionCount || 0} sections</span>
+      <div className="topic-info-bar">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-6">
+            <div className="flex items-center gap-2 text-sm">
+              <BookOpen className="h-4 w-4 text-muted-foreground" />
+              <span>{topic.sectionCount || 0} sections</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm">
+              <Clock className="h-4 w-4 text-muted-foreground" />
+              <span>{topic.estimatedTime} min read</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm">
+              <span className={`difficulty-badge ${
+                topic.difficulty === 'Beginner' ? 'beginner' :
+                topic.difficulty === 'Intermediate' ? 'intermediate' :
+                'advanced'
+              }`}>
+                {topic.difficulty}
+              </span>
+            </div>
+          </div>
+          
+          {progress && (
+            <div className="flex items-center gap-3">
+              <div className="text-sm text-muted-foreground">
+                Progress: {progress.completionRate}%
               </div>
-              <div className="flex items-center gap-2 text-sm">
-                <Clock className="h-4 w-4 text-muted-foreground" />
-                <span>{topic.estimatedTime} min read</span>
-              </div>
-              <div className="flex items-center gap-2 text-sm">
-                <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                  topic.difficulty === 'Beginner' ? 'bg-green-100 text-green-700' :
-                  topic.difficulty === 'Intermediate' ? 'bg-yellow-100 text-yellow-700' :
-                  'bg-red-100 text-red-700'
-                }`}>
-                  {topic.difficulty}
-                </span>
+              <div className="progress-container w-24">
+                <div 
+                  className="progress-bar"
+                  style={{ width: `${progress.completionRate}%` }}
+                />
               </div>
             </div>
-            
-            {progress && (
-              <div className="flex items-center gap-3">
-                <div className="text-sm text-muted-foreground">
-                  Progress: {progress.completionRate}%
-                </div>
-                <div className="w-24 bg-muted rounded-full h-2">
-                  <div 
-                    className="bg-primary h-2 rounded-full transition-all duration-300"
-                    style={{ width: `${progress.completionRate}%` }}
-                  />
-                </div>
-              </div>
-            )}
-          </div>
-        </CardContent>
-      </Card>
+          )}
+        </div>
+      </div>
 
       {/* Main content area */}
       {sections.length > 0 ? (
@@ -205,32 +203,30 @@ export function StudyTopicView() {
                 totalSections={sections.length}
               />
             ) : (
-              <Card>
-                <CardContent className="p-8 text-center">
+              <div className="study-content-area">
+                <div className="text-center">
                   <div className="text-muted-foreground">
                     Select a section from the table of contents to begin studying
                   </div>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             )}
           </div>
         </div>
       ) : (
-        <Card>
-          <CardContent className="p-8 text-center">
-            <div className="space-y-4">
-              <h2 className="text-2xl font-semibold">Welcome to {topic.title}</h2>
-              <p className="text-muted-foreground">
-                Detailed study content for this topic is coming soon. 
-                For now, you can explore other available topics.
-              </p>
-              <Button onClick={() => navigate('/learn')}>
-                <ArrowLeft className="h-4 w-4 mr-2" />
-                Back to All Topics
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
+        <div className="study-content-area">
+          <div className="text-center space-y-4">
+            <h2 className="text-2xl font-semibold">Welcome to {topic.title}</h2>
+            <p className="text-muted-foreground">
+              Detailed study content for this topic is coming soon. 
+              For now, you can explore other available topics.
+            </p>
+            <Button className="nav-button" onClick={() => navigate('/learn')}>
+              <ArrowLeft className="h-4 w-4 mr-2" />
+              Back to All Topics
+            </Button>
+          </div>
+        </div>
       )}
     </div>
   )
