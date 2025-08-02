@@ -49,7 +49,7 @@
     {
       "id": "topic4",
       "title": "Topic 4: Neurological, Neuromuscular, Autism Spectrum & Developmental Disorders Study Guide",
-      "description": "",
+      "description": "Comprehensive guide to trinucleotide repeats, X-linked neuromuscular disorders, autism spectrum, and neural tube defects",
       "difficulty": "Advanced",
       "tags": [
         "neurological",
@@ -57,9 +57,9 @@
         "intellectual-disability",
         "autism"
       ],
-      "estimatedTime": 19,
+      "estimatedTime": 31,
       "importance": 1,
-      "sectionCount": 13
+      "sectionCount": 6
     },
     {
       "id": "topic5",
@@ -79,7 +79,7 @@
     {
       "id": "topic6",
       "title": "Topic 6: Specialized Organ Systems - Comprehensive Board Study Guide",
-      "description": "",
+      "description": "Specialized disorders including skeletal dysplasias, hemoglobinopathies, bleeding disorders, endocrine, and DNA repair syndromes",
       "difficulty": "Advanced",
       "tags": [
         "specialized",
@@ -88,7 +88,7 @@
       ],
       "estimatedTime": 28,
       "importance": 1,
-      "sectionCount": 16
+      "sectionCount": 5
     },
     {
       "id": "syndrome-overview",

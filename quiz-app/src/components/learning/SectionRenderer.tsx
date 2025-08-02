@@ -40,7 +40,7 @@ export function SectionRenderer({
     <div className="space-y-6">
       {/* Section Header */}
       <div className="flex items-start justify-between">
-        <div className="space-y-2">
+        <div className="mb-1">
           <div className="flex items-center gap-3">
             <h1 className="text-2xl font-bold">{section.title}</h1>
             <div className="flex">
