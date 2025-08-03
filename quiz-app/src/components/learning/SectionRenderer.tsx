@@ -42,7 +42,7 @@ export function SectionRenderer({
       <div className="flex items-start justify-between">
         <div className="mb-1">
           <div className="flex items-center gap-3">
-            <h1 className="text-2xl font-bold">{section.title}</h1>
+            <h1 className="text-2xl font-bold mb-2">{section.title}</h1>
             <div className="flex">
               {Array.from({ length: section.importance }, (_, i) => (
                 <Star key={i} className="h-5 w-5 fill-warning text-warning" />

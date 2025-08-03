@@ -30,6 +30,12 @@ export function Header() {
             Practice Quiz
           </Link>
           <Link
+            to="/flashcards"
+            className="transition-colors hover:text-foreground/80 text-foreground/60"
+          >
+            Flashcards
+          </Link>
+          <Link
             to="/progress"
             className="transition-colors hover:text-foreground/80 text-foreground/60"
           >

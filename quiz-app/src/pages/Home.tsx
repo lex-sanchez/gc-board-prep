@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { BookOpen, Brain, Target, TrendingUp, Clock, Award } from 'lucide-react'
+import { BookOpen, Brain, Target, TrendingUp, Clock, Award, Layers } from 'lucide-react'
 import { CORE_TOPICS, ADVANCED_DOMAINS } from '@/types/quiz'
 import metadata from '@/data/metadata.json'
 
@@ -90,7 +90,7 @@ export function Home() {
 
       {/* Practice Options */}
       <div className="dashboard-section">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Core Topics */}
           <Card className="practice-card">
             <CardHeader>
@@ -144,6 +144,40 @@ export function Home() {
                   );
                 })}
               </div>            
+            </CardContent>
+          </Card>
+
+          {/* Flashcards */}
+          <Card className="practice-card">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-title">
+                <Layers className="h-5 w-5 text-primary" />
+                Quick-Fire Flashcards
+              </CardTitle>
+              <CardDescription className="text-subtitle">
+                120+ rapid-review questions for verbal practice and active recall
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="space-y-3">
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold">Total Questions</span>
+                  <span className="text-muted-foreground font-medium">120+</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold">Study Modes</span>
+                  <span className="text-muted-foreground font-medium">4 modes</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold">Topics Covered</span>
+                  <span className="text-muted-foreground font-medium">All 6 topics</span>
+                </div>
+              </div>
+              <Link to="/flashcards" className="block">
+                <Button className="w-full">
+                  Start Flashcard Practice
+                </Button>
+              </Link>
             </CardContent>
           </Card>
         </div>

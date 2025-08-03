@@ -1,6 +1,21 @@
 import { useState, useEffect, useCallback } from 'react'
-import { ContentService } from '@/services/ContentService'
 import type { StudyTopic } from '@/types/learning'
+
+// TODO: Create actual ContentService when needed
+const ContentService = {
+  getCachedTopic: (_topicId: string) => null,
+  isLoading: (_topicId: string) => false,
+  loadTopicContent: async (_topicId: string) => {
+    throw new Error('ContentService not implemented yet')
+  },
+  clearCache: () => {},
+  loadTopicIndex: async () => {
+    throw new Error('ContentService not implemented yet')
+  },
+  preloadTopics: async (_topicIds: string[]) => {
+    throw new Error('ContentService not implemented yet')
+  }
+}
 
 export interface UseTopicContentReturn {
   topic: StudyTopic | null

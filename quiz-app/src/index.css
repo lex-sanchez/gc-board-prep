@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+/* 3D Flip Animation for Flashcards */
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Smooth transitions for flashcard interactions */
+.flashcard-transition {
+  transition: transform 0.7s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
 @layer base {
   :root {
     /* Orange theme color palette */

@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { CheckCircle, Clock, Star, Bookmark } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { StudySection } from '@/types/learning'

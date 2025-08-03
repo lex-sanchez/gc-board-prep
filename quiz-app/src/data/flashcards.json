@@ -1,0 +1,1444 @@
+{
+  "flashcards": [
+    {
+      "id": "topic1-q1",
+      "question": "What's the most common viable autosomal trisomy?",
+      "answer": "Trisomy 21 (Down syndrome)",
+      "topicNumber": 1,
+      "questionNumber": 1,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q2",
+      "question": "What percentage of Down syndrome cases are due to maternal meiosis I nondisjunction?",
+      "answer": "~75%",
+      "topicNumber": 1,
+      "questionNumber": 2,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q3",
+      "question": "Name three ultrasound findings associated with Down syndrome.",
+      "answer": "Increased nuchal translucency, absent nasal bone, echogenic bowel, short long bones",
+      "topicNumber": 1,
+      "questionNumber": 3,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q4",
+      "question": "What's the serum screening pattern for Down syndrome?",
+      "answer": "High hCG, high inhibin A, low PAPP-A, low AFP, low uE3",
+      "topicNumber": 1,
+      "questionNumber": 4,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q5",
+      "question": "At what maternal age does the risk for Down syndrome equal 1 in 365?",
+      "answer": "Age 35",
+      "topicNumber": 1,
+      "questionNumber": 5,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q6",
+      "question": "What's the most common congenital heart defect in Down syndrome?",
+      "answer": "Endocardial cushion defects (AV canal)",
+      "topicNumber": 1,
+      "questionNumber": 6,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q7",
+      "question": "Which trisomy is associated with choroid plexus cysts?",
+      "answer": "Trisomy 18 (Edwards syndrome)",
+      "topicNumber": 1,
+      "questionNumber": 7,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q8",
+      "question": "What's the classic hand finding in Edwards syndrome?",
+      "answer": "Clenched fists with overlapping fingers",
+      "topicNumber": 1,
+      "questionNumber": 8,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q9",
+      "question": "What's the life expectancy for babies with Edwards syndrome?",
+      "answer": "Average 5 days; 5-10% survive first year",
+      "topicNumber": 1,
+      "questionNumber": 9,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q10",
+      "question": "Name the classic midline defect associated with Patau syndrome.",
+      "answer": "Holoprosencephaly",
+      "topicNumber": 1,
+      "questionNumber": 10,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q11",
+      "question": "What's the most common sex chromosome abnormality in females?",
+      "answer": "Turner syndrome (45,X)",
+      "topicNumber": 1,
+      "questionNumber": 11,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q12",
+      "question": "What percentage of Turner syndrome conceptuses survive to birth?",
+      "answer": "~1% (99% miscarry)",
+      "topicNumber": 1,
+      "questionNumber": 12,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q13",
+      "question": "What's the most common cardiac defect in Turner syndrome?",
+      "answer": "Bicuspid aortic valve and coarctation of aorta",
+      "topicNumber": 1,
+      "questionNumber": 13,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q14",
+      "question": "At what age are males with Klinefelter syndrome typically diagnosed?",
+      "answer": "Adolescence (due to hypogonadism)",
+      "topicNumber": 1,
+      "questionNumber": 14,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q15",
+      "question": "What deletion syndrome is also called DiGeorge syndrome?",
+      "answer": "22q11.2 deletion syndrome",
+      "topicNumber": 1,
+      "questionNumber": 15,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q16",
+      "question": "What's the inheritance pattern of Prader-Willi syndrome?",
+      "answer": "Genomic imprinting (paternal deletion/maternal UPD)",
+      "topicNumber": 1,
+      "questionNumber": 16,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q17",
+      "question": "How do you distinguish Prader-Willi from Angelman syndrome molecularly?",
+      "answer": "Both involve chromosome 15q11-q13, but PWS affects paternal copy, AS affects maternal copy",
+      "topicNumber": 1,
+      "questionNumber": 17,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q18",
+      "question": "What's the classic personality trait in Williams syndrome?",
+      "answer": "Overly social, \"cocktail party\" personality",
+      "topicNumber": 1,
+      "questionNumber": 18,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q19",
+      "question": "What cardiovascular defect is associated with Williams syndrome?",
+      "answer": "Supravalvular aortic stenosis (SVAS)",
+      "topicNumber": 1,
+      "questionNumber": 19,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic1-q20",
+      "question": "What test is used to diagnose most deletion/duplication syndromes?",
+      "answer": "Chromosomal microarray (CMA)",
+      "topicNumber": 1,
+      "questionNumber": 20,
+      "topic": {
+        "id": "topic1",
+        "name": "Chromosomal Disorders",
+        "number": 1
+      }
+    },
+    {
+      "id": "topic2-q1",
+      "question": "What's the lifetime breast cancer risk for BRCA1 carriers?",
+      "answer": "55-72%",
+      "topicNumber": 2,
+      "questionNumber": 1,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q2",
+      "question": "Which BRCA gene carries higher male breast cancer risk?",
+      "answer": "BRCA2 (6-8% vs <1% for BRCA1)",
+      "topicNumber": 2,
+      "questionNumber": 2,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q3",
+      "question": "Name the three Ashkenazi Jewish BRCA founder mutations.",
+      "answer": "185delAG (BRCA1), 5382insC (BRCA1), 6174delT (BRCA2)",
+      "topicNumber": 2,
+      "questionNumber": 3,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q4",
+      "question": "What type of breast cancer is associated with BRCA1?",
+      "answer": "Triple-negative, basal-like",
+      "topicNumber": 2,
+      "questionNumber": 4,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q5",
+      "question": "What's the most common extracolonic cancer in Lynch syndrome?",
+      "answer": "Endometrial cancer",
+      "topicNumber": 2,
+      "questionNumber": 5,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q6",
+      "question": "What molecular feature characterizes Lynch syndrome tumors?",
+      "answer": "Microsatellite instability (MSI-high)",
+      "topicNumber": 2,
+      "questionNumber": 6,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q7",
+      "question": "How many adenomatous polyps are required for FAP diagnosis?",
+      "answer": ">100 adenomatous polyps",
+      "topicNumber": 2,
+      "questionNumber": 7,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q8",
+      "question": "What's the penetrance of colorectal cancer in classic FAP?",
+      "answer": "Nearly 100% by age 40",
+      "topicNumber": 2,
+      "questionNumber": 8,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q9",
+      "question": "What extracolonic manifestation is specific to Gardner syndrome?",
+      "answer": "Desmoid tumors",
+      "topicNumber": 2,
+      "questionNumber": 9,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q10",
+      "question": "What's the average age of cancer onset in Li-Fraumeni syndrome?",
+      "answer": "Before age 45 (often childhood)",
+      "topicNumber": 2,
+      "questionNumber": 10,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q11",
+      "question": "What's the most common cancer in children with Li-Fraumeni?",
+      "answer": "Adrenocortical carcinoma",
+      "topicNumber": 2,
+      "questionNumber": 11,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q12",
+      "question": "What clinical finding is pathognomonic for Cowden syndrome?",
+      "answer": "Trichilemmomas (facial papules)",
+      "topicNumber": 2,
+      "questionNumber": 12,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q13",
+      "question": "What's the diagnostic criteria for NF1 (how many major features needed)?",
+      "answer": "2 or more major features",
+      "topicNumber": 2,
+      "questionNumber": 13,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q14",
+      "question": "How many café-au-lait spots are required for NF1 diagnosis?",
+      "answer": "≥6 spots (≥5mm prepubertal, ≥15mm postpubertal)",
+      "topicNumber": 2,
+      "questionNumber": 14,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q15",
+      "question": "What's the pathognomonic feature of NF2?",
+      "answer": "Bilateral acoustic neuromas (schwannomas)",
+      "topicNumber": 2,
+      "questionNumber": 15,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q16",
+      "question": "What percentage of NF1 cases are de novo mutations?",
+      "answer": "~50%",
+      "topicNumber": 2,
+      "questionNumber": 16,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q17",
+      "question": "What brain lesion is characteristic of TSC?",
+      "answer": "Subependymal giant cell astrocytomas (SEGAs)",
+      "topicNumber": 2,
+      "questionNumber": 17,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q18",
+      "question": "What skin finding appears in 95% of TSC patients?",
+      "answer": "Hypomelanotic macules (ash leaf spots)",
+      "topicNumber": 2,
+      "questionNumber": 18,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q19",
+      "question": "What's the \"two-hit hypothesis\" in cancer genetics?",
+      "answer": "Both copies of tumor suppressor gene must be inactivated for cancer to develop",
+      "topicNumber": 2,
+      "questionNumber": 19,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic2-q20",
+      "question": "Which cancer syndrome has the highest penetrance?",
+      "answer": "FAP (nearly 100% for colorectal cancer)",
+      "topicNumber": 2,
+      "questionNumber": 20,
+      "topic": {
+        "id": "topic2",
+        "name": "Cancer Genetics",
+        "number": 2
+      }
+    },
+    {
+      "id": "topic3-q1",
+      "question": "What's the most common CFTR mutation worldwide?",
+      "answer": "ΔF508 (Class 2 processing defect)",
+      "topicNumber": 3,
+      "questionNumber": 1,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q2",
+      "question": "What percentage of CF males have CBAVD?",
+      "answer": ">95%",
+      "topicNumber": 3,
+      "questionNumber": 2,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q3",
+      "question": "What sweat chloride level is diagnostic for CF?",
+      "answer": ">60 mEq/L",
+      "topicNumber": 3,
+      "questionNumber": 3,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q4",
+      "question": "What drug can be used for CF patients with G551D mutation?",
+      "answer": "Ivacaftor (Kalydeco)",
+      "topicNumber": 3,
+      "questionNumber": 4,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q5",
+      "question": "What's the significance of R117H with 5T poly tract?",
+      "answer": "Can cause pancreatic sufficient CF or isolated CBAVD",
+      "topicNumber": 3,
+      "questionNumber": 5,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q6",
+      "question": "What's the most severe α1-antitrypsin deficiency genotype?",
+      "answer": "Pi*ZZ (PiZZ)",
+      "topicNumber": 3,
+      "questionNumber": 6,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q7",
+      "question": "What organ systems are affected in α1-antitrypsin deficiency?",
+      "answer": "Lungs (emphysema) and liver (cirrhosis)",
+      "topicNumber": 3,
+      "questionNumber": 7,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q8",
+      "question": "What's the most common cause of hypertrophic cardiomyopathy?",
+      "answer": "Sarcomere protein mutations (MYH7, MYBPC3)",
+      "topicNumber": 3,
+      "questionNumber": 8,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q9",
+      "question": "What's the inheritance pattern of HCM?",
+      "answer": "Autosomal dominant with variable penetrance",
+      "topicNumber": 3,
+      "questionNumber": 9,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q10",
+      "question": "Name the three most common Long QT syndrome genes.",
+      "answer": "KCNQ1 (LQT1), KCNH2 (LQT2), SCN5A (LQT3)",
+      "topicNumber": 3,
+      "questionNumber": 10,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q11",
+      "question": "What triggers arrhythmias in LQT1?",
+      "answer": "Exercise (especially swimming)",
+      "topicNumber": 3,
+      "questionNumber": 11,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q12",
+      "question": "What triggers arrhythmias in LQT2?",
+      "answer": "Auditory stimuli, emotional stress",
+      "topicNumber": 3,
+      "questionNumber": 12,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q13",
+      "question": "What's the difference between ADPKD1 and ADPKD2?",
+      "answer": "PKD1 more severe, earlier onset; PKD2 milder, later onset",
+      "topicNumber": 3,
+      "questionNumber": 13,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q14",
+      "question": "What's the most common extrarenal manifestation of ADPKD?",
+      "answer": "Hepatic cysts",
+      "topicNumber": 3,
+      "questionNumber": 14,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q15",
+      "question": "What's the inheritance pattern of Alport syndrome?",
+      "answer": "85% X-linked, 15% autosomal recessive",
+      "topicNumber": 3,
+      "questionNumber": 15,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q16",
+      "question": "What's the classic triad of Alport syndrome?",
+      "answer": "Progressive nephritis, sensorineural hearing loss, ocular abnormalities",
+      "topicNumber": 3,
+      "questionNumber": 16,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q17",
+      "question": "What causes androgen insensitivity syndrome?",
+      "answer": "Androgen receptor (AR) gene mutations",
+      "topicNumber": 3,
+      "questionNumber": 17,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q18",
+      "question": "What's the karyotype in complete AIS?",
+      "answer": "46,XY with female external genitalia",
+      "topicNumber": 3,
+      "questionNumber": 18,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q19",
+      "question": "What percentage of CF carriers are detected by standard panel?",
+      "answer": "Varies by ethnicity (90% Caucasian, 69% Hispanic, 65% African American)",
+      "topicNumber": 3,
+      "questionNumber": 19,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic3-q20",
+      "question": "What's the residual risk for CF after negative carrier screening?",
+      "answer": "Depends on ethnicity and panel used",
+      "topicNumber": 3,
+      "questionNumber": 20,
+      "topic": {
+        "id": "topic3",
+        "name": "Organ System Disorders",
+        "number": 3
+      }
+    },
+    {
+      "id": "topic4-q1",
+      "question": "What type of anticipation occurs in Huntington disease?",
+      "answer": "Paternal anticipation",
+      "topicNumber": 4,
+      "questionNumber": 1,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q2",
+      "question": "What CAG repeat number indicates full penetrance HD?",
+      "answer": "≥40 repeats",
+      "topicNumber": 4,
+      "questionNumber": 2,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q3",
+      "question": "What's the classic triad of Huntington disease?",
+      "answer": "Chorea, motor disability, cognitive decline",
+      "topicNumber": 4,
+      "questionNumber": 3,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q4",
+      "question": "What type of anticipation occurs in myotonic dystrophy?",
+      "answer": "Maternal anticipation",
+      "topicNumber": 4,
+      "questionNumber": 4,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q5",
+      "question": "What's the most severe form of myotonic dystrophy?",
+      "answer": "Congenital DM1 (>1000 CTG repeats)",
+      "topicNumber": 4,
+      "questionNumber": 5,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q6",
+      "question": "What's the most common inherited cause of intellectual disability?",
+      "answer": "Fragile X syndrome",
+      "topicNumber": 4,
+      "questionNumber": 6,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q7",
+      "question": "What percentage of Fragile X premutation females develop POI?",
+      "answer": "~20%",
+      "topicNumber": 4,
+      "questionNumber": 7,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q8",
+      "question": "What's the reading frame rule in DMD/BMD?",
+      "answer": "Out-of-frame deletions = DMD (severe), in-frame = BMD (mild)",
+      "topicNumber": 4,
+      "questionNumber": 8,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q9",
+      "question": "What percentage of DMD cases are due to intron 22 inversion?",
+      "answer": "This is hemophilia A (45%); DMD deletions are 60%",
+      "topicNumber": 4,
+      "questionNumber": 9,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q10",
+      "question": "What's the carrier frequency for SMA in Ashkenazi Jewish population?",
+      "answer": "1 in 41",
+      "topicNumber": 4,
+      "questionNumber": 10,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q11",
+      "question": "What determines SMA severity?",
+      "answer": "SMN2 copy number",
+      "topicNumber": 4,
+      "questionNumber": 11,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q12",
+      "question": "What gene causes Rett syndrome?",
+      "answer": "MECP2",
+      "topicNumber": 4,
+      "questionNumber": 12,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q13",
+      "question": "What's the inheritance pattern of Rett syndrome?",
+      "answer": "X-linked dominant (99% de novo)",
+      "topicNumber": 4,
+      "questionNumber": 13,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q14",
+      "question": "What does CHARGE syndrome stand for?",
+      "answer": "Coloboma, Heart defects, Atresia of choanae, Retardation, Genital hypoplasia, Ear anomalies",
+      "topicNumber": 4,
+      "questionNumber": 14,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q15",
+      "question": "What's the most common gene causing CHARGE syndrome?",
+      "answer": "CHD7",
+      "topicNumber": 4,
+      "questionNumber": 15,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q16",
+      "question": "What's the recurrence risk for neural tube defects?",
+      "answer": "2-3%",
+      "topicNumber": 4,
+      "questionNumber": 16,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q17",
+      "question": "What folic acid dose prevents NTD recurrence?",
+      "answer": "4 mg daily (vs 400 μg for general population)",
+      "topicNumber": 4,
+      "questionNumber": 17,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q18",
+      "question": "What's the most common gene causing Noonan syndrome?",
+      "answer": "PTPN11 (50%)",
+      "topicNumber": 4,
+      "questionNumber": 18,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q19",
+      "question": "What cardiac defect is most common in Noonan syndrome?",
+      "answer": "Pulmonary valve stenosis",
+      "topicNumber": 4,
+      "questionNumber": 19,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic4-q20",
+      "question": "What bleeding disorder is associated with Noonan syndrome?",
+      "answer": "Factor XI deficiency, platelet dysfunction",
+      "topicNumber": 4,
+      "questionNumber": 20,
+      "topic": {
+        "id": "topic4",
+        "name": "Neurological & Developmental Disorders",
+        "number": 4
+      }
+    },
+    {
+      "id": "topic5-q1",
+      "question": "What's the most common amino acid disorder?",
+      "answer": "Phenylketonuria (PKU)",
+      "topicNumber": 5,
+      "questionNumber": 1,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q2",
+      "question": "What happens if PKU is untreated?",
+      "answer": "Progressive intellectual disability",
+      "topicNumber": 5,
+      "questionNumber": 2,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q3",
+      "question": "What's the target phenylalanine level for PKU patients under 12?",
+      "answer": "120-360 μmol/L",
+      "topicNumber": 5,
+      "questionNumber": 3,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q4",
+      "question": "What's maternal PKU syndrome?",
+      "answer": "Fetal effects from elevated maternal phenylalanine during pregnancy",
+      "topicNumber": 5,
+      "questionNumber": 4,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q5",
+      "question": "What direction does the lens dislocate in homocystinuria?",
+      "answer": "Downward (vs upward in Marfan syndrome)",
+      "topicNumber": 5,
+      "questionNumber": 5,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q6",
+      "question": "What's the classic presentation of galactosemia?",
+      "answer": "Failure to thrive, hepatomegaly, cataracts, E. coli sepsis",
+      "topicNumber": 5,
+      "questionNumber": 6,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q7",
+      "question": "What enzyme is deficient in classic galactosemia?",
+      "answer": "Galactose-1-phosphate uridyltransferase (GALT)",
+      "topicNumber": 5,
+      "questionNumber": 7,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q8",
+      "question": "What's the most common type of Gaucher disease?",
+      "answer": "Type 1 (non-neuronopathic)",
+      "topicNumber": 5,
+      "questionNumber": 8,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q9",
+      "question": "What population has high Gaucher disease carrier frequency?",
+      "answer": "Ashkenazi Jewish (1 in 15)",
+      "topicNumber": 5,
+      "questionNumber": 9,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q10",
+      "question": "What's the classic sign of Tay-Sachs disease?",
+      "answer": "Cherry-red spot on fundoscopy",
+      "topicNumber": 5,
+      "questionNumber": 10,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q11",
+      "question": "What enzyme is deficient in Tay-Sachs?",
+      "answer": "Hexosaminidase A (HEXA gene)",
+      "topicNumber": 5,
+      "questionNumber": 11,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q12",
+      "question": "What population has high Tay-Sachs carrier frequency?",
+      "answer": "Ashkenazi Jewish (1 in 30)",
+      "topicNumber": 5,
+      "questionNumber": 12,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q13",
+      "question": "What's the inheritance pattern of Fabry disease?",
+      "answer": "X-linked",
+      "topicNumber": 5,
+      "questionNumber": 13,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q14",
+      "question": "What's the classic early symptom of Fabry disease?",
+      "answer": "Acroparesthesias (burning pain in hands/feet)",
+      "topicNumber": 5,
+      "questionNumber": 14,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q15",
+      "question": "What skin finding is characteristic of Fabry disease?",
+      "answer": "Angiokeratomas",
+      "topicNumber": 5,
+      "questionNumber": 15,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q16",
+      "question": "What's the difference between Hunter and Hurler syndrome?",
+      "answer": "Hunter (MPS II) is X-linked and has NO corneal clouding",
+      "topicNumber": 5,
+      "questionNumber": 16,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q17",
+      "question": "What causes Wilson disease?",
+      "answer": "ATP7B gene mutations (copper transport defect)",
+      "topicNumber": 5,
+      "questionNumber": 17,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q18",
+      "question": "What's the pathognomonic sign of Wilson disease?",
+      "answer": "Kayser-Fleischer rings",
+      "topicNumber": 5,
+      "questionNumber": 18,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q19",
+      "question": "What metabolic disorder causes very high LDL cholesterol?",
+      "answer": "Familial hypercholesterolemia (LDLR mutations)",
+      "topicNumber": 5,
+      "questionNumber": 19,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic5-q20",
+      "question": "What's MCAD deficiency?",
+      "answer": "Medium-chain acyl-CoA dehydrogenase deficiency (fatty acid oxidation disorder)",
+      "topicNumber": 5,
+      "questionNumber": 20,
+      "topic": {
+        "id": "topic5",
+        "name": "Metabolic Disorders",
+        "number": 5
+      }
+    },
+    {
+      "id": "topic6-q1",
+      "question": "What genes are most commonly mutated in osteogenesis imperfecta?",
+      "answer": "COL1A1 and COL1A2",
+      "topicNumber": 6,
+      "questionNumber": 1,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q2",
+      "question": "What's the distinguishing feature of OI type I?",
+      "answer": "Blue sclerae with normal stature",
+      "topicNumber": 6,
+      "questionNumber": 2,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q3",
+      "question": "Which direction does the lens dislocate in Marfan syndrome?",
+      "answer": "Upward",
+      "topicNumber": 6,
+      "questionNumber": 3,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q4",
+      "question": "What's the most serious complication of Marfan syndrome?",
+      "answer": "Aortic root dilatation and dissection",
+      "topicNumber": 6,
+      "questionNumber": 4,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q5",
+      "question": "What's the most common mutation causing achondroplasia?",
+      "answer": "c.1138G>A in FGFR3",
+      "topicNumber": 6,
+      "questionNumber": 5,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q6",
+      "question": "What's the reproductive risk when both parents have achondroplasia?",
+      "answer": "25% normal, 50% achondroplasia, 25% homozygous lethal",
+      "topicNumber": 6,
+      "questionNumber": 6,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q7",
+      "question": "What's the inheritance pattern of incontinentia pigmenti?",
+      "answer": "X-linked dominant with male lethality",
+      "topicNumber": 6,
+      "questionNumber": 7,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q8",
+      "question": "What causes hypohidrotic ectodermal dysplasia?",
+      "answer": "EDA gene (X-linked most common)",
+      "topicNumber": 6,
+      "questionNumber": 8,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q9",
+      "question": "What's the most common gene causing non-syndromic hearing loss?",
+      "answer": "GJB2 (connexin 26)",
+      "topicNumber": 6,
+      "questionNumber": 9,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q10",
+      "question": "What's the carrier frequency for GJB2 mutations in Europeans?",
+      "answer": "1 in 30",
+      "topicNumber": 6,
+      "questionNumber": 10,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q11",
+      "question": "What causes Usher syndrome type 1?",
+      "answer": "MYO7A (most common), USH1C, CDH23",
+      "topicNumber": 6,
+      "questionNumber": 11,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q12",
+      "question": "What newborn screen marker indicates CAH?",
+      "answer": "Elevated 17-hydroxyprogesterone (17-OHP)",
+      "topicNumber": 6,
+      "questionNumber": 12,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q13",
+      "question": "What's the most common cause of ambiguous genitalia?",
+      "answer": "Congenital adrenal hyperplasia (21-hydroxylase deficiency)",
+      "topicNumber": 6,
+      "questionNumber": 13,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q14",
+      "question": "What hemoglobin pattern indicates sickle cell trait?",
+      "answer": "FAS on newborn screen",
+      "topicNumber": 6,
+      "questionNumber": 14,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q15",
+      "question": "What percentage of severe hemophilia A is due to intron 22 inversion?",
+      "answer": "45%",
+      "topicNumber": 6,
+      "questionNumber": 15,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q16",
+      "question": "What's the inheritance pattern of hemophilia?",
+      "answer": "X-linked recessive",
+      "topicNumber": 6,
+      "questionNumber": 16,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q17",
+      "question": "What test confirms Fanconi anemia?",
+      "answer": "DEB (diepoxybutane) chromosome breakage test",
+      "topicNumber": 6,
+      "questionNumber": 17,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q18",
+      "question": "What's characteristic of Bloom syndrome patients?",
+      "answer": "Growth deficiency, butterfly facial rash, extreme cancer risk",
+      "topicNumber": 6,
+      "questionNumber": 18,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q19",
+      "question": "What population has a founder mutation for Bloom syndrome?",
+      "answer": "Ashkenazi Jewish (blmAsh mutation)",
+      "topicNumber": 6,
+      "questionNumber": 19,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    },
+    {
+      "id": "topic6-q20",
+      "question": "What's the carrier frequency for sickle cell trait in African Americans?",
+      "answer": "1 in 10",
+      "topicNumber": 6,
+      "questionNumber": 20,
+      "topic": {
+        "id": "topic6",
+        "name": "Specialized Organ Systems",
+        "number": 6
+      }
+    }
+  ]
+}

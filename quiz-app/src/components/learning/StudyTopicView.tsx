@@ -121,7 +121,7 @@ export function StudyTopicView() {
             <span>{topic.title}</span>
           </div>
           <div className="flex items-center gap-3">
-            <h1 className="text-2xl font-bold">{topic.title}</h1>
+            <h1 className="text-2xl font-bold mb-1">{topic.title}</h1>
             <div className="flex">
               {Array.from({ length: topic.importance }, (_, i) => (
                 <Star key={i} className="h-5 w-5 fill-warning text-warning" />
