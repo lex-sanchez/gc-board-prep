@@ -11,6 +11,7 @@ import { topic1Sections, topic1QuickLookup } from '@/data/topic1-content'
 import { topic2Sections, topic2QuickLookup } from '@/data/topic2-content'
 import { topic4Sections, topic4QuickLookup } from '@/data/topic4-content'
 import { topic6Sections, topic6QuickLookup } from '@/data/topic6-content'
+import { domain4Sections, domain4QuickLookup } from '@/data/domain4-content'
 
 export function StudyTopicView() {
   const { topicId, sectionId } = useParams<{ topicId: string; sectionId?: string }>()
@@ -24,11 +25,13 @@ export function StudyTopicView() {
   const sections = topicId === 'topic1' ? topic1Sections : 
                    topicId === 'topic2' ? topic2Sections :
                    topicId === 'topic4' ? topic4Sections :
-                   topicId === 'topic6' ? topic6Sections : []
+                   topicId === 'topic6' ? topic6Sections :
+                   topicId === 'domain4' ? domain4Sections : []
   const quickLookup = topicId === 'topic1' ? topic1QuickLookup : 
                       topicId === 'topic2' ? topic2QuickLookup :
                       topicId === 'topic4' ? topic4QuickLookup :
-                      topicId === 'topic6' ? topic6QuickLookup : undefined
+                      topicId === 'topic6' ? topic6QuickLookup :
+                      topicId === 'domain4' ? domain4QuickLookup : undefined
   
   // Current section state
   const [currentSectionId, setCurrentSectionId] = useState<string>(

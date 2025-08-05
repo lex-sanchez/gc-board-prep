@@ -6,13 +6,13 @@ export const topic1Sections: StudySection[] = [
     title: 'Overview of Chromosomal Abnormalities',
     content: `
       <div class="space-y-6">
-        <div class="bg-primary/10 p-6 rounded-lg">
-          <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+        <div class="rounded-lg bg-primary/10 p-6">
+          <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold">
             📊 Types of Chromosomal Abnormalities
           </h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div>
-              <h4 class="font-semibold text-primary mb-2">Numerical Abnormalities</h4>
+              <h4 class="mb-2 font-semibold text-primary">Numerical Abnormalities</h4>
               <ul class="space-y-1 text-sm">
                 <li>• <strong>Aneuploidy:</strong> Abnormal number of chromosomes</li>
                 <li>• <strong>Monosomy:</strong> Missing one chromosome</li>
@@ -21,7 +21,7 @@ export const topic1Sections: StudySection[] = [
               </ul>
             </div>
             <div>
-              <h4 class="font-semibold text-primary mb-2">Structural Abnormalities</h4>
+              <h4 class="mb-2 font-semibold text-primary">Structural Abnormalities</h4>
               <ul class="space-y-1 text-sm">
                 <li>• <strong>Deletions:</strong> Loss of chromosomal material</li>
                 <li>• <strong>Duplications:</strong> Extra chromosomal material</li>
@@ -32,21 +32,21 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-accent/10 p-6 rounded-lg">
-          <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+        <div class="rounded-lg bg-accent/10 p-6">
+          <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold">
             ⚙️ Key Mechanisms
           </h3>
           <ul class="space-y-2">
             <li class="flex items-start gap-2">
-              <span class="font-semibold text-accent min-w-0">Nondisjunction:</span>
+              <span class="min-w-0 font-semibold text-accent">Nondisjunction:</span>
               <span class="text-sm">Failure of chromosomes to separate properly during meiosis</span>
             </li>
             <li class="flex items-start gap-2">
-              <span class="font-semibold text-accent min-w-0">Maternal age effect:</span>
+              <span class="min-w-0 font-semibold text-accent">Maternal age effect:</span>
               <span class="text-sm">Increased risk with advanced maternal age (especially for trisomies)</span>
             </li>
             <li class="flex items-start gap-2">
-              <span class="font-semibold text-accent min-w-0">Mosaicism:</span>
+              <span class="min-w-0 font-semibold text-accent">Mosaicism:</span>
               <span class="text-sm">Two or more cell lines with different karyotypes in same individual</span>
             </li>
           </ul>
@@ -92,19 +92,19 @@ export const topic1Sections: StudySection[] = [
             opacity: 0.6;
           "></div>
           
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2 relative z-10">
+          <h3 class="relative z-10 mb-4 flex items-center gap-2 text-xl font-bold">
             <span class="flex items-center gap-1">
               Trisomy 21 (Down Syndrome)
               <span class="flex">⭐⭐⭐</span>
             </span>
           </h3>
-          <p class="font-semibold mb-4 relative z-10" style="color: hsl(38 100% 30%);">Most Important Autosomal Trisomy - Study This First!</p>
+          <p class="relative z-10 mb-4 font-semibold" style="color: hsl(38 100% 30%);">Most Important Autosomal Trisomy - Study This First!</p>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 relative z-10">
+          <div class="relative z-10 grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Top 3 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>Characteristic facial features</strong> - upslanting palpebral fissures, epicanthal folds</li>
                   <li><strong>Intellectual disability</strong> - mild to moderate</li>
                   <li><strong>Congenital heart disease</strong> - endocardial cushion defects (AV canal)</li>
@@ -112,7 +112,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">🏥 Clinical Features</h4>
+                <h4 class="mb-2 font-semibold text-primary">🏥 Clinical Features</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Facial:</strong> Flat profile, small ears, protruding tongue, Brushfield spots</li>
                   <li><strong>Cardiac:</strong> CHD in 50% - endocardial cushion defects most common</li>
@@ -122,7 +122,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">📺 Ultrasound Findings</h4>
+                <h4 class="mb-2 font-semibold text-primary">📺 Ultrasound Findings</h4>
                 <ul class="space-y-1 text-sm">
                   <li>• Echogenic bowel</li>
                   <li>• Short long bones (femur, humerus)</li>
@@ -135,7 +135,7 @@ export const topic1Sections: StudySection[] = [
 
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🧪 Serum Screening Pattern</h4>
+                <h4 class="mb-2 font-semibold text-primary">🧪 Serum Screening Pattern</h4>
                 <div style="
                   background: linear-gradient(135deg, hsl(var(--muted) / 0.3) 0%, hsl(var(--secondary) / 0.2) 100%);
                   border: 1px solid hsl(var(--border) / 0.2);
@@ -144,17 +144,17 @@ export const topic1Sections: StudySection[] = [
                   backdrop-filter: blur(4px);
                 ">
                   <ul class="space-y-1 text-sm">
-                    <li class="flex justify-between"><span><strong>hCG:</strong></span><span class="text-green-600 font-semibold">↑ High</span></li>
-                    <li class="flex justify-between"><span><strong>Inhibin A:</strong></span><span class="text-green-600 font-semibold">↑ High</span></li>
-                    <li class="flex justify-between"><span><strong>PAPP-A:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
-                    <li class="flex justify-between"><span><strong>AFP:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
-                    <li class="flex justify-between"><span><strong>uE3:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
+                    <li class="flex justify-between"><span><strong>hCG:</strong></span><span class="font-semibold text-green-600">↑ High</span></li>
+                    <li class="flex justify-between"><span><strong>Inhibin A:</strong></span><span class="font-semibold text-green-600">↑ High</span></li>
+                    <li class="flex justify-between"><span><strong>PAPP-A:</strong></span><span class="font-semibold text-red-600">↓ Low</span></li>
+                    <li class="flex justify-between"><span><strong>AFP:</strong></span><span class="font-semibold text-red-600">↓ Low</span></li>
+                    <li class="flex justify-between"><span><strong>uE3:</strong></span><span class="font-semibold text-red-600">↓ Low</span></li>
                   </ul>
                 </div>
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Statistics & Risks</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Statistics & Risks</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Prevalence:</strong> 1/800 newborns</li>
                   <li><strong>Mechanism:</strong> 85-90% maternal meiosis I (75%), meiosis II (25%)</li>
@@ -172,7 +172,7 @@ export const topic1Sections: StudySection[] = [
                 padding: 0.75rem;
                 backdrop-filter: blur(4px);
               ">
-                <h4 class="font-semibold mb-2" style="color: hsl(220 100% 40%);">💎 Board Pearls</h4>
+                <h4 class="mb-2 font-semibold" style="color: hsl(220 100% 40%);">💎 Board Pearls</h4>
                 <ul class="space-y-1 text-sm" style="color: hsl(220 100% 35%);">
                   <li>• Most common live-born autosomal aneuploidy</li>
                   <li>• 80% of DS pregnancies result in miscarriage</li>
@@ -200,18 +200,18 @@ export const topic1Sections: StudySection[] = [
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           overflow: hidden;
         ">
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold">
             <span class="flex items-center gap-1">
               Trisomy 18 (Edwards Syndrome)
               <span class="flex">⭐⭐</span>
             </span>
           </h3>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Top 3 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>Choroid plexus cysts</strong></li>
                   <li><strong>Clenched fists</strong> with overlapping fingers</li>
                   <li><strong>IUGR</strong> (intrauterine growth restriction)</li>
@@ -219,7 +219,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">🏥 Clinical Features</h4>
+                <h4 class="mb-2 font-semibold text-primary">🏥 Clinical Features</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Growth:</strong> Low birth weight, failure to thrive</li>
                   <li><strong>Craniofacial:</strong> Microcephaly, prominent occiput</li>
@@ -232,7 +232,7 @@ export const topic1Sections: StudySection[] = [
 
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🧪 Serum Screening Pattern</h4>
+                <h4 class="mb-2 font-semibold text-primary">🧪 Serum Screening Pattern</h4>
                 <div style="
                   background: linear-gradient(135deg, hsl(var(--muted) / 0.3) 0%, hsl(var(--secondary) / 0.2) 100%);
                   border: 1px solid hsl(var(--border) / 0.2);
@@ -241,16 +241,16 @@ export const topic1Sections: StudySection[] = [
                   backdrop-filter: blur(4px);
                 ">
                   <ul class="space-y-1 text-sm">
-                    <li class="flex justify-between"><span><strong>hCG:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
-                    <li class="flex justify-between"><span><strong>PAPP-A:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
-                    <li class="flex justify-between"><span><strong>AFP:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
-                    <li class="flex justify-between"><span><strong>uE3:</strong></span><span class="text-red-600 font-semibold">↓ Low</span></li>
+                    <li class="flex justify-between"><span><strong>hCG:</strong></span><span class="font-semibold text-red-600">↓ Low</span></li>
+                    <li class="flex justify-between"><span><strong>PAPP-A:</strong></span><span class="font-semibold text-red-600">↓ Low</span></li>
+                    <li class="flex justify-between"><span><strong>AFP:</strong></span><span class="font-semibold text-red-600">↓ Low</span></li>
+                    <li class="flex justify-between"><span><strong>uE3:</strong></span><span class="font-semibold text-red-600">↓ Low</span></li>
                   </ul>
                 </div>
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Statistics</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Statistics</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Prevalence:</strong> 1/5,000 live births</li>
                   <li><strong>Prognosis:</strong> Average lifespan 5 days; 5-10% survive first year</li>
@@ -276,18 +276,18 @@ export const topic1Sections: StudySection[] = [
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           overflow: hidden;
         ">
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold">
             <span class="flex items-center gap-1">
               Trisomy 13 (Patau Syndrome)
               <span class="flex">⭐⭐</span>
             </span>
           </h3>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Top 3 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>Midline facial defects</strong> (cleft lip/palate)</li>
                   <li><strong>Holoprosencephaly</strong></li>
                   <li><strong>Occipital scalp defects</strong></li>
@@ -295,7 +295,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">🏥 Clinical Features</h4>
+                <h4 class="mb-2 font-semibold text-primary">🏥 Clinical Features</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>CNS:</strong> Holoprosencephaly, profound ID, seizures</li>
                   <li><strong>Facial:</strong> Midline cleft lip/palate, microphthalmia</li>
@@ -307,7 +307,7 @@ export const topic1Sections: StudySection[] = [
 
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Statistics</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Statistics</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Prevalence:</strong> 1/16,000</li>
                   <li><strong>Prognosis:</strong> Only 5% survive first 6 months</li>
@@ -348,18 +348,18 @@ export const topic1Sections: StudySection[] = [
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           overflow: hidden;
         ">
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold">
             <span class="flex items-center gap-1">
               Turner Syndrome (45,X)
               <span class="flex">⭐⭐⭐</span>
             </span>
           </h3>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Top 3 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>Cystic hygroma</strong> (prenatal)</li>
                   <li><strong>Coarctation of aorta</strong> (CHD)</li>
                   <li><strong>Ovarian dysgenesis</strong> → infertility</li>
@@ -367,7 +367,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">🏥 Clinical Features</h4>
+                <h4 class="mb-2 font-semibold text-primary">🏥 Clinical Features</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Growth:</strong> Short stature (SHOX gene deletion)</li>
                   <li><strong>Reproductive:</strong> Delayed/absent puberty, ovarian failure</li>
@@ -380,7 +380,7 @@ export const topic1Sections: StudySection[] = [
 
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Statistics & Karyotypes</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Statistics & Karyotypes</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Prevalence:</strong> 1/3,000 live female births</li>
                   <li><strong>Conception:</strong> 1-2% of all conceptions, 99% lost to miscarriage</li>
@@ -399,7 +399,7 @@ export const topic1Sections: StudySection[] = [
                 padding: 0.75rem;
                 backdrop-filter: blur(4px);
               ">
-                <h4 class="font-semibold mb-2" style="color: hsl(220 100% 40%);">💎 Board Pearls</h4>
+                <h4 class="mb-2 font-semibold" style="color: hsl(220 100% 40%);">💎 Board Pearls</h4>
                 <ul class="space-y-1 text-sm" style="color: hsl(220 100% 35%);">
                   <li>• Most common sex chromosome abnormality in conception</li>
                   <li>• Least common sex chromosome abnormality in live births</li>
@@ -426,18 +426,18 @@ export const topic1Sections: StudySection[] = [
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           overflow: hidden;
         ">
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold">
             <span class="flex items-center gap-1">
               Klinefelter Syndrome (47,XXY)
               <span class="flex">⭐⭐</span>
             </span>
           </h3>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div>
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Top 3 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>Tall stature</strong> with long arms</li>
                   <li><strong>Hypogonadism</strong> → infertility</li>
                   <li><strong>Learning difficulties</strong> (not ID)</li>
@@ -445,7 +445,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">🏥 Clinical Features</h4>
+                <h4 class="mb-2 font-semibold text-primary">🏥 Clinical Features</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Physical:</strong> Tall, gynecomastia, sparse body hair</li>
                   <li><strong>Reproductive:</strong> Small testes, infertility, normal testosterone initially</li>
@@ -457,7 +457,7 @@ export const topic1Sections: StudySection[] = [
 
             <div>
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Statistics</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Statistics</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Prevalence:</strong> 1/600 male births</li>
                   <li><strong>Associated with advanced maternal age</strong></li>
@@ -468,7 +468,7 @@ export const topic1Sections: StudySection[] = [
         </div>
 
         <!-- Smaller syndrome cards in grid layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <div style="
             position: relative;
             background: linear-gradient(135deg, hsl(var(--card) / 0.93) 0%, hsl(var(--muted) / 0.4) 100%);
@@ -483,7 +483,7 @@ export const topic1Sections: StudySection[] = [
               0 0 0 1px hsl(var(--border) / 0.15);
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           ">
-            <h4 class="font-semibold mb-3 flex items-center gap-1">
+            <h4 class="mb-3 flex items-center gap-1 font-semibold">
               47,XYY (Jacob's Syndrome) ⭐
             </h4>
             <div class="space-y-2 text-sm">
@@ -507,7 +507,7 @@ export const topic1Sections: StudySection[] = [
               0 0 0 1px hsl(var(--border) / 0.15);
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           ">
-            <h4 class="font-semibold mb-3 flex items-center gap-1">
+            <h4 class="mb-3 flex items-center gap-1 font-semibold">
               47,XXX (Triple X Syndrome) ⭐
             </h4>
             <div class="space-y-2 text-sm">
@@ -549,18 +549,18 @@ export const topic1Sections: StudySection[] = [
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           overflow: hidden;
         ">
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold">
             <span class="flex items-center gap-1">
               22q11.2 Deletion Syndrome (DiGeorge/VCFS)
               <span class="flex">⭐⭐⭐</span>
             </span>
           </h3>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Top 3 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>Congenital heart disease</strong> (64%) - conotruncal defects</li>
                   <li><strong>Immunodeficiency</strong> - T-cell defects</li>
                   <li><strong>Hypocalcemia</strong> - hypoparathyroidism</li>
@@ -574,7 +574,7 @@ export const topic1Sections: StudySection[] = [
                 padding: 0.75rem;
                 backdrop-filter: blur(4px);
               ">
-                <h4 class="font-semibold mb-2" style="color: hsl(45 100% 35%);">🎯 CATCH-22 Mnemonic</h4>
+                <h4 class="mb-2 font-semibold" style="color: hsl(45 100% 35%);">🎯 CATCH-22 Mnemonic</h4>
                 <ul class="space-y-1 text-sm" style="color: hsl(45 100% 30%);">
                   <li><strong>C</strong>ardiac defects</li>
                   <li><strong>A</strong>bnormal facies</li>
@@ -588,7 +588,7 @@ export const topic1Sections: StudySection[] = [
 
             <div class="space-y-4">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🏥 Clinical Features</h4>
+                <h4 class="mb-2 font-semibold text-primary">🏥 Clinical Features</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Cardiac:</strong> TOF, VSD, interrupted aortic arch</li>
                   <li><strong>Facial:</strong> Hooded eyelids, bulbous nose, micrognathia</li>
@@ -598,7 +598,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Statistics & Testing</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Statistics & Testing</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Prevalence:</strong> 1/2,000-6,000</li>
                   <li><strong>Inheritance:</strong> 90% de novo, 10% inherited (AD)</li>
@@ -610,7 +610,7 @@ export const topic1Sections: StudySection[] = [
         </div>
 
         <!-- PWS and Angelman Cards in grid layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <div style="
             position: relative;
             background: linear-gradient(135deg, hsl(var(--card) / 0.95) 0%, hsl(var(--primary) / 0.06) 100%);
@@ -626,18 +626,18 @@ export const topic1Sections: StudySection[] = [
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
           ">
-            <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <h3 class="mb-4 flex items-center gap-2 text-lg font-bold">
               <span class="flex items-center gap-1">
                 Prader-Willi Syndrome
                 <span class="flex">⭐⭐</span>
               </span>
             </h3>
-            <div class="text-sm mb-2 text-muted-foreground">15q11.2-q13 paternal</div>
+            <div class="mb-2 text-sm text-muted-foreground">15q11.2-q13 paternal</div>
             
             <div class="space-y-3">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>Hypotonia</strong> and feeding difficulties (infancy)</li>
                   <li><strong>Hyperphagia</strong> and obesity (childhood)</li>
                   <li><strong>Short stature</strong> with small hands/feet</li>
@@ -645,7 +645,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Molecular Mechanisms</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Molecular Mechanisms</h4>
                 <ul class="space-y-1 text-xs">
                   <li>• Paternal deletion 15q11.2-q13 (70%)</li>
                   <li>• Maternal UPD15 (20-30%)</li>
@@ -654,7 +654,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">🧪 Testing</h4>
+                <h4 class="mb-2 font-semibold text-primary">🧪 Testing</h4>
                 <div class="text-sm">Methylation analysis (gold standard)</div>
               </div>
             </div>
@@ -675,18 +675,18 @@ export const topic1Sections: StudySection[] = [
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
           ">
-            <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <h3 class="mb-4 flex items-center gap-2 text-lg font-bold">
               <span class="flex items-center gap-1">
                 Angelman Syndrome
                 <span class="flex">⭐⭐</span>
               </span>
             </h3>
-            <div class="text-sm mb-2 text-muted-foreground">15q11.2-q13 maternal</div>
+            <div class="mb-2 text-sm text-muted-foreground">15q11.2-q13 maternal</div>
             
             <div class="space-y-3">
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>"Happy puppet" demeanor</strong> - inappropriate laughter</li>
                   <li><strong>Severe ID</strong> with absent speech</li>
                   <li><strong>Seizures</strong> and ataxic gait</li>
@@ -694,7 +694,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Molecular Mechanisms</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Molecular Mechanisms</h4>
                 <ul class="space-y-1 text-xs">
                   <li>• Maternal deletion 15q11.2-q13 (70%)</li>
                   <li>• Paternal UPD15 (7%)</li>
@@ -723,18 +723,18 @@ export const topic1Sections: StudySection[] = [
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           overflow: hidden;
         ">
-          <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <h3 class="mb-4 flex items-center gap-2 text-xl font-bold">
             <span class="flex items-center gap-1">
               Williams Syndrome (7q11.23 deletion)
               <span class="flex">⭐⭐</span>
             </span>
           </h3>
           
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <div>
               <div>
-                <h4 class="font-semibold text-primary mb-2">🔑 Top 3 Key Features</h4>
-                <ol class="list-decimal list-inside space-y-1 text-sm">
+                <h4 class="mb-2 font-semibold text-primary">🔑 Top 3 Key Features</h4>
+                <ol class="list-inside list-decimal space-y-1 text-sm">
                   <li><strong>"Cocktail party" personality</strong> - overly friendly</li>
                   <li><strong>Supravalvular aortic stenosis</strong></li>
                   <li><strong>Hypercalcemia</strong></li>
@@ -742,7 +742,7 @@ export const topic1Sections: StudySection[] = [
               </div>
 
               <div>
-                <h4 class="font-semibold text-primary mb-2">🏥 Clinical Features</h4>
+                <h4 class="mb-2 font-semibold text-primary">🏥 Clinical Features</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Behavioral:</strong> Overly social, musical aptitude, anxiety/phobias</li>
                   <li><strong>Cardiac:</strong> Supravalvular aortic stenosis, peripheral artery stenosis</li>
@@ -754,7 +754,7 @@ export const topic1Sections: StudySection[] = [
 
             <div>
               <div>
-                <h4 class="font-semibold text-primary mb-2">📈 Statistics</h4>
+                <h4 class="mb-2 font-semibold text-primary">📈 Statistics</h4>
                 <ul class="space-y-1 text-sm">
                   <li><strong>Prevalence:</strong> 1/7,500-10,000</li>
                   <li><strong>Mechanism:</strong> De novo deletion involving ELN gene</li>
@@ -773,7 +773,7 @@ export const topic1Sections: StudySection[] = [
           padding: 1rem;
           backdrop-filter: blur(4px);
         ">
-          <h4 class="font-semibold mb-2" style="color: hsl(220 100% 40%);">💎 Board Pearl</h4>
+          <h4 class="mb-2 font-semibold" style="color: hsl(220 100% 40%);">💎 Board Pearl</h4>
           <p class="text-sm" style="color: hsl(220 100% 35%);">
             <strong>Opposite of Prader-Willi:</strong> PWS and Angelman syndrome demonstrate parent-of-origin effects - same chromosomal region (15q11.2-q13) but different phenotypes depending on which parent contributes the deletion.
           </p>
@@ -794,13 +794,13 @@ export const topic1Sections: StudySection[] = [
     title: 'Study Tips & Mnemonics',
     content: `
       <div class="space-y-6">
-        <div class="bg-primary/10 p-6 rounded-lg">
-          <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+        <div class="rounded-lg bg-primary/10 p-6">
+          <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold">
             🧠 Memory Techniques
           </h3>
           <div class="space-y-4">
             <div>
-              <h4 class="font-semibold text-primary mb-2">Serum Screening Patterns</h4>
+              <h4 class="mb-2 font-semibold text-primary">Serum Screening Patterns</h4>
               <ul class="space-y-2 text-sm">
                 <li><strong>Down syndrome:</strong> "HIGH hCG and Inhibin A, LOW everything else"</li>
                 <li><strong>Edwards & Patau:</strong> "Everything is LOW"</li>
@@ -809,7 +809,7 @@ export const topic1Sections: StudySection[] = [
             </div>
 
             <div>
-              <h4 class="font-semibold text-primary mb-2">Chromosomal Syndromes</h4>
+              <h4 class="mb-2 font-semibold text-primary">Chromosomal Syndromes</h4>
               <ul class="space-y-2 text-sm">
                 <li><strong>CATCH-22:</strong> Cardiac, Abnormal facies, Thymic hypoplasia, Cleft palate, Hypocalcemia, chromosome 22</li>
                 <li><strong>Turner syndrome - TINY:</strong> Turner girls are Tiny (short), have Tiny ovaries, Tiny heart defects</li>
@@ -818,7 +818,7 @@ export const topic1Sections: StudySection[] = [
             </div>
 
             <div>
-              <h4 class="font-semibold text-primary mb-2">Sex Chromosome Rules</h4>
+              <h4 class="mb-2 font-semibold text-primary">Sex Chromosome Rules</h4>
               <ul class="space-y-2 text-sm">
                 <li><strong>More X chromosomes → More problems</strong> (especially intellectual disability)</li>
                 <li><strong>Y chromosome → Tall stature</strong> (47,XYY are tall)</li>
@@ -828,13 +828,13 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-accent/10 p-6 rounded-lg">
-          <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+        <div class="rounded-lg bg-accent/10 p-6">
+          <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold">
             🎯 High-Yield Study Focus
           </h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div>
-              <h4 class="font-semibold text-accent mb-2">Must-Know Syndromes (⭐⭐⭐)</h4>
+              <h4 class="mb-2 font-semibold text-accent">Must-Know Syndromes (⭐⭐⭐)</h4>
               <ul class="space-y-1 text-sm">
                 <li>• Down syndrome (Trisomy 21)</li>
                 <li>• Turner syndrome (45,X)</li>
@@ -842,7 +842,7 @@ export const topic1Sections: StudySection[] = [
               </ul>
             </div>
             <div>
-              <h4 class="font-semibold text-accent mb-2">Important to Know (⭐⭐)</h4>
+              <h4 class="mb-2 font-semibold text-accent">Important to Know (⭐⭐)</h4>
               <ul class="space-y-1 text-sm">
                 <li>• Edwards syndrome (Trisomy 18)</li>
                 <li>• Patau syndrome (Trisomy 13)</li>
@@ -855,8 +855,8 @@ export const topic1Sections: StudySection[] = [
           </div>
         </div>
 
-        <div class="bg-green/10 p-6 rounded-lg">
-          <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+        <div class="bg-green/10 rounded-lg p-6">
+          <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold">
             📈 Board Exam Tips
           </h3>
           <ul class="space-y-2 text-sm">

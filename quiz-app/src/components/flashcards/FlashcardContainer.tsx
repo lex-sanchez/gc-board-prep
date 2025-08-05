@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Alert, AlertDescription } from '@/components/ui/alert';
 import { FlashcardCard } from './FlashcardCard';
 import { FlashcardControls } from './FlashcardControls';
 import { FlashcardProgress } from './FlashcardProgress';
@@ -119,12 +118,14 @@ export function FlashcardContainer({ className }: FlashcardContainerProps) {
   if (loading) {
     return (
       <div className={cn("flex items-center justify-center min-h-[400px]", className)}>
-        <div className="text-center space-y-4">
-          <Loader2 className="h-8 w-8 animate-spin mx-auto text-muted-foreground" />
-          <div>
-            <h3 className="font-semibold">Loading Flashcards...</h3>
-            <p className="text-sm text-muted-foreground">
-              Preparing your study materials
+        <div className="stats-card p-8 text-center space-y-6 max-w-md">
+          <div className="stats-icon mx-auto">
+            <Loader2 className="h-8 w-8 animate-spin text-primary" />
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-title">Loading Flashcards</h3>
+            <p className="text-subtitle">
+              Preparing your study materials for optimal learning experience
             </p>
           </div>
         </div>
@@ -135,17 +136,25 @@ export function FlashcardContainer({ className }: FlashcardContainerProps) {
   // Error state
   if (error) {
     return (
-      <div className={cn("space-y-4", className)}>
-        <Alert>
-          <AlertCircle className="h-4 w-4" />
-          <AlertDescription>
-            Failed to load flashcards: {error}
-          </AlertDescription>
-        </Alert>
-        <div className="text-center">
-          <Button onClick={() => window.location.reload()} variant="outline">
-            Try Again
-          </Button>
+      <div className={cn("space-y-6", className)}>
+        <div className="stats-card p-8 text-center space-y-6 max-w-md mx-auto">
+          <div className="stats-icon mx-auto bg-destructive/10">
+            <AlertCircle className="h-8 w-8 text-destructive" />
+          </div>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-title text-destructive">Loading Error</h3>
+              <p className="text-subtitle">
+                Failed to load flashcards: {error}
+              </p>
+            </div>
+            <Button 
+              onClick={() => window.location.reload()} 
+              className="button-enhanced"
+            >
+              Try Again
+            </Button>
+          </div>
         </div>
       </div>
     );
@@ -154,31 +163,40 @@ export function FlashcardContainer({ className }: FlashcardContainerProps) {
   // No cards state
   if (session.cards.length === 0) {
     return (
-      <div className={cn("text-center space-y-4", className)}>
-        <div className="space-y-2">
-          <h3 className="text-lg font-semibold">No Cards Available</h3>
-          <p className="text-muted-foreground">
-            {session.studyMode === 'reviewOnly' 
-              ? "You haven't marked any cards for review yet. Mark some cards while studying to create a review set."
-              : "No flashcards match your current filter settings. Try selecting different topics or study modes."
-            }
-          </p>
-        </div>
-        
-        <div className="flex justify-center gap-2">
-          <Button 
-            variant="outline" 
-            onClick={() => setShowFilters(true)}
-          >
-            <Settings className="h-4 w-4 mr-2" />
-            Change Filters
-          </Button>
-          <Button 
-            variant="outline" 
-            onClick={() => setShowModeSelector(true)}
-          >
-            Change Study Mode
-          </Button>
+      <div className={cn("text-center space-y-6", className)}>
+        <div className="stats-card p-8 text-center space-y-6 max-w-lg mx-auto">
+          <div className="stats-icon mx-auto bg-warning/10">
+            <Settings className="h-8 w-8 text-warning" />
+          </div>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-title">No Cards Available</h3>
+              <p className="text-subtitle">
+                {session.studyMode === 'reviewOnly' 
+                  ? "You haven't marked any cards for review yet. Mark some cards while studying to create a review set."
+                  : "No flashcards match your current filter settings. Try selecting different topics or study modes."
+                }
+              </p>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row justify-center gap-3">
+              <Button 
+                variant="outline" 
+                onClick={() => setShowFilters(true)}
+                className="button-enhanced"
+              >
+                <Settings className="h-4 w-4 mr-2" />
+                Change Filters
+              </Button>
+              <Button 
+                variant="outline" 
+                onClick={() => setShowModeSelector(true)}
+                className="button-enhanced"
+              >
+                Change Study Mode
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -187,41 +205,46 @@ export function FlashcardContainer({ className }: FlashcardContainerProps) {
   const cardCounts = getCardCounts();
 
   return (
-    <div className={cn("space-y-6", className)}>
+    <div className={cn("space-y-8", className)}>
       {/* Settings panels */}
       {showModeSelector && (
-        <div className="space-y-4">
-          <StudyModeSelector
-            currentMode={session.studyMode}
-            onModeSelect={(mode) => {
-              setStudyMode(mode);
-              setShowModeSelector(false);
-            }}
-            cardCounts={cardCounts}
-          />
-          <div className="text-center">
-            <Button 
-              variant="outline" 
-              onClick={() => setShowModeSelector(false)}
-            >
-              <X className="h-4 w-4 mr-2" />
-              Close
-            </Button>
+        <div className="dashboard-section">
+          <div className="stats-card p-6 space-y-4">
+            <StudyModeSelector
+              currentMode={session.studyMode}
+              onModeSelect={(mode) => {
+                setStudyMode(mode);
+                setShowModeSelector(false);
+              }}
+              cardCounts={cardCounts}
+            />
+            <div className="text-center">
+              <Button 
+                variant="outline" 
+                onClick={() => setShowModeSelector(false)}
+                className="button-enhanced"
+              >
+                <X className="h-4 w-4 mr-2" />
+                Close
+              </Button>
+            </div>
           </div>
         </div>
       )}
 
       {showFilters && (
-        <div className="space-y-4">
-          <FlashcardFilters
-            selectedTopics={session.selectedTopics}
-            onTopicsChange={(topics) => {
-              setSelectedTopics(topics);
-              setShowFilters(false);
-            }}
-            cardCounts={cardCounts.byTopic}
-            onClose={() => setShowFilters(false)}
-          />
+        <div className="dashboard-section">
+          <div className="stats-card p-6">
+            <FlashcardFilters
+              selectedTopics={session.selectedTopics}
+              onTopicsChange={(topics) => {
+                setSelectedTopics(topics);
+                setShowFilters(false);
+              }}
+              cardCounts={cardCounts.byTopic}
+              onClose={() => setShowFilters(false)}
+            />
+          </div>
         </div>
       )}
 
@@ -229,60 +252,70 @@ export function FlashcardContainer({ className }: FlashcardContainerProps) {
       {!showModeSelector && !showFilters && currentCard && (
         <>
           {/* Progress indicator */}
-          <FlashcardProgress
-            currentIndex={session.currentIndex}
-            totalCards={session.cards.length}
-            sessionStats={session.sessionStats}
-            markedCount={session.markedCards.length}
-          />
-
-          {/* Main flashcard */}
-          <div className="flex justify-center">
-            <FlashcardCard
-              card={currentCard}
-              isFlipped={session.isCardFlipped}
-              onFlip={flipCard}
-              onConfidence={setConfidence}
-              showConfidenceButtons={session.isCardFlipped}
+          <div className="dashboard-section">
+            <FlashcardProgress
+              currentIndex={session.currentIndex}
+              totalCards={session.cards.length}
+              sessionStats={session.sessionStats}
+              markedCount={session.markedCards.length}
             />
           </div>
 
+          {/* Main flashcard */}
+          <div className="dashboard-section">
+            <div className="flex justify-center">
+              <FlashcardCard
+                card={currentCard}
+                isFlipped={session.isCardFlipped}
+                onFlip={flipCard}
+                onConfidence={setConfidence}
+                showConfidenceButtons={session.isCardFlipped}
+              />
+            </div>
+          </div>
+
           {/* Controls */}
-          <FlashcardControls
-            currentIndex={session.currentIndex}
-            totalCards={session.cards.length}
-            canGoNext={canGoNext}
-            canGoPrevious={canGoPrevious}
-            isFlipped={session.isCardFlipped}
-            isMarked={currentCard.isMarkedForReview}
-            isAutoPlay={autoPlay}
-            onNext={nextCard}
-            onPrevious={previousCard}
-            onFlip={flipCard}
-            onToggleMark={toggleMarkForReview}
-            onShuffle={shuffleCards}
-            onToggleAutoPlay={handleToggleAutoPlay}
-            onJumpToStart={handleJumpToStart}
-            onJumpToEnd={handleJumpToEnd}
-          />
+          <div className="dashboard-section">
+            <FlashcardControls
+              currentIndex={session.currentIndex}
+              totalCards={session.cards.length}
+              canGoNext={canGoNext}
+              canGoPrevious={canGoPrevious}
+              isFlipped={session.isCardFlipped}
+              isMarked={currentCard.isMarkedForReview}
+              isAutoPlay={autoPlay}
+              onNext={nextCard}
+              onPrevious={previousCard}
+              onFlip={flipCard}
+              onToggleMark={toggleMarkForReview}
+              onShuffle={shuffleCards}
+              onToggleAutoPlay={handleToggleAutoPlay}
+              onJumpToStart={handleJumpToStart}
+              onJumpToEnd={handleJumpToEnd}
+            />
+          </div>
 
           {/* Quick settings */}
-          <div className="flex justify-center gap-2">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => setShowModeSelector(true)}
-            >
-              Study Mode: {session.studyMode}
-            </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => setShowFilters(true)}
-            >
-              <Settings className="h-4 w-4 mr-2" />
-              Topics ({session.selectedTopics.length})
-            </Button>
+          <div className="dashboard-section">
+            <div className="flex justify-center gap-3 flex-wrap">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setShowModeSelector(true)}
+                className="bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20 backdrop-blur-sm hover:scale-105 transition-transform"
+              >
+                Study Mode: {session.studyMode}
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setShowFilters(true)}
+                className="bg-gradient-to-r from-accent/10 to-secondary/10 border-accent/20 backdrop-blur-sm hover:scale-105 transition-transform"
+              >
+                <Settings className="h-4 w-4 mr-2" />
+                Topics ({session.selectedTopics.length})
+              </Button>
+            </div>
           </div>
         </>
       )}

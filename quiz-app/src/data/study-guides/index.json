@@ -91,6 +91,22 @@
       "sectionCount": 5
     },
     {
+      "id": "domain4",
+      "title": "Domain 4: Counseling Skills & Professional Ethics",
+      "description": "Comprehensive guide to NSGC Code of Ethics, counseling techniques, risk communication, cultural competence, and professional standards for board exam preparation",
+      "difficulty": "Advanced",
+      "tags": [
+        "ethics",
+        "counseling",
+        "communication",
+        "cultural-competence",
+        "professional-standards"
+      ],
+      "estimatedTime": 52,
+      "importance": 1,
+      "sectionCount": 9
+    },
+    {
       "id": "syndrome-overview",
       "title": "Table of Contents",
       "description": "Comprehensive study guide for genetic counseling concepts.",
@@ -105,7 +121,7 @@
       "sectionCount": 18
     }
   ],
-  "totalTopics": 7,
-  "totalEstimatedTime": 243,
-  "lastUpdated": "2025-08-01T19:13:11.813Z"
+  "totalTopics": 8,
+  "totalEstimatedTime": 295,
+  "lastUpdated": "2025-01-27T00:00:00.000Z"
 }
