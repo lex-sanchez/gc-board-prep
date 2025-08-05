@@ -91,6 +91,22 @@
       "sectionCount": 5
     },
     {
+      "id": "domain3",
+      "title": "Domain 3: Genetic Testing & Reproductive Risk Management",
+      "description": "Comprehensive guide to genetic testing technologies, laboratory methodologies, newborn screening, prenatal testing, carrier screening, and professional guidelines for board exam preparation",
+      "difficulty": "Advanced",
+      "tags": [
+        "genetic-testing",
+        "laboratory",
+        "newborn-screening",
+        "prenatal-testing",
+        "carrier-screening"
+      ],
+      "estimatedTime": 41,
+      "importance": 1,
+      "sectionCount": 7
+    },
+    {
       "id": "domain4",
       "title": "Domain 4: Counseling Skills & Professional Ethics",
       "description": "Comprehensive guide to NSGC Code of Ethics, counseling techniques, risk communication, cultural competence, and professional standards for board exam preparation",
@@ -121,7 +137,7 @@
       "sectionCount": 18
     }
   ],
-  "totalTopics": 8,
-  "totalEstimatedTime": 295,
+  "totalTopics": 9,
+  "totalEstimatedTime": 336,
   "lastUpdated": "2025-01-27T00:00:00.000Z"
 }
