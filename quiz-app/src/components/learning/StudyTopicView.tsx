@@ -9,7 +9,9 @@ import { TableOfContents } from './TableOfContents'
 // Import Topic content
 import { topic1Sections, topic1QuickLookup } from '@/data/topic1-content'
 import { topic2Sections, topic2QuickLookup } from '@/data/topic2-content'
+import { topic3Sections, topic3QuickLookup } from '@/data/topic3-content'
 import { topic4Sections, topic4QuickLookup } from '@/data/topic4-content'
+import { topic5Sections, topic5QuickLookup } from '@/data/topic5-content'
 import { topic6Sections, topic6QuickLookup } from '@/data/topic6-content'
 import { domain3Sections, domain3QuickLookup } from '@/data/domain3-content'
 import { domain4Sections, domain4QuickLookup } from '@/data/domain4-content'
@@ -25,13 +27,17 @@ export function StudyTopicView() {
   // Get sections based on topicId
   const sections = topicId === 'topic1' ? topic1Sections : 
                    topicId === 'topic2' ? topic2Sections :
+                   topicId === 'topic3' ? topic3Sections :
                    topicId === 'topic4' ? topic4Sections :
+                   topicId === 'topic5' ? topic5Sections :
                    topicId === 'topic6' ? topic6Sections :
                    topicId === 'domain3' ? domain3Sections :
                    topicId === 'domain4' ? domain4Sections : []
   const quickLookup = topicId === 'topic1' ? topic1QuickLookup : 
                       topicId === 'topic2' ? topic2QuickLookup :
+                      topicId === 'topic3' ? topic3QuickLookup :
                       topicId === 'topic4' ? topic4QuickLookup :
+                      topicId === 'topic5' ? topic5QuickLookup :
                       topicId === 'topic6' ? topic6QuickLookup :
                       topicId === 'domain3' ? domain3QuickLookup :
                       topicId === 'domain4' ? domain4QuickLookup : undefined
