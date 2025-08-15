@@ -123,6 +123,23 @@
       "sectionCount": 9
     },
     {
+      "id": "domain5",
+      "title": "Domain 5: Legal, Ethical, and Professional Issues",
+      "description": "Comprehensive guide to GINA regulations, research ethics, IRB procedures, billing requirements, vulnerable populations, and informed consent for board exam preparation",
+      "difficulty": "Advanced",
+      "tags": [
+        "legal",
+        "ethics",
+        "professional",
+        "GINA",
+        "research",
+        "billing"
+      ],
+      "estimatedTime": 52,
+      "importance": 3,
+      "sectionCount": 6
+    },
+    {
       "id": "syndrome-overview",
       "title": "Table of Contents",
       "description": "Comprehensive study guide for genetic counseling concepts.",
@@ -137,7 +154,7 @@
       "sectionCount": 18
     }
   ],
-  "totalTopics": 9,
-  "totalEstimatedTime": 336,
-  "lastUpdated": "2025-01-27T00:00:00.000Z"
+  "totalTopics": 10,
+  "totalEstimatedTime": 388,
+  "lastUpdated": "2025-01-15T00:00:00.000Z"
 }
