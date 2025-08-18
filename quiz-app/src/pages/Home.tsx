@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { BookOpen, Brain, Target, TrendingUp, Clock, Award, Layers } from 'lucide-react'
+import { BookOpen, Brain, Target, TrendingUp, Clock, Award, Layers, Zap } from 'lucide-react'
 import { CORE_TOPICS, ADVANCED_DOMAINS } from '@/types/quiz'
 import metadata from '@/data/metadata.json'
+import boardPracticeIndex from '@/data/board-practice/index.json'
 
 export function Home() {
   return (
@@ -90,7 +91,7 @@ export function Home() {
 
       {/* Practice Options */}
       <div className="dashboard-section">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           {/* Core Topics */}
           <Card className="practice-card">
             <CardHeader>
@@ -176,6 +177,40 @@ export function Home() {
               <Link to="/flashcards" className="block">
                 <Button className="w-full">
                   Start Flashcard Practice
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
+
+          {/* Board Practice */}
+          <Card className="practice-card">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-title">
+                <Zap className="h-5 w-5 text-accent" />
+                Board Practice Materials
+              </CardTitle>
+              <CardDescription className="text-subtitle">
+                Targeted study materials based on your practice exam experience
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="space-y-3">
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold">Study Materials</span>
+                  <span className="text-muted-foreground font-medium">{boardPracticeIndex.totalMaterials}</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold">Practice Questions</span>
+                  <span className="text-muted-foreground font-medium">{boardPracticeIndex.totalQuestions}</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="font-semibold">Study Time</span>
+                  <span className="text-muted-foreground font-medium">~{Math.round(boardPracticeIndex.totalEstimatedTime / 60)}h</span>
+                </div>
+              </div>
+              <Link to="/practice" className="block">
+                <Button className="w-full">
+                  Start Board Practice
                 </Button>
               </Link>
             </CardContent>

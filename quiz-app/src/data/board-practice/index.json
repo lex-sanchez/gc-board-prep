@@ -1,0 +1,245 @@
+{
+  "materials": [
+    {
+      "id": "domain1b-human-development",
+      "title": "Domain 1B: Human Development Mastery",
+      "description": "Comprehensive guide to embryonic development, birth defect classifications, developmental sequences, and teratogen effects",
+      "type": "study-guide",
+      "difficulty": "Advanced",
+      "tags": [
+        "human-development",
+        "embryology",
+        "teratogens",
+        "malformations",
+        "sequences"
+      ],
+      "estimatedTime": 45,
+      "importance": 3,
+      "sectionCount": 12,
+      "domain": "1B"
+    },
+    {
+      "id": "syndrome-recognition",
+      "title": "Syndrome Recognition Quick Reference",
+      "description": "High-yield syndromes for board exam recognition including key features, genes, and diagnostic criteria",
+      "type": "quick-reference",
+      "difficulty": "Intermediate",
+      "tags": [
+        "syndromes",
+        "recognition",
+        "quick-reference",
+        "board-exam"
+      ],
+      "estimatedTime": 30,
+      "importance": 3,
+      "sectionCount": 8,
+      "domain": "1C"
+    },
+    {
+      "id": "genetic-testing-methods",
+      "title": "Genetic Testing Methods Comparison",
+      "description": "Comprehensive comparison of genetic testing technologies and methodologies",
+      "type": "quick-reference",
+      "difficulty": "Advanced",
+      "tags": [
+        "genetic-testing",
+        "laboratory",
+        "methods",
+        "comparison"
+      ],
+      "estimatedTime": 25,
+      "importance": 2,
+      "sectionCount": 5,
+      "domain": "3A"
+    },
+    {
+      "id": "ethics-scenarios",
+      "title": "Ethics Scenarios & Decision Trees",
+      "description": "Practical ethics scenarios with decision-making frameworks for genetic counseling practice",
+      "type": "scenario-based",
+      "difficulty": "Advanced",
+      "tags": [
+        "ethics",
+        "scenarios",
+        "decision-making",
+        "counseling"
+      ],
+      "estimatedTime": 40,
+      "importance": 3,
+      "sectionCount": 6,
+      "domain": "4A"
+    },
+    {
+      "id": "hereditary-bleeding-disorders",
+      "title": "Hereditary Bleeding Disorders Guide",
+      "description": "Comprehensive guide to hemophilia, von Willebrand disease, and other bleeding disorders",
+      "type": "study-guide",
+      "difficulty": "Intermediate",
+      "tags": [
+        "bleeding-disorders",
+        "hemophilia",
+        "von-willebrand",
+        "coagulation"
+      ],
+      "estimatedTime": 35,
+      "importance": 2,
+      "sectionCount": 7,
+      "domain": "1C"
+    },
+    {
+      "id": "mathematical-calculations",
+      "title": "Mathematical Calculations Guide",
+      "description": "Essential mathematical concepts for genetic counseling including Hardy-Weinberg, risk calculations, and Bayesian analysis",
+      "type": "quick-reference",
+      "difficulty": "Advanced",
+      "tags": [
+        "mathematics",
+        "calculations",
+        "hardy-weinberg",
+        "bayesian",
+        "risk-assessment"
+      ],
+      "estimatedTime": 30,
+      "importance": 3,
+      "sectionCount": 5,
+      "domain": "2A"
+    },
+    {
+      "id": "professional-frameworks",
+      "title": "Professional Frameworks Reference",
+      "description": "NSGC Code of Ethics, GINA regulations, billing requirements, and professional standards",
+      "type": "quick-reference",
+      "difficulty": "Intermediate",
+      "tags": [
+        "professional",
+        "ethics",
+        "GINA",
+        "billing",
+        "standards"
+      ],
+      "estimatedTime": 25,
+      "importance": 3,
+      "sectionCount": 4,
+      "domain": "5D"
+    },
+    {
+      "id": "practice-questions-comprehensive",
+      "title": "Comprehensive Practice Questions",
+      "description": "Mixed domain practice questions covering all major areas with detailed explanations",
+      "type": "practice-questions",
+      "difficulty": "Advanced",
+      "tags": [
+        "practice-questions",
+        "comprehensive",
+        "board-exam",
+        "mixed-domains"
+      ],
+      "estimatedTime": 60,
+      "importance": 3,
+      "questionCount": 30,
+      "domain": "Mixed"
+    },
+    {
+      "id": "practice-questions-domain1b",
+      "title": "Domain 1B Practice Questions",
+      "description": "Focused practice questions for human development and genetic conditions",
+      "type": "practice-questions",
+      "difficulty": "Advanced",
+      "tags": [
+        "practice-questions",
+        "domain-1b",
+        "human-development"
+      ],
+      "estimatedTime": 30,
+      "importance": 2,
+      "questionCount": 20,
+      "domain": "1B"
+    },
+    {
+      "id": "practice-questions-domain3b",
+      "title": "Domain 3B Practice Questions", 
+      "description": "Focused practice questions for genetic testing and laboratory methods",
+      "type": "practice-questions",
+      "difficulty": "Advanced",
+      "tags": [
+        "practice-questions",
+        "domain-3b",
+        "genetic-testing"
+      ],
+      "estimatedTime": 30,
+      "importance": 2,
+      "questionCount": 20,
+      "domain": "3B"
+    },
+    {
+      "id": "practice-questions-domain4a",
+      "title": "Domain 4A Practice Questions",
+      "description": "Focused practice questions for counseling skills and ethics",
+      "type": "practice-questions", 
+      "difficulty": "Advanced",
+      "tags": [
+        "practice-questions",
+        "domain-4a",
+        "counseling",
+        "ethics"
+      ],
+      "estimatedTime": 30,
+      "importance": 2,
+      "questionCount": 20,
+      "domain": "4A"
+    },
+    {
+      "id": "practice-questions-domain5d",
+      "title": "Domain 5D Practice Questions",
+      "description": "Focused practice questions for professional and legal issues",
+      "type": "practice-questions",
+      "difficulty": "Advanced", 
+      "tags": [
+        "practice-questions",
+        "domain-5d",
+        "professional",
+        "legal"
+      ],
+      "estimatedTime": 30,
+      "importance": 2,
+      "questionCount": 20,
+      "domain": "5D"
+    }
+  ],
+  "categories": {
+    "study-guides": {
+      "title": "Comprehensive Study Guides",
+      "description": "In-depth study materials for complex topics",
+      "icon": "BookOpen",
+      "materials": ["domain1b-human-development", "hereditary-bleeding-disorders"]
+    },
+    "quick-references": {
+      "title": "Quick Reference Materials",
+      "description": "High-yield reference materials for rapid review",
+      "icon": "Zap",
+      "materials": ["syndrome-recognition", "genetic-testing-methods", "mathematical-calculations", "professional-frameworks"]
+    },
+    "scenario-based": {
+      "title": "Scenario-Based Learning",
+      "description": "Practical scenarios and case-based learning",
+      "icon": "Users",
+      "materials": ["ethics-scenarios"]
+    },
+    "practice-questions": {
+      "title": "Practice Question Sets",
+      "description": "Targeted practice questions by domain with explanations",
+      "icon": "Target",
+      "materials": [
+        "practice-questions-comprehensive",
+        "practice-questions-domain1b",
+        "practice-questions-domain3b", 
+        "practice-questions-domain4a",
+        "practice-questions-domain5d"
+      ]
+    }
+  },
+  "totalMaterials": 12,
+  "totalEstimatedTime": 480,
+  "totalQuestions": 110,
+  "lastUpdated": "2025-08-18T00:00:00.000Z"
+}
